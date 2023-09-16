@@ -1,0 +1,50 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "serenity",
+    "customModelName": "Normal",
+    "name": "Serenity",
+    "specialInfo": [
+      "§aAbility: §7Use while under 3 hearts to heal and gain resistance",
+      "§cCooldown: §75 Minutes",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.COBBLED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SerenityEffect"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SerenityEffect"
+    },
+    "onItemInInventoryTick": {
+      "name": "CooldownWhenNotHeldInMain"
+    }
+  }
+}

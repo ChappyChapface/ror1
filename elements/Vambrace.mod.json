@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "diorite_helmet",
+    "customModelName": "vambrace:default",
+    "name": "Vambrace",
+    "specialInfo": [
+      "§aAbility: §7Right click to block just before attack lands",
+      "§aWindow: §70.15 Seconds",
+      "§aMax Block: §78"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 0.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 0.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "VambraceRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "VambraceRightclicked"
+    }
+  }
+}

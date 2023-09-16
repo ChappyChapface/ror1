@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "2": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "3": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "5": {
+      "item": "tnunlimited:ferrotitanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:train_boots",
+    "count": 1
+  }
+}

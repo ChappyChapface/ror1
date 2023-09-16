@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:cobbled_dacite"
+    },
+    "3": {
+      "item": "tnunlimited:cobbled_dacite"
+    },
+    "4": {
+      "item": "tnunlimited:cobbled_dacite"
+    },
+    "6": {
+      "item": "tnunlimited:cobbled_dacite"
+    },
+    "7": {
+      "item": "tnunlimited:cobbled_dacite"
+    },
+    "8": {
+      "item": "tnunlimited:cobbled_dacite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:cobbled_dacite_stairs",
+    "count": 4
+  }
+}

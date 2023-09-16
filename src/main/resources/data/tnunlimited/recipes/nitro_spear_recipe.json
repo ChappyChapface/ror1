@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "2": {
+      "item": "tnunlimited:purifiedenergy"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nitro_spear",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "energy.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.2,
+    "speedFactor": 0.5,
+    "gravity": 0.0,
+    "maxAge": 13,
+    "maxAgeDiff": 3,
+    "angularVelocity": 0.19999999999999998,
+    "angularAcceleration": -0.08,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "music_disc_stal",
+    "description": "Chapface - Ocean Waste",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:ocean_waste-record"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

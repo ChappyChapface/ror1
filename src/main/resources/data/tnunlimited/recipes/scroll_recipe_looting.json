@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:desert_chitin"
+    },
+    {
+      "item": "tnunlimited:decayed_claw"
+    },
+    {
+      "item": "tnunlimited:desert_chitin"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "tnunlimited:desert_chitin"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "tnunlimited:desert_chitin"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:enchanted_scroll_of_looting",
+    "count": 1
+  }
+}

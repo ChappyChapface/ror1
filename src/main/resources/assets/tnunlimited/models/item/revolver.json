@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/revolver",
+  "textures": {
+    "0": "tnunlimited:blocks/revolver",
+    "particle": "tnunlimited:items/bullet"
+  }
+}

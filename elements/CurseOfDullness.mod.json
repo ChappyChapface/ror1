@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Curse of Dullness",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "SHARPNESS"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

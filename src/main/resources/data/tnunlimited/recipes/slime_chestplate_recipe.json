@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:slime_ball"
+    },
+    "4": {
+      "item": "minecraft:slime_ball"
+    },
+    "5": {
+      "item": "minecraft:slime_ball"
+    },
+    "6": {
+      "item": "minecraft:slime_ball"
+    },
+    "7": {
+      "item": "minecraft:slime_ball"
+    },
+    "8": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:slime_armour_chestplate",
+    "count": 1
+  }
+}

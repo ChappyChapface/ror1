@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pixil-frame-0_82",
+    "customModelName": "Normal",
+    "name": "Nubrium Pickaxe",
+    "specialInfo": [
+      "§aAbility: §7Attacks inflict Slowness",
+      "§9Melee/Piercing"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.2,
+    "enchantability": 20,
+    "damageVsEntity": 7.0,
+    "usageCount": 2531,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Nubrium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "NubriumSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

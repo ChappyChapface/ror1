@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nitroknife",
+    "customModelName": "Normal",
+    "name": "Nitro Knife",
+    "specialInfo": [
+      "§aAbility: §7Right click to increase charge by 4 (Max. 30)",
+      "§cDebuff: §7Attacking lowers charge by 6",
+      "§7If the charge reaches 0, Inflicts weakness until recharged",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 13.0,
+    "attackSpeed": 1.2,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Purifiedenergy"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Nitrokniferightclick"
+    },
+    "onEntitySwing": {
+      "name": "Nitroknifeleftclick"
+    }
+  }
+}

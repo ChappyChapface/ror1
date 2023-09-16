@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_stoutman",
+  "textures": {
+    "all": "tnunlimited:blocks/plush_stoutman",
+    "particle": "tnunlimited:blocks/plush_stoutman",
+    "0": "tnunlimited:blocks/plush_stoutman"
+  },
+  "render_type": "solid"
+}

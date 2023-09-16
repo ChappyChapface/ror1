@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "aardium_wand",
+    "customModelName": "Normal",
+    "name": "Aardium Wand",
+    "specialInfo": [
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 2 Damage",
+      "§2 4 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 1.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AardiumWandShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "AardiumWandShoot"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tnunlimited:blocks/dacite",
+    "top": "tnunlimited:blocks/dacite",
+    "side": "tnunlimited:blocks/dacite"
+  },
+  "render_type": "solid"
+}

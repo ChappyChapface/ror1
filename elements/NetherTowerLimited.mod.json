@@ -1,0 +1,32 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "nether_tower",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": -4,
+    "spawnZOffset": -4,
+    "spawnWorldTypes": [
+      "Nether"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.LAVA"
+      }
+    ],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "NetherTowerLimitedCondition"
+    },
+    "onStructureGenerated": {
+      "name": "NetherTowerLimitedIncrease"
+    }
+  }
+}

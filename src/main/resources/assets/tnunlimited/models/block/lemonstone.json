@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/lemonstone",
+    "up": "tnunlimited:blocks/lemonstone",
+    "north": "tnunlimited:blocks/lemonstone",
+    "east": "tnunlimited:blocks/lemonstone",
+    "south": "tnunlimited:blocks/lemonstone",
+    "west": "tnunlimited:blocks/lemonstone",
+    "particle": "tnunlimited:blocks/lemonstone"
+  },
+  "render_type": "solid"
+}

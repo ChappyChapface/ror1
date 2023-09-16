@@ -1,0 +1,185 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_starter_class",
+          "text": {
+            "fixedValue": "Select Class"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_confirm",
+          "text": "CONFIRM",
+          "onClick": {
+            "name": "ClassChange"
+          },
+          "displayCondition": {
+            "name": "ClassUnlock"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 183,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_class_text",
+          "text": {
+            "fixedValue": "",
+            "name": "ClassText"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 59
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BedrockCoin"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 255,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "onClick": {
+            "name": "NextPage"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 262,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "<",
+          "onClick": {
+            "name": "PreviousPage"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 132,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_class_text_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ClassText2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gui_text_3",
+          "text": {
+            "fixedValue": "",
+            "name": "GUIText3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_locked",
+          "text": {
+            "fixedValue": "LOCKED"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ClassLock"
+          },
+          "x": 197,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gui_text_13",
+          "text": {
+            "fixedValue": "",
+            "name": "GUIText13"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 43
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Page1"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 23,
+      "oy": 30,
+      "snapOnGrid": true
+    }
+  }
+}

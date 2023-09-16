@@ -1,0 +1,52 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Lead Advancement",
+    "achievementDescription": "Idk I dont own lead. Asshole",
+    "achievementIcon": {
+      "value": "CUSTOM:LeadIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "RawLeadBlockRec",
+      "LeadBlock",
+      "LeadIngo",
+      "LeadPickaxeRecipe",
+      "LeadShovelRecipe",
+      "BlastLeadIngotOre",
+      "BlockToLead",
+      "LeadIngoOre",
+      "LeadSwordRecipe",
+      "Blocktorawlead",
+      "BlastLeadIngot",
+      "LeadAxeRecipe",
+      "LeadHoeRecipe",
+      "LeadSickleRecipe",
+      "LeadArmorHelmetRecipe",
+      "LeadArmorLeggingsRecipe",
+      "LeadArmorBootsRecipe",
+      "LeadArmorBodyRecipe",
+      "LeadBandRecipe",
+      "LeadClubRecipe",
+      "LeadWandRe",
+      "LeadBulletRecipe",
+      "LeadBarsRe",
+      "LeadDoorRe",
+      "LeadTrapdoorRe",
+      "LeadSpikeRe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/enter_the_end"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"50\" y=\"18\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:LeadIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

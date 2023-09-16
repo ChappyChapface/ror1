@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/vambrace",
+  "textures": {
+    "1": "tnunlimited:blocks/vambrace",
+    "particle": "tnunlimited:items/diorite_helmet"
+  }
+}

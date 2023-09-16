@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "1": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "2": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "3": {
+      "item": "tnunlimited:lemonstone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:polished_lemonstone",
+    "count": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      },
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      },
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      },
+      {
+        "value": "CUSTOM:PolishedLemonstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedLemonstoneStairs"
+    },
+    "name": "polished_lemonstone_stairs_recipe",
+    "namespace": "mod"
+  }
+}

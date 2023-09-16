@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.FERMENTED_SPIDER_EYE"
+      },
+      {
+        "value": "Items.SHULKER_SHELL"
+      },
+      {
+        "value": "Items.FERMENTED_SPIDER_EYE"
+      },
+      {
+        "value": "CUSTOM:DesertIngot"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:DesertIngot"
+      },
+      {
+        "value": "Items.FERMENTED_SPIDER_EYE"
+      },
+      {
+        "value": "CUSTOM:DesertIngot"
+      },
+      {
+        "value": "Items.FERMENTED_SPIDER_EYE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnchantedScrollOfBOA"
+    },
+    "name": "scroll_recipe_boa",
+    "namespace": "mod"
+  }
+}

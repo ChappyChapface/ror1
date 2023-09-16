@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/granite_club",
+  "textures": {
+    "0": "tnunlimited:blocks/antimony_club",
+    "particle": "tnunlimited:items/granite_helmet"
+  }
+}

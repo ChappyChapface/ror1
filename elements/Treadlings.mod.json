@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "treadlings.png",
+    "width": 32,
+    "height": 16,
+    "title": "Treadlings",
+    "author": "Unknown"
+  }
+}

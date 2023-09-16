@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Replenishment",
+    "splashName": "Splash Potion of Replenishment",
+    "lingeringName": "Lingering Potion of Replenishment",
+    "arrowName": "Arrow of Replenishment",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ManaRegeneration"
+        },
+        "duration": 440,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

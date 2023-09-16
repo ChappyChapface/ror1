@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tnunlimited:blue_shrooms_biome",
+  "features": "tnunlimited:med_blue_shroom",
+  "step": "surface_structures"
+}

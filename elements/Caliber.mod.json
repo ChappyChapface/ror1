@@ -1,0 +1,53 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Calibre",
+    "type": "BREAKABLE",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "CUSTOM:FullMagicJacket"
+      },
+      {
+        "value": "CUSTOM:TriggerHappy"
+      },
+      {
+        "value": "CUSTOM:Kickback"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "MENDING"
+      }
+    ],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Revolver"
+      },
+      {
+        "value": "CUSTOM:Blunderbuss"
+      },
+      {
+        "value": "CUSTOM:Flintlock"
+      },
+      {
+        "value": "CUSTOM:AntimonySten"
+      },
+      {
+        "value": "CUSTOM:NubriumPistol"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

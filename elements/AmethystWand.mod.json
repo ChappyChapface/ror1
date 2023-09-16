@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amethyst_wand",
+    "customModelName": "Normal",
+    "name": "Amethyst Wand",
+    "specialInfo": [
+      "§aAbility: §7Hit enemies are set on fire",
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 3 Damage",
+      "§2 1 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AmethystWandRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "AmethystWandRightclicked"
+    }
+  }
+}

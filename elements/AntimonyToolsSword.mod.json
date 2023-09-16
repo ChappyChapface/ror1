@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "antimony_sword",
+    "customModelName": "Normal",
+    "name": "Antimony Sword",
+    "specialInfo": [
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.6,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 2164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Antimony"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

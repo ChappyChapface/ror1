@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Shift Plate Right",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "ShiftPlateEffectL"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tnunlimited:block/cookie_block"
+    }
+  }
+}

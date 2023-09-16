@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/frost_larval_sack",
+  "textures": {
+    "all": "tnunlimited:blocks/frost_larval_stack",
+    "particle": "tnunlimited:blocks/frost_larval_stack",
+    "0": "tnunlimited:blocks/frost_larval_stack"
+  },
+  "render_type": "solid"
+}

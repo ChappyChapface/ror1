@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Mobs Spawn With Potion Effects",
+    "description": "Basic hostile mobs (Zombies, Skeletons, Spiders, Creepers) have a 1% (Normal) or 5% (Hard) chance to spawn with permanent potion effects.",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

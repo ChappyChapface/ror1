@@ -1,0 +1,29 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "2largeblueshroom",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 0,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 10,
+    "spawnZOffset": 13,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BlueShroomsBiome"
+      }
+    ],
+    "ignoreBlocks": "AIR",
+    "generateCondition": {
+      "name": "SpawningInWaterIsCringe"
+    }
+  }
+}

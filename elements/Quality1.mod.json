@@ -1,0 +1,132 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:FrostPupae"
+      },
+      {
+        "value": "EntityAllay"
+      },
+      {
+        "value": "EntityAxolotl"
+      },
+      {
+        "value": "EntityBee"
+      },
+      {
+        "value": "EntityCat"
+      },
+      {
+        "value": "EntityChicken"
+      },
+      {
+        "value": "EntityCod"
+      },
+      {
+        "value": "EntityCow"
+      },
+      {
+        "value": "EntityDolphin"
+      },
+      {
+        "value": "EntityDonkey"
+      },
+      {
+        "value": "EntityEndermite"
+      },
+      {
+        "value": "EntityFox"
+      },
+      {
+        "value": "EntityFrog"
+      },
+      {
+        "value": "EntityGlowSquid"
+      },
+      {
+        "value": "EntityGoat"
+      },
+      {
+        "value": "EntityHorse"
+      },
+      {
+        "value": "EntityLlama"
+      },
+      {
+        "value": "EntityMagmaCube"
+      },
+      {
+        "value": "EntityMooshroom"
+      },
+      {
+        "value": "EntityMule"
+      },
+      {
+        "value": "EntityOcelot"
+      },
+      {
+        "value": "EntityPanda"
+      },
+      {
+        "value": "EntityParrot"
+      },
+      {
+        "value": "EntityPig"
+      },
+      {
+        "value": "EntityPufferfish"
+      },
+      {
+        "value": "EntityRabbit"
+      },
+      {
+        "value": "EntitySalmon"
+      },
+      {
+        "value": "EntitySheep"
+      },
+      {
+        "value": "EntitySilverfish"
+      },
+      {
+        "value": "EntitySkeletonHorse"
+      },
+      {
+        "value": "EntitySlime"
+      },
+      {
+        "value": "EntitySquid"
+      },
+      {
+        "value": "EntityStrider"
+      },
+      {
+        "value": "EntityTraderLlama"
+      },
+      {
+        "value": "EntityTropicalFish"
+      },
+      {
+        "value": "EntityTurtle"
+      },
+      {
+        "value": "EntityVex"
+      },
+      {
+        "value": "EntityWanderingTrader"
+      },
+      {
+        "value": "EntityVillager"
+      }
+    ],
+    "biomes": [],
+    "name": "quality_1",
+    "namespace": "mod"
+  }
+}

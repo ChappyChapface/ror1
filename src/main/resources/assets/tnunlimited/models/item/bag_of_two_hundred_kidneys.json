@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/bag_of_200_human_kidneys",
+  "textures": {
+    "0": "tnunlimited:blocks/kidneys",
+    "particle": "tnunlimited:items/kidneys"
+  }
+}

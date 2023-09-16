@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "zombiesword",
+    "customModelName": "Normal",
+    "name": "Zombie Sword",
+    "specialInfo": [
+      "§aAbility: Right click to summon a Zombie familiar for 60 seconds",
+      "§cCooldown: §715 Seconds",
+      "§9Melee/Slashing",
+      "§9Familiar/Necrotic"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.2,
+    "enchantability": 5,
+    "damageVsEntity": 3.0,
+    "usageCount": 131,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.ROTTEN_FLESH"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ZombieSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

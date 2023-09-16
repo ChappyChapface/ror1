@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "1": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "2": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "3": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "5": {
+      "item": "tnunlimited:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:lead_armor_helmet",
+    "count": 1
+  }
+}

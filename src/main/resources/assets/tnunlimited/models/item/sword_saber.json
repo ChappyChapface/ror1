@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tnunlimited:items/pixil-frame-0_-_2022-08-01t001426.335"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:antimony"
+    },
+    "1": {
+      "item": "tnunlimited:antimony"
+    },
+    "2": {
+      "item": "tnunlimited:antimony"
+    },
+    "3": {
+      "item": "tnunlimited:antimony"
+    },
+    "5": {
+      "item": "tnunlimited:antimony"
+    },
+    "6": {
+      "item": "tnunlimited:antimony"
+    },
+    "8": {
+      "item": "tnunlimited:antimony"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:antimony_armor_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:nubrium"
+    },
+    "2": {
+      "item": "tnunlimited:nubrium"
+    },
+    "3": {
+      "item": "tnunlimited:nubrium"
+    },
+    "4": {
+      "item": "tnunlimited:nubrium"
+    },
+    "5": {
+      "item": "tnunlimited:nubrium"
+    },
+    "6": {
+      "item": "tnunlimited:nubrium"
+    },
+    "7": {
+      "item": "tnunlimited:nubrium"
+    },
+    "8": {
+      "item": "tnunlimited:nubrium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nubrium_armour_chestplate",
+    "count": 1
+  }
+}

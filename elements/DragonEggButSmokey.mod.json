@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Blocks.DRAGON_EGG"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedEgg"
+    },
+    "name": "dragon_egg_but_smokey",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tnunlimited:dacite_bricks"
+  },
+  "result": "tnunlimited:cracked_dacite_bricks"
+}

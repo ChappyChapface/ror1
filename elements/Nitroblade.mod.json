@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nitroblade",
+    "customModelName": "Normal",
+    "name": "Nitro Blade",
+    "specialInfo": [
+      "§aAbility: §7Right click to increase charge by 5 (Max. 50)",
+      "§cDebuff: §7Attacking lowers charge by 8",
+      "§7If the charge reaches 0, inflicts weakness until recharged",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 13.0,
+    "attackSpeed": 0.9,
+    "enchantability": 25,
+    "damageVsEntity": 14.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Purifiedenergy"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "NitrobladeRightclicked"
+    },
+    "onEntitySwing": {
+      "name": "NitrobladeEntitySwingsItem"
+    }
+  }
+}

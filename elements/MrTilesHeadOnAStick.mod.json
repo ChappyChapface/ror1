@@ -1,0 +1,32 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pixil-frame-0_6",
+    "customModelName": "Normal",
+    "name": "MrTile's Head On A Stick",
+    "specialInfo": [
+      "§aAbility: §7AUGH IT HURTS"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 100.0,
+    "enchantability": 0,
+    "damageVsEntity": 1.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "MrTilesHeadOnAStickEntitySwingsItem"
+    }
+  }
+}

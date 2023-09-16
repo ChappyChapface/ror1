@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:raw_gold"
+  },
+  "addition": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": {
+    "item": "tnunlimited:raw_rose_gold"
+  }
+}

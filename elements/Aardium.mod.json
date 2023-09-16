@@ -1,0 +1,82 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "aardium_helmet",
+    "enableBody": true,
+    "textureBody": "aardium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "aardium_leggings",
+    "enableBoots": true,
+    "textureBoots": "aardium_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "aardium_",
+    "helmetName": "Aardium Helmet",
+    "bodyName": "Aardium Chestplate",
+    "leggingsName": "Aardium Leggings",
+    "bootsName": "Aardium Boots",
+    "helmetSpecialInfo": [
+      "§aAbility: §710% Increased Movement Speed",
+      "§7Effect stacks with other pieces"
+    ],
+    "bodySpecialInfo": [
+      "§aAbility: §710% Increased Movement Speed",
+      "§7Effect stacks with other pieces"
+    ],
+    "leggingsSpecialInfo": [
+      "§aAbility: §710% Increased Movement Speed",
+      "§7Effect stacks with other pieces"
+    ],
+    "bootsSpecialInfo": [
+      "§aAbility: §710% Increased Movement Speed",
+      "§7Effect stacks with other pieces"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 20,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aardiumingot"
+      }
+    ]
+  }
+}

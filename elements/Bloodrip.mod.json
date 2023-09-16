@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bloodrip",
+    "customModelName": "Normal",
+    "name": "The Bloodrip",
+    "specialInfo": [
+      "§cDebuff: §7Has 4 Recoil Damage",
+      "§eMana Usage: §72",
+      "§7When used:",
+      "§2 12 Damage",
+      "§2 0.5 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BloodripShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BloodripShoot"
+    }
+  }
+}

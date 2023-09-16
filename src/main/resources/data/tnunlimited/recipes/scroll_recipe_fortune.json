@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:nubrium"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "tnunlimited:nubrium"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "tnunlimited:block_of_rose_gold"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:enchanted_scroll_of_fortune",
+    "count": 1
+  }
+}

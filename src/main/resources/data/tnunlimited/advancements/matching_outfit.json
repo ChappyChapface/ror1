@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:granite_helmet"
+    },
+    "title": {
+      "translate": "advancements.matching_outfit.title"
+    },
+    "description": {
+      "translate": "advancements.matching_outfit.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "matching_outfit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/upgrade_tools"
+}

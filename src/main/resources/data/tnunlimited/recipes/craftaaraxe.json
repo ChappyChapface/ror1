@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "item": "tnunlimited:aardiumingot"
+  },
+  "result": {
+    "item": "tnunlimited:aardiumingo_axe"
+  }
+}

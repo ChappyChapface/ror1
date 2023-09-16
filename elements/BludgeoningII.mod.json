@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Bludgeoning",
+    "splashName": "Splash Potion of Bludgeoning",
+    "lingeringName": "Lingering Potion of Bludgeoning",
+    "arrowName": "Arrow of Bludgeoning",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:BluntIncrease"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

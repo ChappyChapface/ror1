@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:dacite"
+    },
+    "3": {
+      "item": "tnunlimited:dacite"
+    },
+    "4": {
+      "item": "tnunlimited:dacite"
+    },
+    "6": {
+      "item": "tnunlimited:dacite"
+    },
+    "7": {
+      "item": "tnunlimited:dacite"
+    },
+    "8": {
+      "item": "tnunlimited:dacite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:dacite_stairs",
+    "count": 4
+  }
+}

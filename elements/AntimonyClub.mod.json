@@ -1,0 +1,35 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "granite_helmet",
+    "customModelName": "granite_club:antimonyclub",
+    "name": "Antimony Club",
+    "specialInfo": [
+      "§2Charging Speed: §72",
+      "§2Max Charges: §73",
+      "§9Melee/Blunt"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 10.0,
+    "attackSpeed": 0.4,
+    "enchantability": 25,
+    "damageVsEntity": 15.0,
+    "usageCount": 2164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Antimony"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

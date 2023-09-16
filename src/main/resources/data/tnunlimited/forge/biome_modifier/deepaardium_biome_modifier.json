@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "tnunlimited:deepaardium",
+  "step": "underground_ores"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:block_of_lead"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:lead_ingot",
+    "count": 9
+  }
+}

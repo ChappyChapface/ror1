@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "rose_gold_disc",
+    "customModelName": "Normal",
+    "name": "Rose Gold Disc",
+    "specialInfo": [
+      "§7When Thrown:",
+      "§2 4 Damage:",
+      "§2 5 Attack Speed",
+      "§9Ranged/Throwing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": "CUSTOM:RoseGoldDisc"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.8,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RoseGoldDisc"
+    },
+    "bulletModel": "Modelrose_gold_disk",
+    "customBulletModelTexture": "rose_gold_disc.png",
+    "onBulletHitsBlock": {
+      "name": "RoseGoldDiscProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RoseGoldDiskFly"
+    }
+  }
+}

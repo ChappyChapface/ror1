@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "tnunlimited:antimony"
+    },
+    "4": {
+      "item": "tnunlimited:antimony"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:antimony_club",
+    "count": 1
+  }
+}

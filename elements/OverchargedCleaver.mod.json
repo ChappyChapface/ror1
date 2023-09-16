@@ -1,0 +1,41 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "gluttonys_cleaver",
+    "customModelName": "overchargedcleaver:default",
+    "name": "Overcharged Cleaver",
+    "specialInfo": [
+      "§aAbility: §7Right click to preform a dash. Sneak during dash to slash and cancel dash",
+      "§cDebuff: §7Has limited charges, running out causes heavy cooldown",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 524,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "OverchargedCleaverDash"
+    },
+    "onItemInInventoryTick": {
+      "name": "OverchargedCleaverChargeControl"
+    }
+  }
+}

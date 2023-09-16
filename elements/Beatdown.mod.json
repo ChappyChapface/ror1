@@ -1,0 +1,59 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Beatdown",
+    "type": "WEAPON",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "CUSTOM:Impulsive"
+      },
+      {
+        "value": "CUSTOM:Combo"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:GraniteClub"
+      },
+      {
+        "value": "CUSTOM:LeadClub"
+      },
+      {
+        "value": "CUSTOM:IronClub"
+      },
+      {
+        "value": "CUSTOM:AardiumClub"
+      },
+      {
+        "value": "CUSTOM:AntimonyClub"
+      },
+      {
+        "value": "CUSTOM:NetheriteClub"
+      },
+      {
+        "value": "CUSTOM:GalvanizedClub"
+      },
+      {
+        "value": "CUSTOM:BomeenClub"
+      },
+      {
+        "value": "CUSTOM:DiamondClub"
+      },
+      {
+        "value": "CUSTOM:DarkWarhammer"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/galvanizedharpoon",
+  "textures": {
+    "0": "tnunlimited:blocks/galvanizedharpoon",
+    "particle": "tnunlimited:items/galvanizedshovel"
+  }
+}

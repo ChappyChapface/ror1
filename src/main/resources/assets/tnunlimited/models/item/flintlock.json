@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/flintlock",
+  "textures": {
+    "1": "tnunlimited:blocks/flintlock",
+    "particle": "tnunlimited:items/bullet"
+  }
+}

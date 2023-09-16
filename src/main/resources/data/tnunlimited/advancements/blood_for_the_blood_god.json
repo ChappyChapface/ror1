@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:bloodrip"
+    },
+    "title": {
+      "translate": "advancements.blood_for_the_blood_god.title"
+    },
+    "description": {
+      "translate": "advancements.blood_for_the_blood_god.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "blood_for_the_blood_god": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:staff_of_the_bloodgod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tnunlimited:nubrium_advancement"
+}

@@ -1,0 +1,38 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "bullet",
+    "customModelName": "blunderbuss:default",
+    "name": "Blunderbuss",
+    "specialInfo": [
+      "§eAmmo: §BBullets",
+      "§eMax Capacity: §71",
+      "§eRange: §712",
+      "§cReload: §73"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 225,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BlunderbussRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BlunderbussRightClickedInAir"
+    }
+  }
+}

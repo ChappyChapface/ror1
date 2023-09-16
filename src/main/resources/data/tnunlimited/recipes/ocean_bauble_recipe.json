@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:zinc_ingot"
+    },
+    "1": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "2": {
+      "item": "tnunlimited:zinc_ingot"
+    },
+    "3": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "4": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "5": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "6": {
+      "item": "tnunlimited:zinc_ingot"
+    },
+    "7": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "8": {
+      "item": "tnunlimited:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:ocean_bauble",
+    "count": 1
+  }
+}

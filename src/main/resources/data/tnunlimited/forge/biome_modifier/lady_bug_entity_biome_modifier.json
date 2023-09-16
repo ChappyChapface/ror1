@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "birch_forest",
+    "flower_forest"
+  ],
+  "spawners": {
+    "type": "tnunlimited:lady_bug_entity",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

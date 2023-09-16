@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Dacite"
+      },
+      {
+        "value": "CUSTOM:DaciteBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedDacite"
+      },
+      {
+        "value": "CUSTOM:CobbledDacite"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dacite_sc_blocks",
+    "namespace": "forge"
+  }
+}

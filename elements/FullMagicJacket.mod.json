@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Full Magic Jacket",
+    "type": "BREAKABLE",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Revolver"
+      },
+      {
+        "value": "CUSTOM:Blunderbuss"
+      },
+      {
+        "value": "CUSTOM:Flintlock"
+      },
+      {
+        "value": "CUSTOM:AntimonySten"
+      },
+      {
+        "value": "CUSTOM:NubriumPistol"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

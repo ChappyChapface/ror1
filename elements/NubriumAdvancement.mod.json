@@ -1,0 +1,38 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Nubrium Advancement",
+    "achievementDescription": "Idk I dont own Nubrium, Asshole",
+    "achievementIcon": {
+      "value": "CUSTOM:Nubrium"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "NubriumLeggingsRecipe",
+      "NubriumHoeRecipe",
+      "NubriumChestplateRecipe",
+      "NubriumShovelRecipe",
+      "NubriumPickaxeRecipe",
+      "NubriumSwordRecipe",
+      "NubriumHelmetRecipe",
+      "NubriumBootsRecipe",
+      "NubriumAxeRecipe",
+      "NubriumClaymoreRec",
+      "NubriumBlockRecipe",
+      "NubriumWandRe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:AntimonyAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"42\" y=\"26\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Nubrium</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

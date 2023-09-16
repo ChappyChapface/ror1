@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "3": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "4": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "6": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "7": {
+      "item": "tnunlimited:lemonstone"
+    },
+    "8": {
+      "item": "tnunlimited:lemonstone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:lemonstone_stairs",
+    "count": 4
+  }
+}

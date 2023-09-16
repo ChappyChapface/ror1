@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "tnunlimited:blocks/polished_dacite"
+  },
+  "render_type": "solid"
+}

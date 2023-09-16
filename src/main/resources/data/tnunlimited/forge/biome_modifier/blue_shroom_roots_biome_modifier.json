@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tnunlimited:blue_shrooms_biome",
+  "features": "tnunlimited:blue_shroom_roots",
+  "step": "vegetal_decoration"
+}

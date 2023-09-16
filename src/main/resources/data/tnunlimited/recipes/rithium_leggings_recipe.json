@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:rithium"
+    },
+    "1": {
+      "item": "tnunlimited:rithium"
+    },
+    "2": {
+      "item": "tnunlimited:rithium"
+    },
+    "3": {
+      "item": "tnunlimited:rithium"
+    },
+    "5": {
+      "item": "tnunlimited:rithium"
+    },
+    "6": {
+      "item": "tnunlimited:rithium"
+    },
+    "8": {
+      "item": "tnunlimited:rithium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:rithium_armour_leggings",
+    "count": 1
+  }
+}

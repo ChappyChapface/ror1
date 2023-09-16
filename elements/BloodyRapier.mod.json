@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bloody_sabre",
+    "customModelName": "Normal",
+    "name": "Bloody Rapier",
+    "specialInfo": [
+      "§aAbility: §7Attacks inflict Bleeding",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 20,
+    "damageVsEntity": 4.0,
+    "usageCount": 666,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Rithium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BloodyRapierEffect"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/nubrium",
+    "up": "tnunlimited:blocks/nubrium",
+    "north": "tnunlimited:blocks/nubrium",
+    "east": "tnunlimited:blocks/nubrium",
+    "south": "tnunlimited:blocks/nubrium",
+    "west": "tnunlimited:blocks/nubrium",
+    "particle": "tnunlimited:blocks/nubrium"
+  },
+  "render_type": "solid"
+}

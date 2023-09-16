@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/bitterdesire",
+  "textures": {
+    "1": "tnunlimited:blocks/bitterdesire",
+    "particle": "tnunlimited:items/diorite_helmet"
+  }
+}

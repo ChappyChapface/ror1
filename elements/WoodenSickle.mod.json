@@ -1,0 +1,79 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "wooden_sickle",
+    "customModelName": "Normal",
+    "name": "Wooden Sickle",
+    "specialInfo": [
+      "§2Harvest Power: §71",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 10.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 59,
+    "blocksAffected": [
+      {
+        "value": "Blocks.COCOA"
+      },
+      {
+        "value": "Blocks.MELON_BLOCK"
+      },
+      {
+        "value": "Blocks.PUMPKIN"
+      },
+      {
+        "value": "Blocks.CARVED_PUMPKIN"
+      },
+      {
+        "value": "Blocks.LIT_PUMPKIN"
+      },
+      {
+        "value": "Blocks.HAY_BLOCK"
+      },
+      {
+        "value": "Blocks.LEAVES"
+      },
+      {
+        "value": "Blocks.LEAVES#0"
+      },
+      {
+        "value": "Blocks.LEAVES#1"
+      },
+      {
+        "value": "Blocks.LEAVES#2"
+      },
+      {
+        "value": "Blocks.LEAVES#3"
+      },
+      {
+        "value": "Blocks.LEAVES2"
+      },
+      {
+        "value": "Blocks.LEAVES2#0"
+      },
+      {
+        "value": "Blocks.LEAVES2#1"
+      },
+      {
+        "value": "Blocks.AZALEA_LEAVES"
+      },
+      {
+        "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

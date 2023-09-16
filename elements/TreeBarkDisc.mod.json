@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "tree_bark",
+    "description": "Tree Bark",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [
+      "§7Man I LOVE tree bark!!!"
+    ],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:treebark"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
+  }
+}

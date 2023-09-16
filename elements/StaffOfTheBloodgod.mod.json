@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bloodgods_staff",
+    "customModelName": "Normal",
+    "name": "Staff of the Blood God",
+    "specialInfo": [
+      "§aAbility: §7Projectiles shoot more projectiles",
+      "§eMana Usage: §73",
+      "§7When used:",
+      "§2 0.33 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BloodgodShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BloodgodShoot"
+    }
+  }
+}

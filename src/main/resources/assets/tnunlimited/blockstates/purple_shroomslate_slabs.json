@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tnunlimited:block/purple_shroomslate_slabs"
+    },
+    "type=top": {
+      "model": "tnunlimited:block/purple_shroomslate_slabs_top"
+    },
+    "type=double": {
+      "model": "tnunlimited:block/purple_shroomslate_slabs_full"
+    }
+  }
+}

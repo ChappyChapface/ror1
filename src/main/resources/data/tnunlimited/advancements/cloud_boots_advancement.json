@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:cloud_boots"
+    },
+    "title": {
+      "translate": "advancements.cloud_boots_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cloud_boots_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cloud_boots_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:cloud_boots"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/shiny_gear"
+}

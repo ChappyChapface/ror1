@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "tnunlimited:raw_lead"
+  },
+  "result": "tnunlimited:lead_ingot"
+}

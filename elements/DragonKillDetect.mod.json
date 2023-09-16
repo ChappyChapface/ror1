@@ -1,0 +1,7 @@
+{
+  "_fv": 43,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"entity_is_tagged_in\" x=\"910\" y=\"148\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tag\"><block type=\"text\"><field name=\"TEXT\">tnuultamite:enderdragon</field></block></value></block><block deletable=\"false\" type=\"event_trigger\" x=\"623\" y=\"442\"><field name=\"trigger\">entity_dies</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"world_entity_inrange_exists\"><field name=\"entity\">EntityDragon</field><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><value name=\"range\"><block type=\"math_number\"><field name=\"NUM\">4</field></block></value></block></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" has_entity=\"false\" is_player_var=\"false\"/><field name=\"VAR\">global:dragon_killed</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></statement></block></next></block><block type=\"logic_entity_compare\" x=\"1084\" y=\"492\"><field name=\"entity\">EntityDragon</field><value name=\"compareTo\"><block type=\"entity_from_deps\"/></value></block></xml>"
+  }
+}

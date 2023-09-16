@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/block_of_raw_lead",
+    "up": "tnunlimited:blocks/block_of_raw_lead",
+    "north": "tnunlimited:blocks/block_of_raw_lead",
+    "east": "tnunlimited:blocks/block_of_raw_lead",
+    "south": "tnunlimited:blocks/block_of_raw_lead",
+    "west": "tnunlimited:blocks/block_of_raw_lead",
+    "particle": "tnunlimited:blocks/block_of_raw_lead"
+  },
+  "render_type": "solid"
+}

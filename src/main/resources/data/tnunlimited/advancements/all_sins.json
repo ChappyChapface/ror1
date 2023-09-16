@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:bloody_rapier"
+    },
+    "title": {
+      "translate": "advancements.all_sins.title"
+    },
+    "description": {
+      "translate": "advancements.all_sins.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_sins": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "tnunlimited:sinner_loot"
+}

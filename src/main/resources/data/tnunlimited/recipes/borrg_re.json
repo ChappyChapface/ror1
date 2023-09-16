@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "1": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "2": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "3": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "4": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "5": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "6": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "7": {
+      "item": "tnunlimited:raw_rose_gold"
+    },
+    "8": {
+      "item": "tnunlimited:raw_rose_gold"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:block_of_raw_rose_gold",
+    "count": 1
+  }
+}

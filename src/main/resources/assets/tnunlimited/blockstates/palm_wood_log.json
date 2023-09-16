@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tnunlimited:block/palm_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tnunlimited:block/palm_wood_log"
+    },
+    "axis=z": {
+      "model": "tnunlimited:block/palm_wood_log",
+      "x": 90
+    }
+  }
+}

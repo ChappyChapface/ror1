@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_torch"
+    },
+    "2": {
+      "item": "minecraft:soul_torch"
+    },
+    "3": {
+      "item": "tnunlimited:nubrium_block"
+    },
+    "4": {
+      "item": "minecraft:diamond_block"
+    },
+    "5": {
+      "item": "tnunlimited:nubrium_block"
+    },
+    "6": {
+      "item": "tnunlimited:block_of_lead"
+    },
+    "7": {
+      "item": "minecraft:soul_campfire"
+    },
+    "8": {
+      "item": "tnunlimited:block_of_lead"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:overdrive_table",
+    "count": 1
+  }
+}

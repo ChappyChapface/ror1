@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/antimony_ore",
+    "up": "tnunlimited:blocks/antimony_ore",
+    "north": "tnunlimited:blocks/antimony_ore",
+    "east": "tnunlimited:blocks/antimony_ore",
+    "south": "tnunlimited:blocks/antimony_ore",
+    "west": "tnunlimited:blocks/antimony_ore",
+    "particle": "tnunlimited:blocks/antimony_ore"
+  },
+  "render_type": "solid"
+}

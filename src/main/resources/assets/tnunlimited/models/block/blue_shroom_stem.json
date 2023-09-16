@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/blueshroomstopstem",
+    "up": "tnunlimited:blocks/blueshroomstopstem",
+    "north": "tnunlimited:blocks/blueshromstem",
+    "east": "tnunlimited:blocks/blueshromstem",
+    "south": "tnunlimited:blocks/blueshromstem",
+    "west": "tnunlimited:blocks/blueshromstem",
+    "particle": "tnunlimited:blocks/blueshroomstopstem"
+  },
+  "render_type": "solid"
+}

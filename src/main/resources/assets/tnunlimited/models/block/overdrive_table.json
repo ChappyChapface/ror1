@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/overdrivetable",
+  "textures": {
+    "all": "tnunlimited:blocks/overdrivetable",
+    "particle": "tnunlimited:blocks/overdrivetable",
+    "0": "tnunlimited:blocks/overdrivetable"
+  },
+  "render_type": "cutout_mipped"
+}

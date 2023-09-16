@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/aardvarkiumore",
+    "up": "tnunlimited:blocks/aardvarkiumore",
+    "north": "tnunlimited:blocks/aardvarkiumore",
+    "east": "tnunlimited:blocks/aardvarkiumore",
+    "south": "tnunlimited:blocks/aardvarkiumore",
+    "west": "tnunlimited:blocks/aardvarkiumore",
+    "particle": "tnunlimited:blocks/aardvarkiumore"
+  },
+  "render_type": "solid"
+}

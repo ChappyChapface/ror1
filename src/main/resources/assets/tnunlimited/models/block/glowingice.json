@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/glowing_ice",
+    "up": "tnunlimited:blocks/glowing_ice",
+    "north": "tnunlimited:blocks/glowing_ice",
+    "east": "tnunlimited:blocks/glowing_ice",
+    "south": "tnunlimited:blocks/glowing_ice",
+    "west": "tnunlimited:blocks/glowing_ice",
+    "particle": "tnunlimited:blocks/glowing_ice"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "TAG:forge:dacite_sc_blocks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedDaciteSlab"
+    },
+    "name": "polished_dacite_slab_sc",
+    "namespace": "mod"
+  }
+}

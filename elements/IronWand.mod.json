@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_wand",
+    "customModelName": "Normal",
+    "name": "Iron Wand",
+    "specialInfo": [
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 4 Damage",
+      "§2 0.75 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "IronSpikeShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "IronSpikeShoot"
+    }
+  }
+}

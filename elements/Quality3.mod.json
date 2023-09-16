@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityRavager"
+      },
+      {
+        "value": "EntityEnderman"
+      },
+      {
+        "value": "EntityPiglinBrute"
+      },
+      {
+        "value": "EntityElderGuardian"
+      },
+      {
+        "value": "EntityEvoker"
+      },
+      {
+        "value": "CUSTOM:Coroner"
+      }
+    ],
+    "biomes": [],
+    "name": "quality_3",
+    "namespace": "mod"
+  }
+}

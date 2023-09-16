@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "antimony_axe",
+    "customModelName": "Normal",
+    "name": "Antimony Axe",
+    "specialInfo": [
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 0.8,
+    "enchantability": 25,
+    "damageVsEntity": 12.0,
+    "usageCount": 2164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Antimony"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:blockofrawlead"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:raw_lead",
+    "count": 9
+  }
+}

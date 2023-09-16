@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "sunriserecord",
+    "description": "Pokeplaza - Sunrise",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:sunrise2"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
+  }
+}

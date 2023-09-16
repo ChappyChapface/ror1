@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "sparse_jungle",
+    "dark_forest",
+    "jungle",
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "tnunlimited:coffee_pot_bug_1",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

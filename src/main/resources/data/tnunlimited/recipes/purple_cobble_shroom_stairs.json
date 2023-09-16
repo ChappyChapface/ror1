@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "3": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "4": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "6": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "7": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "8": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:purple_cobble_shroomslate_shairs",
+    "count": 4
+  }
+}

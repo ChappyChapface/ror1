@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/purplecobbleshroomslate",
+    "up": "tnunlimited:blocks/purplecobbleshroomslate",
+    "north": "tnunlimited:blocks/purplecobbleshroomslate",
+    "east": "tnunlimited:blocks/purplecobbleshroomslate",
+    "south": "tnunlimited:blocks/purplecobbleshroomslate",
+    "west": "tnunlimited:blocks/purplecobbleshroomslate",
+    "particle": "tnunlimited:blocks/purplecobbleshroomslate"
+  },
+  "render_type": "solid"
+}

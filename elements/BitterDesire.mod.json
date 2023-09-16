@@ -1,0 +1,35 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "diorite_helmet",
+    "customModelName": "bitterdesire:default",
+    "name": "Bitter Desire",
+    "specialInfo": [
+      "§2 +5 Piercing Damage",
+      "§aAbility: §7Attacking can inflict various debuffs, and grant you the matching buff",
+      "§7Affected by luck",
+      "§9Melee/Piercing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 13.0,
+    "attackSpeed": 0.6,
+    "enchantability": 25,
+    "damageVsEntity": 7.0,
+    "usageCount": 666,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BitterDesireHitEffect"
+    }
+  }
+}

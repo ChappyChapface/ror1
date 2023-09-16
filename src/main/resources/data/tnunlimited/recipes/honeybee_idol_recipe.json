@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:ghast_tear"
+    },
+    "3": {
+      "item": "minecraft:magma_cream"
+    },
+    "4": {
+      "item": "minecraft:honey_block"
+    },
+    "5": {
+      "item": "minecraft:magma_cream"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:honeybee_idol",
+    "count": 1
+  }
+}

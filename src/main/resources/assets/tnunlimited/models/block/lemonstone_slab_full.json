@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "tnunlimited:blocks/lemonstone",
+    "top": "tnunlimited:blocks/lemonstone",
+    "side": "tnunlimited:blocks/lemonstone"
+  },
+  "render_type": "solid"
+}

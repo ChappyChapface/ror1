@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tnunlimited:frost_spike_enity",
+    "tnunlimited:frost_ant_worker",
+    "tnunlimited:frost_spike_damage",
+    "tnunlimited:frost_ant_queen_phase_2",
+    "tnunlimited:frost_ant_alate",
+    "tnunlimited:frost_ant",
+    "tnunlimited:frost_ant_queen",
+    "tnunlimited:frost_pupae"
+  ]
+}

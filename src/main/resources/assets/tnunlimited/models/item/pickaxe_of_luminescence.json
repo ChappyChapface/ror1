@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tnunlimited:items/pickaxe_of_luminescence"
+  }
+}

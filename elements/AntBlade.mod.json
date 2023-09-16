@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ant_blade",
+    "customModelName": "Normal",
+    "name": "Scimantar",
+    "specialInfo": [
+      "§aAbility: §7Attacking releases a slash wave worth 7 damage",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.8,
+    "enchantability": 25,
+    "damageVsEntity": 6.0,
+    "usageCount": 2164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "AntBladeToolInInventoryTick"
+    },
+    "onEntitySwing": {
+      "name": "AntBladeSwing"
+    }
+  }
+}

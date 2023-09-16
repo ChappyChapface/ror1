@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/pureenergy",
+    "up": "tnunlimited:blocks/pureenergy",
+    "north": "tnunlimited:blocks/pureenergy",
+    "east": "tnunlimited:blocks/pureenergy",
+    "south": "tnunlimited:blocks/pureenergy",
+    "west": "tnunlimited:blocks/pureenergy",
+    "particle": "tnunlimited:blocks/pureenergy"
+  },
+  "render_type": "solid"
+}

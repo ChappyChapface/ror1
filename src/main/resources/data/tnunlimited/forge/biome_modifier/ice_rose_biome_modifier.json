@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "ice_spikes",
+    "windswept_hills",
+    "snowy_plains",
+    "snowy_slopes",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "features": "tnunlimited:ice_rose",
+  "step": "vegetal_decoration"
+}

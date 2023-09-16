@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "snowglove"
+      },
+      "name": "default"
+    },
+    "woodengauntlet": {
+      "map": {
+        "0": "wooden_gauntlet"
+      },
+      "name": "woodengauntlet"
+    },
+    "stonegauntlet": {
+      "map": {
+        "0": "stone_gauntlet"
+      },
+      "name": "stonegauntlet"
+    },
+    "irongauntlet": {
+      "map": {
+        "0": "iron_gauntlet"
+      },
+      "name": "irongauntlet"
+    },
+    "diamondgauntlet": {
+      "map": {
+        "0": "diamond_gauntlet"
+      },
+      "name": "diamondgauntlet"
+    },
+    "netheritegauntlet": {
+      "map": {
+        "0": "netherite_gauntlet"
+      },
+      "name": "netheritegauntlet"
+    }
+  }
+}

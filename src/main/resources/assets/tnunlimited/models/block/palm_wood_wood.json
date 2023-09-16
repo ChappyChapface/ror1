@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tnunlimited:blocks/pixil-frame-0_94",
+    "particle": "tnunlimited:blocks/pixil-frame-0_94"
+  },
+  "render_type": "solid"
+}

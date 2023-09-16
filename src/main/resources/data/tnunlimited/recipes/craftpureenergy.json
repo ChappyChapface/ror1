@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:supergranite"
+    },
+    "1": {
+      "item": "tnunlimited:supergranite"
+    },
+    "2": {
+      "item": "tnunlimited:supergranite"
+    },
+    "3": {
+      "item": "tnunlimited:supergranite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:purifiedenergy",
+    "count": 1
+  }
+}

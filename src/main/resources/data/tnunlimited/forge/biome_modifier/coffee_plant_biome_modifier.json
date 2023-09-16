@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "old_growth_birch_forest",
+    "forest",
+    "sunflower_plains",
+    "dark_forest",
+    "plains",
+    "birch_forest",
+    "flower_forest",
+    "windswept_forest"
+  ],
+  "features": "tnunlimited:coffee_plant",
+  "step": "vegetal_decoration"
+}

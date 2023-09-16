@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:nubrium"
+    },
+    "1": {
+      "item": "tnunlimited:nubrium"
+    },
+    "2": {
+      "item": "tnunlimited:nubrium"
+    },
+    "3": {
+      "item": "tnunlimited:nubrium"
+    },
+    "5": {
+      "item": "tnunlimited:nubrium"
+    },
+    "6": {
+      "item": "tnunlimited:nubrium"
+    },
+    "8": {
+      "item": "tnunlimited:nubrium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nubrium_armour_leggings",
+    "count": 1
+  }
+}

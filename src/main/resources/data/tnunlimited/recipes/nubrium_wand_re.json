@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "2": {
+      "item": "tnunlimited:nubrium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nubrium_wand",
+    "count": 1
+  }
+}

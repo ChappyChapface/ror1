@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "tnunlimited:block/cattail"
+    },
+    "half=lower": {
+      "model": "tnunlimited:block/cattail_bottom"
+    }
+  }
+}

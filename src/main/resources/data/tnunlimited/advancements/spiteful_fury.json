@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:amulet_of_spite"
+    },
+    "title": {
+      "translate": "advancements.spiteful_fury.title"
+    },
+    "description": {
+      "translate": "advancements.spiteful_fury.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spiteful_fury": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:nether/summon_wither"
+}

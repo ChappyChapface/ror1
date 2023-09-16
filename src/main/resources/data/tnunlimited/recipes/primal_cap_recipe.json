@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "minecraft:bone"
+    },
+    "5": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:primal_helmet",
+    "count": 1
+  }
+}

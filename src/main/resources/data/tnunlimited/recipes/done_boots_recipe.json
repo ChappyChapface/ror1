@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:done"
+    },
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "3": {
+      "item": "tnunlimited:done"
+    },
+    "5": {
+      "item": "tnunlimited:done"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:done_armour_boots",
+    "count": 1
+  }
+}

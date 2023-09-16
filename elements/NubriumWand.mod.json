@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nubrium_wand",
+    "customModelName": "Normal",
+    "name": "Nubrium Wand",
+    "specialInfo": [
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 9 Damage",
+      "§2 2 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 1.0,
+    "usageCount": 3531,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "NubriumWandShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "NubriumWandShoot"
+    }
+  }
+}

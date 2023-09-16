@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tnunlimited:blocks/lead_bars"
+  },
+  "render_type": "cutout_mipped"
+}

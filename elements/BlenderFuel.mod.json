@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "blender_fuels",
+    "namespace": "mod"
+  }
+}

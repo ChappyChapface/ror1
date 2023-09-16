@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/raw_antimony_block",
+    "up": "tnunlimited:blocks/raw_antimony_block",
+    "north": "tnunlimited:blocks/raw_antimony_block",
+    "east": "tnunlimited:blocks/raw_antimony_block",
+    "south": "tnunlimited:blocks/raw_antimony_block",
+    "west": "tnunlimited:blocks/raw_antimony_block",
+    "particle": "tnunlimited:blocks/raw_antimony_block"
+  },
+  "render_type": "solid"
+}

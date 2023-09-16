@@ -1,0 +1,38 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "frost_glaive",
+    "customModelName": "Normal",
+    "name": "Glacier Glaive",
+    "specialInfo": [
+      "§aAbility: §7Inflicts enemies with Frostburn",
+      "§2 +4 Piercing Damage",
+      "§9Melee/Piercing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 4,
+    "damageVsEntity": 5.0,
+    "usageCount": 1311,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DecayedClaw"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GlacierGlaiveHit"
+    }
+  }
+}

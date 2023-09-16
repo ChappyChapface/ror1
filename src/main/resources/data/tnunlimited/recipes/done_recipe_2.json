@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:done_block"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:done",
+    "count": 9
+  }
+}

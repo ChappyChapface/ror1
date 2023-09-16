@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/raw_rithium_block",
+    "up": "tnunlimited:blocks/raw_rithium_block",
+    "north": "tnunlimited:blocks/raw_rithium_block",
+    "east": "tnunlimited:blocks/raw_rithium_block",
+    "south": "tnunlimited:blocks/raw_rithium_block",
+    "west": "tnunlimited:blocks/raw_rithium_block",
+    "particle": "tnunlimited:blocks/raw_rithium_block"
+  },
+  "render_type": "solid"
+}

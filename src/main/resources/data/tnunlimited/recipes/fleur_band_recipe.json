@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:small_flowers"
+    },
+    "3": {
+      "tag": "minecraft:small_flowers"
+    },
+    "5": {
+      "tag": "minecraft:small_flowers"
+    },
+    "7": {
+      "tag": "minecraft:small_flowers"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:fleur_band",
+    "count": 1
+  }
+}

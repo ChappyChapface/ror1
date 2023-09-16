@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/mire_shroom_tall_top",
+    "particle": "tnunlimited:blocks/mire_shroom_tall_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:Bludgeoning"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.GLOWSTONE_DUST"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:BludgeoningII"
+    },
+    "name": "pot_of_bludgeoning_ii_recipe",
+    "namespace": "mod"
+  }
+}

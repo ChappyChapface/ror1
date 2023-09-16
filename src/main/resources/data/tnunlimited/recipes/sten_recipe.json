@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "  5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:antimony"
+    },
+    "1": {
+      "item": "tnunlimited:antimony"
+    },
+    "2": {
+      "item": "tnunlimited:antimony"
+    },
+    "5": {
+      "item": "tnunlimited:antimony"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:antimony_sten",
+    "count": 1
+  }
+}

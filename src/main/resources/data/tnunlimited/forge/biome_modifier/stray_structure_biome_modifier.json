@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "tnunlimited:stray_structure",
+  "step": "surface_structures"
+}

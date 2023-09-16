@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diorite"
+    },
+    "2": {
+      "item": "minecraft:diorite"
+    },
+    "3": {
+      "item": "minecraft:diorite"
+    },
+    "5": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:diorite_boots",
+    "count": 1
+  }
+}

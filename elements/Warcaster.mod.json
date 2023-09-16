@@ -1,0 +1,86 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "warcaster_helmet_icon",
+    "enableBody": true,
+    "textureBody": "warcaster_chestplate_icon",
+    "enableLeggings": true,
+    "textureLeggings": "warcaster_leggings",
+    "enableBoots": true,
+    "textureBoots": "warcaster_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "warcaster_",
+    "helmetName": "Warcaster Helmet",
+    "bodyName": "Warcaster Chestplate",
+    "leggingsName": "Warcaster Leggings",
+    "bootsName": "Warcaster Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+25% Increased Magic Damage",
+      "§7+5 Max Mana"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7+25% Increased Magic Damage",
+      "§7+5 Max Mana"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+25% Increased Magic Damage",
+      "§7+5 Max Mana"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+25% Increased Magic Damage",
+      "§7+5 Max Mana"
+    ],
+    "helmetModelName": "Modelwarcaster",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "warcaster_helmet.png",
+    "bodyModelName": "Modelwarcaster",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "warcaster_chestplate.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CoronersPlate"
+      }
+    ]
+  }
+}

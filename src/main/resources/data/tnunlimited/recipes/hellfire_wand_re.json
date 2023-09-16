@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:hellfire_wand",
+    "count": 1
+  }
+}

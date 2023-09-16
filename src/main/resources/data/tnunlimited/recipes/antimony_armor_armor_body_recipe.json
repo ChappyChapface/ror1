@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:antimony"
+    },
+    "2": {
+      "item": "tnunlimited:antimony"
+    },
+    "3": {
+      "item": "tnunlimited:antimony"
+    },
+    "4": {
+      "item": "tnunlimited:antimony"
+    },
+    "5": {
+      "item": "tnunlimited:antimony"
+    },
+    "6": {
+      "item": "tnunlimited:antimony"
+    },
+    "7": {
+      "item": "tnunlimited:antimony"
+    },
+    "8": {
+      "item": "tnunlimited:antimony"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:antimony_armor_armor_chestplate",
+    "count": 1
+  }
+}

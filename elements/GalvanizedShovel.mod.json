@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "galvanizedshovel",
+    "customModelName": "Normal",
+    "name": "Galvanized Shovel",
+    "specialInfo": [
+      "§9Melee/Blunt"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 5.5,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ZincIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

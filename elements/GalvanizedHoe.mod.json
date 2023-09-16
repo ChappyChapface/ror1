@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "galvanizedhoe",
+    "customModelName": "Normal",
+    "name": "Galvanized Hoe",
+    "specialInfo": [
+      "§9Melee"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 4.0,
+    "enchantability": 18,
+    "damageVsEntity": 1.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ZincIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

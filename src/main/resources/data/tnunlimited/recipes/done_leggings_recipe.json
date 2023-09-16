@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:done"
+    },
+    "1": {
+      "item": "tnunlimited:done"
+    },
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "3": {
+      "item": "tnunlimited:done"
+    },
+    "5": {
+      "item": "tnunlimited:done"
+    },
+    "6": {
+      "item": "tnunlimited:done"
+    },
+    "8": {
+      "item": "tnunlimited:done"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:done_armour_leggings",
+    "count": 1
+  }
+}

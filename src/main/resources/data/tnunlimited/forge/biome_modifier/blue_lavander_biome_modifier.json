@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dark_forest",
+  "features": "tnunlimited:blue_lavander",
+  "step": "vegetal_decoration"
+}

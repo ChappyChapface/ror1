@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:FrostAnt"
+      },
+      {
+        "value": "CUSTOM:FrostAntQueen"
+      },
+      {
+        "value": "CUSTOM:FrostPupae"
+      },
+      {
+        "value": "CUSTOM:FrostSpikeEnity"
+      },
+      {
+        "value": "CUSTOM:FrostAntQueenPhase2"
+      },
+      {
+        "value": "CUSTOM:FrostSpikeDamage"
+      },
+      {
+        "value": "CUSTOM:FrostAntAlate"
+      },
+      {
+        "value": "CUSTOM:FrostAntWorker"
+      }
+    ],
+    "biomes": [],
+    "name": "frost_ants",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "conductorhat",
+    "enableBody": true,
+    "textureBody": "conductorvest",
+    "enableLeggings": true,
+    "textureLeggings": "conducterpants",
+    "enableBoots": true,
+    "textureBoots": "conductor",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "train_",
+    "helmetName": "Train Helmet",
+    "bodyName": "Train Body",
+    "leggingsName": "Train Leggings",
+    "bootsName": "Train Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Grants Resistance II while sprinting"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7Grants Resistance II while sprinting"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Grants Resistance II while sprinting"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Grants Resistance II while sprinting"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

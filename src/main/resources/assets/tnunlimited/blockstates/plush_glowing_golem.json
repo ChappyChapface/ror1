@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/plush_glowing_golem"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/plush_glowing_golem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/plush_glowing_golem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/plush_glowing_golem",
+      "y": 270
+    }
+  }
+}

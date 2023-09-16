@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "1": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "2": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "3": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "4": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "5": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "6": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "7": {
+      "item": "tnunlimited:raw_rithium"
+    },
+    "8": {
+      "item": "tnunlimited:raw_rithium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:raw_rithium_block",
+    "count": 1
+  }
+}

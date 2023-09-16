@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "galvanizedshovel",
+    "customModelName": "galvanizedharpoon:default",
+    "name": "Galvanized Harpoon",
+    "specialInfo": [
+      "§2 +3 Piercing Damage§7When Thrown:",
+      "§2 9 Damage",
+      "§2 0.33 Attack Speed",
+      "§9Ranged/Throwing",
+      "§9Melee/Piercing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 250,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "onRangedItemUsed": {
+      "name": "GalvanizedHarpoonCooldown"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelGalvanizedHarpoon",
+    "customBulletModelTexture": "galvanizedharpoon.png"
+  }
+}

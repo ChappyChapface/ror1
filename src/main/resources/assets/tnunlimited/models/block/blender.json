@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/blender",
+  "textures": {
+    "all": "tnunlimited:blocks/blender",
+    "particle": "tnunlimited:blocks/blender",
+    "0": "tnunlimited:blocks/blender"
+  },
+  "render_type": "cutout_mipped"
+}

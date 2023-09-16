@@ -1,0 +1,651 @@
+{
+  "_fv": 43,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CoffeeBeans"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pear"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "Blocks.LOG"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TreeBark"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:BandOfBeatdown"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 50,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:KnifeSaber"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 50,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": "Items.IRON_SWORD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Katana"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "BUTCHER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Hamburger"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "MASON"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "Items.IRON_INGOT"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:Extender"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WANDERING_TRADER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Blocks.CANDLE_CAKE#5"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BirthdayBlockBoy.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "CUSTOM:Nubrium"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:SpikedCollar"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 2,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ThickHorseshoe"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Musician"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.NOTEBLOCK"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.DYE#11"
+            },
+            "countPrice2": 13,
+            "offer": {
+              "value": "Items.RECORD_13"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.FISH#1"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "Items.RECORD_CAT"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Blocks.COBBLESTONE"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "Items.RECORD_BLOCKS"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.FEATHER"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "Items.RECORD_CHIRP"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.ENDER_PEARL"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RECORD_FAR"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.BREAD"
+            },
+            "countPrice2": 6,
+            "offer": {
+              "value": "Items.RECORD_MALL"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 31,
+            "price2": {
+              "value": "Items.FERMENTED_SPIDER_EYE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RECORD_MELLOHI"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.SHIELD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RECORD_STAL"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.LEATHER_BOOTS"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RECORD_STRAD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.AMETHYST_SHARD"
+            },
+            "countPrice2": 6,
+            "offer": {
+              "value": "Items.RECORD_WARD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.POISONOUS_POTATO"
+            },
+            "countPrice2": 11,
+            "offer": {
+              "value": "Items.RECORD_11"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.CLOCK"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.RECORD_WAIT"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Blocks.NETHERRACK"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "Items.MUSIC_DISC_OTHERSIDE"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "Items.MUSIC_DISC_PIGSTEP"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Blocks.DOUBLE_PLANT#0"
+            },
+            "countPrice2": 8,
+            "offer": {
+              "value": "CUSTOM:Sunrise"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": "CUSTOM:WitherAndRot"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WitherAndRotChiptune"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.KELP"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:PlunderNBlunderbuss"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.WITHER_ROSE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WitherAndRot"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.CHORUS_FRUIT"
+            },
+            "countPrice2": 16,
+            "offer": {
+              "value": "CUSTOM:TheDragonGuardingTheAbyss"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.DEAD_FIRE_CORAL_BLOCK"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:OceanWaste"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 32,
+            "price2": {
+              "value": "Blocks.DEAD_FIRE_CORAL"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DryoutDisc"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 25,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

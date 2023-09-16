@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "aardium_shovel",
+    "customModelName": "Normal",
+    "name": "Aardium Shovel",
+    "specialInfo": [
+      "§9Melee/Blunt"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.4,
+    "enchantability": 14,
+    "damageVsEntity": 2.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aardiumingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

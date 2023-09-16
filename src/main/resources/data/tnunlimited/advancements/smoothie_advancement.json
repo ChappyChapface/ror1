@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:smoothie"
+    },
+    "title": {
+      "translate": "advancements.smoothie_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.smoothie_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smoothie_advancement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tnunlimited:smoothie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:nether/brew_potion"
+}

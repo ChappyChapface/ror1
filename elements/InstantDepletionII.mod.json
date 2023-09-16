@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Instant Depletion",
+    "splashName": "Splash Potion of Instant Depletion",
+    "lingeringName": "Lingering Potion of Instant Depletion",
+    "arrowName": "Arrow of Instant Depletion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:InstantDepleting"
+        },
+        "duration": 10,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

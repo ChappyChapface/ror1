@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/overchargedcleaver",
+  "textures": {
+    "0": "tnunlimited:blocks/overchargedcleaver",
+    "particle": "tnunlimited:items/gluttonys_cleaver"
+  }
+}

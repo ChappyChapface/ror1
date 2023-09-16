@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "CUSTOM:BlockOfRoseGold"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnchantedScrollOfSmite"
+    },
+    "name": "scroll_recipe_smite",
+    "namespace": "mod"
+  }
+}

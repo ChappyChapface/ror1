@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.IRON_SHOVEL"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ZincIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:GalvanizedShovel"
+    },
+    "name": "galvanized_shovel_recipe",
+    "namespace": "mod"
+  }
+}

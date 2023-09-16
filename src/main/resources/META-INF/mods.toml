@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="tnunlimited"
+version="1.0.0"
+displayName="Minecraff: scholarship edition"
+credits="I think we stole the gun sound from somewhere"
+displayURL="https://www.youtube.com/watch?v=TMkNBCxusbM"
+logoFile="logo.png"
+authors="Chapface, Deadly_Golem, MrTile, pokeplaza"
+description="man I really gotta fill this stuff out better"
+
+[[dependencies.tnunlimited]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.tnunlimited]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

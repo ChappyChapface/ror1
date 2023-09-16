@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "tnunlimited:small_pillager_castle",
+  "step": "surface_structures"
+}

@@ -1,0 +1,58 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Leeching",
+    "type": "WEAPON",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenSickle"
+      },
+      {
+        "value": "CUSTOM:GoldSickle"
+      },
+      {
+        "value": "CUSTOM:IronSickle"
+      },
+      {
+        "value": "CUSTOM:DiamondSickle"
+      },
+      {
+        "value": "CUSTOM:NetheriteSickle"
+      },
+      {
+        "value": "CUSTOM:GalvanizedSickle"
+      },
+      {
+        "value": "CUSTOM:AardiumSickle"
+      },
+      {
+        "value": "CUSTOM:LeadSickle"
+      },
+      {
+        "value": "CUSTOM:BomaindSickle"
+      },
+      {
+        "value": "CUSTOM:NubriumSickle"
+      },
+      {
+        "value": "CUSTOM:StoneSickle"
+      },
+      {
+        "value": "CUSTOM:AntimonySickle"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

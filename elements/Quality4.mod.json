@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Cakemonster"
+      },
+      {
+        "value": "CUSTOM:PirateCaptain"
+      },
+      {
+        "value": "CUSTOM:QueenLadyBug"
+      },
+      {
+        "value": "EntityDragon"
+      },
+      {
+        "value": "EntityWither"
+      },
+      {
+        "value": "EntityWarden"
+      },
+      {
+        "value": "CUSTOM:FrostAntQueenPhase2"
+      },
+      {
+        "value": "CUSTOM:Kkoreul"
+      }
+    ],
+    "biomes": [],
+    "name": "quality_4",
+    "namespace": "mod"
+  }
+}

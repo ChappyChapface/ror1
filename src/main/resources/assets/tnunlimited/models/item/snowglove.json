@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/snowglove",
+  "textures": {
+    "0": "tnunlimited:blocks/snowglove",
+    "particle": "tnunlimited:items/snowglove"
+  }
+}

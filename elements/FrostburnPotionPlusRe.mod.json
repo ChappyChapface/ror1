@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:FrostburnPotion"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.REDSTONE"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:FrostburnPlus"
+    },
+    "name": "frostburn_potion_plus",
+    "namespace": "mod"
+  }
+}

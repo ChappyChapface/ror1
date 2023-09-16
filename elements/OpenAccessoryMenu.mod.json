@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Open Accessory Menu",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenAccessoryGUI"
+    }
+  }
+}

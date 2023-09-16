@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 800,
+  "ingredient": {
+    "item": "tnunlimited:raw_rithium"
+  },
+  "result": "tnunlimited:rithium"
+}

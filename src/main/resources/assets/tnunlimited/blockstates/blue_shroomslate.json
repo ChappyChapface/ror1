@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/blue_shroomslate"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/blue_shroomslate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/blue_shroomslate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/blue_shroomslate",
+      "y": 270
+    }
+  }
+}

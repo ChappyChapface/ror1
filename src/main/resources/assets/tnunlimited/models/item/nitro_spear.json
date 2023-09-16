@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/nitro_spear",
+  "textures": {
+    "1": "tnunlimited:blocks/nitrospear",
+    "particle": "tnunlimited:items/diorite_helmet"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/pixil-frame-0_95",
+    "up": "tnunlimited:blocks/pixil-frame-0_95",
+    "north": "tnunlimited:blocks/pixil-frame-0_94",
+    "east": "tnunlimited:blocks/pixil-frame-0_94",
+    "south": "tnunlimited:blocks/pixil-frame-0_94",
+    "west": "tnunlimited:blocks/pixil-frame-0_94",
+    "particle": "tnunlimited:blocks/pixil-frame-0_95"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tnunlimited:cobbled_dacite"
+  },
+  "result": "tnunlimited:cobbled_dacite_slab"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:fleur_band"
+    },
+    "title": {
+      "translate": "advancements.equipped_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.equipped_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "equipped_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/obtain_armor"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "tnunlimited:desert_ingot"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "tnunlimited:desert_ingot"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "tnunlimited:desert_ingot"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:enchanted_scroll_of_boa",
+    "count": 1
+  }
+}

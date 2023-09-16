@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "frostburnthunt.png",
+    "width": 64,
+    "height": 48,
+    "title": "Painting Frostburnt Hunt",
+    "author": "Unknown"
+  }
+}

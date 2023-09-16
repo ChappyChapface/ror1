@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Shift Plate Left",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "ShiftPlateEffectR"
+    }
+  }
+}

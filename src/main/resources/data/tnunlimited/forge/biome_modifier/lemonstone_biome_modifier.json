@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "tnunlimited:lemonstone",
+  "step": "underground_ores"
+}

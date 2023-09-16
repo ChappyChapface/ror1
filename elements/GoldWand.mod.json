@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gold_wand",
+    "customModelName": "Normal",
+    "name": "Golden Wand",
+    "specialInfo": [
+      "§aAbility: §7Casts a spread of spikes",
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 2 Damage",
+      "§2 1.5 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 32,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "GoldSpikeShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "GoldSpikeShoot"
+    }
+  }
+}

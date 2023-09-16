@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "frostmouth",
+    "customModelName": "Normal",
+    "name": "The Frostmouth",
+    "specialInfo": [
+      "§aAbility: §7Shoots 3 projectiles that give targets the Frostburn effect",
+      "§eMana Usage: §73",
+      "§7When used:",
+      "§2 7 Damage",
+      "§2 0.25 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 341,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "FrostmouthShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "FrostmouthShoot"
+    }
+  }
+}

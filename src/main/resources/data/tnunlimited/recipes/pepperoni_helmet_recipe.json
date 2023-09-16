@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "tnunlimited:pepperoni_ingot"
+  },
+  "result": {
+    "item": "tnunlimited:pepperoni_armour_helmet"
+  }
+}

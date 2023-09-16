@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:party_hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.happy_birthday.title"
+    },
+    "description": {
+      "translate": "advancements.happy_birthday.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "happy_birthday": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000,
+    "loot": [
+      "tnunlimited:rewards/birthday_gifts"
+    ]
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:frostmouth"
+    },
+    "title": {
+      "translate": "advancements.frost_ant_queen_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.frost_ant_queen_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frost_ant_queen_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "tnunlimited:lead_advancement"
+}

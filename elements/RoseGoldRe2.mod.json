@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:RoseGoldIngot"
+    },
+    "name": "rose_gold_re_2",
+    "namespace": "mod"
+  }
+}

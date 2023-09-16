@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "granite_club"
+      },
+      "name": "default"
+    },
+    "ironclub": {
+      "map": {
+        "0": "iron_club"
+      },
+      "name": "ironclub"
+    },
+    "diamondclub": {
+      "map": {
+        "0": "diamond_club"
+      },
+      "name": "diamondclub"
+    },
+    "netheriteclub": {
+      "map": {
+        "0": "netherite_club"
+      },
+      "name": "netheriteclub"
+    },
+    "aardiumclub": {
+      "map": {
+        "0": "aardium_club"
+      },
+      "name": "aardiumclub"
+    },
+    "leadclub": {
+      "map": {
+        "0": "lead_club"
+      },
+      "name": "leadclub"
+    },
+    "antimonyclub": {
+      "map": {
+        "0": "antimony_club"
+      },
+      "name": "antimonyclub"
+    },
+    "bomeenclub": {
+      "map": {
+        "0": "bomeen_club"
+      },
+      "name": "bomeenclub"
+    },
+    "galvanizedclub": {
+      "map": {
+        "0": "galvanized_club"
+      },
+      "name": "galvanizedclub"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dead_horn_coral"
+    },
+    "title": {
+      "translate": "advancements.kkoreul_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.kkoreul_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kkoreul_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/obtain_armor"
+}

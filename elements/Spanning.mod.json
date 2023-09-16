@@ -1,0 +1,53 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Spanning",
+    "type": "BREAKABLE",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "CUSTOM:FullMagicJacket"
+      },
+      {
+        "value": "CUSTOM:TriggerHappy"
+      },
+      {
+        "value": "CUSTOM:Kickback"
+      }
+    ],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Flintlock"
+      },
+      {
+        "value": "CUSTOM:Revolver"
+      },
+      {
+        "value": "CUSTOM:Blunderbuss"
+      },
+      {
+        "value": "CUSTOM:AntimonySten"
+      },
+      {
+        "value": "CUSTOM:NubriumPistol"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

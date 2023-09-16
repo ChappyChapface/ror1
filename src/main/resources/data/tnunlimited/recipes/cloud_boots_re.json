@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "1": {
+      "item": "minecraft:diamond_boots"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:cloud_boots",
+    "count": 1
+  }
+}

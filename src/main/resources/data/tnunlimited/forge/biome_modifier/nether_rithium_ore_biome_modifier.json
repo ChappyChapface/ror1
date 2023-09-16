@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "crimson_forest",
+  "features": "tnunlimited:nether_rithium_ore",
+  "step": "underground_ores"
+}

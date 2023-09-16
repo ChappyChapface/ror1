@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.DRAGON_EGG"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedEgg"
+    },
+    "name": "dragon_egg_go_brr",
+    "namespace": "mod"
+  }
+}

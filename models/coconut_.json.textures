@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "coconut_texture"
+      },
+      "name": "default"
+    }
+  }
+}

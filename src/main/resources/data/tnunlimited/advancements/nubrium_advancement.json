@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:nubrium"
+    },
+    "title": {
+      "translate": "advancements.nubrium_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.nubrium_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nubrium_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:nubrium"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tnunlimited:nubrium_leggings_recipe",
+      "tnunlimited:nubrium_hoe_recipe",
+      "tnunlimited:nubrium_chestplate_recipe",
+      "tnunlimited:nubrium_shovel_recipe",
+      "tnunlimited:nubrium_pickaxe_recipe",
+      "tnunlimited:nubrium_sword_recipe",
+      "tnunlimited:nubrium_helmet_recipe",
+      "tnunlimited:nubrium_boots_recipe",
+      "tnunlimited:nubrium_axe_recipe",
+      "tnunlimited:nubrium_claymore_rec",
+      "tnunlimited:nubrium_block_recipe",
+      "tnunlimited:nubrium_wand_re"
+    ]
+  },
+  "parent": "tnunlimited:antimony_advancement"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/buckler",
+  "textures": {
+    "1": "tnunlimited:blocks/buckler",
+    "particle": "tnunlimited:items/buckler"
+  }
+}

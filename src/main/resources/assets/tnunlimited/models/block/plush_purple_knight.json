@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_purple_knight",
+  "textures": {
+    "all": "tnunlimited:blocks/chadface",
+    "particle": "tnunlimited:blocks/chadface",
+    "0": "tnunlimited:blocks/chadface"
+  },
+  "render_type": "solid"
+}

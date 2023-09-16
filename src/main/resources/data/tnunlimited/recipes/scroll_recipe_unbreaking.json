@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:lead_ingot"
+    },
+    {
+      "item": "tnunlimited:lead_ingot"
+    },
+    {
+      "item": "tnunlimited:lead_ingot"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "tnunlimited:nubrium"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:enchanted_scroll_of_unbreaking",
+    "count": 1
+  }
+}

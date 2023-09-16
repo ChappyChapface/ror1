@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:bedrock_coin"
+    },
+    "title": {
+      "translate": "advancements.tank_unlock.title"
+    },
+    "description": {
+      "translate": "advancements.tank_unlock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tank_unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "tnunlimited:classes"
+}

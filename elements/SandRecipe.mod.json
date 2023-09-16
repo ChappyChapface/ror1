@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SAND#0"
+    },
+    "name": "sand_recipe",
+    "namespace": "mod"
+  }
+}

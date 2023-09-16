@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/zincore",
+    "up": "tnunlimited:blocks/zincore",
+    "north": "tnunlimited:blocks/zincore",
+    "east": "tnunlimited:blocks/zincore",
+    "south": "tnunlimited:blocks/zincore",
+    "west": "tnunlimited:blocks/zincore",
+    "particle": "tnunlimited:blocks/zincore"
+  },
+  "render_type": "solid"
+}

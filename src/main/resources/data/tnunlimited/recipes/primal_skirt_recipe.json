@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:primal_leggings",
+    "count": 1
+  }
+}

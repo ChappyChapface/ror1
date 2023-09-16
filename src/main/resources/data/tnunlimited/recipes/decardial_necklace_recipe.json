@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_ball"
+    },
+    "1": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "4": {
+      "item": "tnunlimited:cardial_charm"
+    },
+    "5": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "6": {
+      "item": "minecraft:slime_ball"
+    },
+    "7": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "8": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:decardial_necklace",
+    "count": 1
+  }
+}

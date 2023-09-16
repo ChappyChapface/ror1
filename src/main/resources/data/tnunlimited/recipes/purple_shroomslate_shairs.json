@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:blue_shroomslate"
+    },
+    "3": {
+      "item": "tnunlimited:blue_shroomslate"
+    },
+    "4": {
+      "item": "tnunlimited:blue_shroomslate"
+    },
+    "6": {
+      "item": "tnunlimited:blue_shroomslate"
+    },
+    "7": {
+      "item": "tnunlimited:blue_shroomslate"
+    },
+    "8": {
+      "item": "tnunlimited:blue_shroomslate"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:purple_shroomslate_stairs",
+    "count": 4
+  }
+}

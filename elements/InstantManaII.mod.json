@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Instant Mana",
+    "splashName": "Splash Potion of Instant Mana",
+    "lingeringName": "Lingering Potion of Instant Mana",
+    "arrowName": "Arrow of Instant Mana",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:InstantManaEffect"
+        },
+        "duration": 10,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

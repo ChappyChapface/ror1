@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:tree_bark"
+    },
+    "title": {
+      "translate": "advancements.i_love_tree_bark.title"
+    },
+    "description": {
+      "translate": "advancements.i_love_tree_bark.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "i_love_tree_bark": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tnunlimited:tree_bark"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/balanced_diet"
+}

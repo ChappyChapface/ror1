@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "tnunlimited:antimony_ore",
+  "step": "underground_ores"
+}

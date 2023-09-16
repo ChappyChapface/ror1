@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:egg"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:frenchtoast",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "1": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    },
+    "2": {
+      "item": "tnunlimited:purple_cobble_shroomslate"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:purple_cobble_shroomslate_slab",
+    "count": 6
+  }
+}

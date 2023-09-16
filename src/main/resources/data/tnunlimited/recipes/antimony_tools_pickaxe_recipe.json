@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:antimony"
+    },
+    "1": {
+      "item": "tnunlimited:antimony"
+    },
+    "2": {
+      "item": "tnunlimited:antimony"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:antimony_tools_pickaxe",
+    "count": 1
+  }
+}

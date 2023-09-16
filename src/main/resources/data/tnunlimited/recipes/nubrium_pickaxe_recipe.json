@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:nubrium"
+    },
+    "1": {
+      "item": "tnunlimited:nubrium"
+    },
+    "2": {
+      "item": "tnunlimited:nubrium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nubrium_pickaxe",
+    "count": 1
+  }
+}

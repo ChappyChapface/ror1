@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "wither_and_rot_8x8.png",
+    "width": 128,
+    "height": 128,
+    "title": "Wither And Rot Painting",
+    "author": "Unknown"
+  }
+}

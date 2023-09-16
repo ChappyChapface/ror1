@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:polished_dacite"
+    },
+    "1": {
+      "item": "tnunlimited:polished_dacite"
+    },
+    "2": {
+      "item": "tnunlimited:polished_dacite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:polished_dacite_slab",
+    "count": 6
+  }
+}

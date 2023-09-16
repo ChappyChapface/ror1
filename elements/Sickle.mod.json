@@ -1,0 +1,51 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodenSickle"
+      },
+      {
+        "value": "CUSTOM:StoneSickle"
+      },
+      {
+        "value": "CUSTOM:GoldSickle"
+      },
+      {
+        "value": "CUSTOM:IronSickle"
+      },
+      {
+        "value": "CUSTOM:DiamondSickle"
+      },
+      {
+        "value": "CUSTOM:NetheriteSickle"
+      },
+      {
+        "value": "CUSTOM:GalvanizedSickle"
+      },
+      {
+        "value": "CUSTOM:AardiumSickle"
+      },
+      {
+        "value": "CUSTOM:BomaindSickle"
+      },
+      {
+        "value": "CUSTOM:LeadSickle"
+      },
+      {
+        "value": "CUSTOM:NubriumSickle"
+      },
+      {
+        "value": "CUSTOM:AntimonySickle"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "sickle",
+    "namespace": "forge"
+  }
+}

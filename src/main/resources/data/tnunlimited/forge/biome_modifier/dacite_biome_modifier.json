@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "frozen_ocean",
+    "frozen_river",
+    "windswept_hills",
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_slopes",
+    "frozen_peaks",
+    "snowy_taiga",
+    "deep_frozen_ocean",
+    "snowy_beach"
+  ],
+  "features": "tnunlimited:dacite",
+  "step": "underground_ores"
+}

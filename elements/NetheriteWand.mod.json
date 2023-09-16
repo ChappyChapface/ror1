@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_wand",
+    "customModelName": "Normal",
+    "name": "Netherite Wand",
+    "specialInfo": [
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 7 Damage",
+      "§2 1.5 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SoulfireSpikeShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SoulfireSpikeShoot"
+    }
+  }
+}

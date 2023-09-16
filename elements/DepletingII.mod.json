@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Depleting",
+    "splashName": "Splash Potion of Depleting",
+    "lingeringName": "Lingering Potion of Depleting",
+    "arrowName": "Arrow of Depleting",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Depleting"
+        },
+        "duration": 440,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

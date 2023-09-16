@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:glowstone"
+    },
+    "3": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "4": {
+      "item": "minecraft:golden_sword"
+    },
+    "5": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "6": {
+      "item": "minecraft:glowstone"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "8": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:holy_relic",
+    "count": 1
+  }
+}

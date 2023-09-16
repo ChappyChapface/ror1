@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/cattail_top",
+    "particle": "tnunlimited:blocks/cattail_top"
+  },
+  "render_type": "cutout"
+}

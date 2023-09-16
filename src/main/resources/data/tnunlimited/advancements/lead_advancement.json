@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "title": {
+      "translate": "advancements.lead_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.lead_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lead_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:lead_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tnunlimited:block_of_raw_lead",
+      "tnunlimited:lead_block",
+      "tnunlimited:lead_ingot",
+      "tnunlimited:lead_pickaxe_recipe",
+      "tnunlimited:lead_shovel_recipe",
+      "tnunlimited:blast_lead_ingot_ore",
+      "tnunlimited:block_to_lead",
+      "tnunlimited:lead_ingo_ore",
+      "tnunlimited:lead_sword_recipe",
+      "tnunlimited:block_to_raw_lead",
+      "tnunlimited:blast_lead_ingot",
+      "tnunlimited:lead_axe_recipe",
+      "tnunlimited:lead_hoe_recipe",
+      "tnunlimited:lead_sickle_recipe",
+      "tnunlimited:lead_armor_helmet_recipe",
+      "tnunlimited:lead_armor_leggings_recipe",
+      "tnunlimited:lead_armor_boots_recipe",
+      "tnunlimited:lead_armor_body_recipe",
+      "tnunlimited:lead_band_recipe",
+      "tnunlimited:entities/spider",
+      "tnunlimited:lead_wand_re",
+      "tnunlimited:lead_bullet_recipe",
+      "tnunlimited:lead_bars_re",
+      "tnunlimited:lead_door_re",
+      "tnunlimited:lead_trapdoor_re",
+      "tnunlimited:lead_spike_re"
+    ]
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

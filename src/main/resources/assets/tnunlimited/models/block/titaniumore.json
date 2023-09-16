@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/titanium_ore",
+    "up": "tnunlimited:blocks/titanium_ore",
+    "north": "tnunlimited:blocks/titanium_ore",
+    "east": "tnunlimited:blocks/titanium_ore",
+    "south": "tnunlimited:blocks/titanium_ore",
+    "west": "tnunlimited:blocks/titanium_ore",
+    "particle": "tnunlimited:blocks/titanium_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/ice_rose",
+    "particle": "tnunlimited:blocks/icerosepartical"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 43,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Musician",
+    "pointOfInterest": {
+      "value": "Blocks.JUKEBOX"
+    },
+    "actionSound": {
+      "value": "block.note.guitar"
+    },
+    "hat": "None",
+    "professionTextureFile": "berniezombiereal.png",
+    "zombifiedProfessionTextureFile": "berniezombiereal.png"
+  }
+}

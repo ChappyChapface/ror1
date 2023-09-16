@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/mallet",
+  "textures": {
+    "0": "tnunlimited:blocks/mallettex",
+    "particle": "tnunlimited:items/redmaultexture"
+  }
+}

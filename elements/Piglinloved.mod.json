@@ -1,0 +1,72 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GoldenHamburger"
+      },
+      {
+        "value": "CUSTOM:GoldenCrown.helmet"
+      },
+      {
+        "value": "CUSTOM:GoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:GoldenFeather"
+      },
+      {
+        "value": "CUSTOM:GoldenEgg"
+      },
+      {
+        "value": "CUSTOM:RoseGoldDisc"
+      },
+      {
+        "value": "CUSTOM:RoseGold.helmet"
+      },
+      {
+        "value": "CUSTOM:RoseGold.body"
+      },
+      {
+        "value": "CUSTOM:RoseGold.legs"
+      },
+      {
+        "value": "CUSTOM:RoseGold.boots"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "CUSTOM:BlockOfRawRoseGold"
+      },
+      {
+        "value": "CUSTOM:BlockOfRoseGold"
+      },
+      {
+        "value": "CUSTOM:RawRoseGold"
+      },
+      {
+        "value": "CUSTOM:GoldWand"
+      },
+      {
+        "value": "CUSTOM:RoseGoldRing"
+      },
+      {
+        "value": "CUSTOM:Bullet"
+      },
+      {
+        "value": "CUSTOM:LeadBullet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "piglin_loved",
+    "namespace": "minecraft"
+  }
+}

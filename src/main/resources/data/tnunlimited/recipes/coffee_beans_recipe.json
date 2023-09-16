@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:coffee_fruit"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:coffee_beans",
+    "count": 1
+  }
+}

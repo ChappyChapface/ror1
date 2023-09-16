@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "item": "tnunlimited:zinc_ingot"
+  },
+  "result": {
+    "item": "tnunlimited:zinc_armor_leggings"
+  }
+}

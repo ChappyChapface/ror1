@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 800,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawRithium"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Rithium"
+    },
+    "name": "rithium_recpie",
+    "namespace": "mod"
+  }
+}

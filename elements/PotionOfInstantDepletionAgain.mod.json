@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:InstantMana"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.FERMENTED_SPIDER_EYE"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:InstantDepletion"
+    },
+    "name": "potion_of_instant_depletion_again",
+    "namespace": "mod"
+  }
+}

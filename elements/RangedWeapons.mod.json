@@ -1,0 +1,53 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Revolver"
+      },
+      {
+        "value": "CUSTOM:Blunderbuss"
+      },
+      {
+        "value": "CUSTOM:Flintlock"
+      },
+      {
+        "value": "CUSTOM:AntimonySten"
+      },
+      {
+        "value": "CUSTOM:NubriumPistol"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.CROSSBOW"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "CUSTOM:GalvanizedHarpoon"
+      },
+      {
+        "value": "CUSTOM:Rock"
+      },
+      {
+        "value": "CUSTOM:Snowglove"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:RoseGoldDisc"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "ranged_weapons",
+    "namespace": "forge"
+  }
+}

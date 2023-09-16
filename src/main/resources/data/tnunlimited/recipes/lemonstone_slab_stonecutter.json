@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "tnunlimited:lemonstone"
+  },
+  "result": "tnunlimited:lemonstone_slab"
+}

@@ -1,0 +1,111 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GalvanizedShovel"
+      },
+      {
+        "value": "CUSTOM:GalvanizedHoe"
+      },
+      {
+        "value": "CUSTOM:LeadShovel"
+      },
+      {
+        "value": "CUSTOM:LeadHoe"
+      },
+      {
+        "value": "Items.WOODEN_HOE"
+      },
+      {
+        "value": "Items.STONE_HOE"
+      },
+      {
+        "value": "Items.IRON_HOE"
+      },
+      {
+        "value": "Items.GOLDEN_HOE"
+      },
+      {
+        "value": "Items.DIAMOND_HOE"
+      },
+      {
+        "value": "Items.NETHERITE_HOE"
+      },
+      {
+        "value": "Items.WOODEN_SHOVEL"
+      },
+      {
+        "value": "Items.STONE_SHOVEL"
+      },
+      {
+        "value": "Items.IRON_SHOVEL"
+      },
+      {
+        "value": "Items.GOLDEN_SHOVEL"
+      },
+      {
+        "value": "Items.DIAMOND_SHOVEL"
+      },
+      {
+        "value": "Items.NETHERITE_SHOVEL"
+      },
+      {
+        "value": "CUSTOM:DarkWarhammer"
+      },
+      {
+        "value": "CUSTOM:GraniteClub"
+      },
+      {
+        "value": "CUSTOM:AardiumingoShovel"
+      },
+      {
+        "value": "CUSTOM:NubriumShovel"
+      },
+      {
+        "value": "CUSTOM:AntimonyToolsShovel"
+      },
+      {
+        "value": "CUSTOM:AardiumingoHoe"
+      },
+      {
+        "value": "CUSTOM:NubriumHoe"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:LeadClub"
+      },
+      {
+        "value": "CUSTOM:IronClub"
+      },
+      {
+        "value": "CUSTOM:AardiumClub"
+      },
+      {
+        "value": "CUSTOM:AntimonyClub"
+      },
+      {
+        "value": "CUSTOM:NetheriteClub"
+      },
+      {
+        "value": "CUSTOM:GalvanizedClub"
+      },
+      {
+        "value": "CUSTOM:BomeenClub"
+      },
+      {
+        "value": "CUSTOM:DiamondClub"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "blunt_weapon",
+    "namespace": "forge"
+  }
+}

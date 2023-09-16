@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_aardvarkman",
+  "textures": {
+    "all": "tnunlimited:blocks/plush_aardvarkman",
+    "particle": "tnunlimited:blocks/plush_aardvarkman",
+    "0": "tnunlimited:blocks/plush_aardvarkman"
+  },
+  "render_type": "solid"
+}

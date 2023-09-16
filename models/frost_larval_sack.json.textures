@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "frost_larval_stack"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:dacite"
+    },
+    "1": {
+      "item": "tnunlimited:dacite"
+    },
+    "2": {
+      "item": "tnunlimited:dacite"
+    },
+    "3": {
+      "item": "tnunlimited:dacite"
+    },
+    "4": {
+      "item": "tnunlimited:dacite"
+    },
+    "5": {
+      "item": "tnunlimited:dacite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:dacite_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nitroclaymore",
+    "customModelName": "Normal",
+    "name": "Nitro Claymore",
+    "specialInfo": [
+      "§aAbility: §7Right click to increase charge by 9 (Max. 80)",
+      "§cDebuff: §7Attacking lowers charge by 12",
+      "§7If the charge reaches 0, inflicts weakness until recharged",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 13.0,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 25,
+    "damageVsEntity": 24.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Purifiedenergy"
+      },
+      {
+        "value": "CUSTOM:Nubrium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Nitroclaymorerightclick"
+    },
+    "onEntitySwing": {
+      "name": "Nitroclaymoreleftclick"
+    }
+  }
+}

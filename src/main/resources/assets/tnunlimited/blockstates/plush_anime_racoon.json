@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/plush_anime_racoon"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/plush_anime_racoon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/plush_anime_racoon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/plush_anime_racoon",
+      "y": 270
+    }
+  }
+}

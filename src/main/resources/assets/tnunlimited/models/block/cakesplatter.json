@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/carper1",
+  "textures": {
+    "all": "tnunlimited:blocks/cakesplatter0",
+    "particle": "tnunlimited:blocks/cakesplatter0",
+    "1": "tnunlimited:blocks/cakesplatter0"
+  },
+  "render_type": "solid"
+}

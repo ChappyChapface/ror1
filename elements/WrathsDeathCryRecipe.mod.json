@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "CUSTOM:TinySelfDetonator"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WrathsDeathCry"
+    },
+    "name": "wraths_death_cry_recipe",
+    "namespace": "mod"
+  }
+}

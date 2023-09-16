@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tnunlimited:items/ghast_riders_super_cool_guy_sword"
+  }
+}

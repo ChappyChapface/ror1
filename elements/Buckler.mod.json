@@ -1,0 +1,35 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "buckler",
+    "customModelName": "buckler:default",
+    "name": "Buckler",
+    "specialInfo": [
+      "§aAbility: §7Propels you forward when used"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BucklerRightClick"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BucklerRightClick"
+    }
+  }
+}

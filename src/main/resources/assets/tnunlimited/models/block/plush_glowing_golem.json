@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_glowing_golem",
+  "textures": {
+    "all": "tnunlimited:blocks/plush_glowing_golem",
+    "particle": "tnunlimited:blocks/plush_glowing_golem",
+    "0": "tnunlimited:blocks/plush_glowing_golem"
+  },
+  "render_type": "solid"
+}

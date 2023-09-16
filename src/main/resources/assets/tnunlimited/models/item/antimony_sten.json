@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/sten",
+  "textures": {
+    "1": "tnunlimited:blocks/sten",
+    "particle": "tnunlimited:items/bullet"
+  }
+}

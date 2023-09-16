@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "tnunlimited:blocks/strawberry_bush_stage2",
+    "particle": "tnunlimited:blocks/strawberry_bush_stage2"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tnunlimited:purple_cobble_shroomslate"
+  },
+  "result": "tnunlimited:purple_cobble_shroomslate_walls"
+}

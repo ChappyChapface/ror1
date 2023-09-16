@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/dark_warhammer",
+  "textures": {
+    "0": "tnunlimited:blocks/darkwarhammer",
+    "particle": "tnunlimited:items/greeds_sword"
+  }
+}

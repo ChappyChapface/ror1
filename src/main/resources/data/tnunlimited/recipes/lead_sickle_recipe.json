@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "4": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "5": {
+      "item": "tnunlimited:lead_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:lead_sickle",
+    "count": 1
+  }
+}

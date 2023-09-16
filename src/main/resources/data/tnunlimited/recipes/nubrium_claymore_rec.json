@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "tnunlimited:nubrium"
+    },
+    "4": {
+      "item": "tnunlimited:nubrium"
+    },
+    "6": {
+      "item": "tnunlimited:nubrium_sword"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:nubrium_claymore",
+    "count": 1
+  }
+}

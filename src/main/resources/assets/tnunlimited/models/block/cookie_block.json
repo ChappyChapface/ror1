@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/download_2",
+    "up": "tnunlimited:blocks/download_2",
+    "north": "tnunlimited:blocks/download_2",
+    "east": "tnunlimited:blocks/download_2",
+    "south": "tnunlimited:blocks/download_2",
+    "west": "tnunlimited:blocks/download_2",
+    "particle": "tnunlimited:blocks/download_2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "1": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "2": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "3": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "4": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "5": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "6": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "7": {
+      "item": "tnunlimited:aardiumingot"
+    },
+    "8": {
+      "item": "tnunlimited:aardiumingot"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:blockof_aardium",
+    "count": 1
+  }
+}

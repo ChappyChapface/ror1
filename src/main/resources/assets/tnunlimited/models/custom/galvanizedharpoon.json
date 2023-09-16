@@ -1,0 +1,269 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    16,
+    21
+  ],
+  "elements": [
+    {
+      "from": [
+        7.3,
+        -0.2,
+        7.3
+      ],
+      "to": [
+        8.7,
+        20.2,
+        8.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0.7619,
+            2,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.7619,
+            1,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3,
+            0.7619,
+            4,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            0.7619,
+            3,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            0.7619,
+            1,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            2,
+            0.7619
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        20,
+        7.5
+      ],
+      "to": [
+        8.5,
+        27,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            0.7619,
+            6,
+            6.09524
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.7619,
+            5,
+            6.09524
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            7,
+            0.7619,
+            8,
+            6.09524
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6,
+            0.7619,
+            7,
+            6.09524
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6,
+            0.7619,
+            5,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7,
+            0,
+            6,
+            0.7619
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -180,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3.5,
+        1.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -180,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3.5,
+        1.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        11,
+        -2
+      ],
+      "translation": [
+        7.25,
+        0,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -180,
+        11,
+        -2
+      ],
+      "translation": [
+        7.25,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        53,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        4,
+        0,
+        -45
+      ],
+      "translation": [
+        -3,
+        -3,
+        0
+      ],
+      "scale": [
+        0.77,
+        0.77,
+        0.77
+      ]
+    },
+    "head": {
+      "rotation": [
+        -143.38,
+        10.6,
+        -37.2
+      ],
+      "translation": [
+        -6.75,
+        8.75,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        10,
+        0,
+        -0.75
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "bone",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    }
+  ]
+}

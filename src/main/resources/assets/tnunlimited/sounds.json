@@ -1,0 +1,234 @@
+{
+  "revolver_reload": {
+    "subtitle": "subtitles.revolver_reload",
+    "sounds": [
+      {
+        "name": "tnunlimited:revolverreload",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_shoot": {
+    "subtitle": "subtitles.revolver_shoot",
+    "sounds": [
+      {
+        "name": "tnunlimited:revolvershoot",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_last_shot": {
+    "subtitle": "subtitles.revolver_last_shot",
+    "sounds": [
+      {
+        "name": "tnunlimited:revolvershootlast",
+        "stream": false
+      }
+    ]
+  },
+  "sunrise2": {
+    "subtitle": "subtitles.sunrise2",
+    "sounds": [
+      {
+        "name": "tnunlimited:sunrise",
+        "stream": false
+      }
+    ]
+  },
+  "blunderbuss_reload": {
+    "subtitle": "subtitles.blunderbuss_reload",
+    "sounds": [
+      {
+        "name": "tnunlimited:blunderbussreload",
+        "stream": false
+      }
+    ]
+  },
+  "blunderbuss_shoot": {
+    "subtitle": "subtitles.blunderbuss_shoot",
+    "sounds": [
+      {
+        "name": "tnunlimited:blunderbussshoot",
+        "stream": false
+      }
+    ]
+  },
+  "sten_shoot": {
+    "subtitle": "subtitles.sten_shoot",
+    "sounds": [
+      {
+        "name": "tnunlimited:stenshoot",
+        "stream": false
+      }
+    ]
+  },
+  "witherthemeloop": {
+    "sounds": [
+      {
+        "name": "tnunlimited:war_-_loop",
+        "stream": true
+      }
+    ]
+  },
+  "witherthemeintro": {
+    "sounds": [
+      {
+        "name": "tnunlimited:war_-_intro",
+        "stream": true
+      }
+    ]
+  },
+  "treebark": {
+    "sounds": [
+      {
+        "name": "tnunlimited:tree_bark",
+        "stream": true
+      }
+    ]
+  },
+  "anticipation2": {
+    "sounds": [
+      {
+        "name": "tnunlimited:beepbox-song-_27_",
+        "stream": false
+      }
+    ]
+  },
+  "anticipation": {
+    "sounds": [
+      {
+        "name": "tnunlimited:beepbox-song-_15_",
+        "stream": false
+      }
+    ]
+  },
+  "coroner_idle": {
+    "subtitle": "subtitles.coroner_idle",
+    "sounds": [
+      {
+        "name": "tnunlimited:coroner_idle",
+        "stream": false
+      },
+      {
+        "name": "tnunlimited:coroner_idle1",
+        "stream": false
+      },
+      {
+        "name": "tnunlimited:coroner_idle2",
+        "stream": false
+      }
+    ]
+  },
+  "ocean_waste-loop": {
+    "sounds": [
+      {
+        "name": "tnunlimited:ocean_waste_-_loop",
+        "stream": true
+      }
+    ]
+  },
+  "sunrise": {
+    "sounds": [
+      {
+        "name": "tnunlimited:untitled_song_5_1",
+        "stream": true
+      }
+    ]
+  },
+  "tdgta_record": {
+    "sounds": [
+      {
+        "name": "tnunlimited:tdgta",
+        "stream": true
+      }
+    ]
+  },
+  "tdgta-intro": {
+    "sounds": [
+      {
+        "name": "tnunlimited:tdgtaintro",
+        "stream": true
+      }
+    ]
+  },
+  "tdgta-loop": {
+    "sounds": [
+      {
+        "name": "tnunlimited:tdgtaloop",
+        "stream": true
+      }
+    ]
+  },
+  "witherandrot-record": {
+    "sounds": [
+      {
+        "name": "tnunlimited:wither_and_rot",
+        "stream": true
+      }
+    ]
+  },
+  "witherandrot8bit-record": {
+    "sounds": [
+      {
+        "name": "tnunlimited:wither_and_rot_8bit",
+        "stream": true
+      }
+    ]
+  },
+  "plunder_n_blunderbuss-loop": {
+    "sounds": [
+      {
+        "name": "tnunlimited:plunder_n_blunderbuss-loop",
+        "stream": true
+      }
+    ]
+  },
+  "plunder_n_blunderbuss-record": {
+    "sounds": [
+      {
+        "name": "tnunlimited:plunder_n_blunderbuss",
+        "stream": true
+      }
+    ]
+  },
+  "ocean_waste-intro": {
+    "sounds": [
+      {
+        "name": "tnunlimited:ocean_waste_-_intro",
+        "stream": true
+      }
+    ]
+  },
+  "dryout": {
+    "sounds": [
+      {
+        "name": "tnunlimited:dryout",
+        "stream": true
+      }
+    ]
+  },
+  "enter_the_fog": {
+    "sounds": [
+      {
+        "name": "tnunlimited:enter_the_fog",
+        "stream": true
+      }
+    ]
+  },
+  "dryout-disc": {
+    "sounds": [
+      {
+        "name": "tnunlimited:dryout",
+        "stream": true
+      }
+    ]
+  },
+  "ocean_waste-record": {
+    "sounds": [
+      {
+        "name": "tnunlimited:ocean_waste_-_disc",
+        "stream": true
+      }
+    ]
+  }
+}

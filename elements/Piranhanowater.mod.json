@@ -1,0 +1,7 @@
+{
+  "_fv": 43,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"-6\" y=\"67\"><field name=\"trigger\">no_ext_trigger</field></block><block type=\"entity_isinwater_orbubblecolumn\" x=\"76\" y=\"140\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></xml>"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lead_pickaxe",
+    "customModelName": "Normal",
+    "name": "Lead Pickaxe",
+    "specialInfo": [
+      "§9Melee/Piercing"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 7.0,
+    "usageCount": 1441,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "tnunlimited:blocks/blue_shroomslate",
+    "top": "tnunlimited:blocks/blue_shroomslate",
+    "side": "tnunlimited:blocks/blue_shroomslate"
+  },
+  "render_type": "solid"
+}

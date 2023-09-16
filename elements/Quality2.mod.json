@@ -1,0 +1,123 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:CoalTreadling"
+      },
+      {
+        "value": "CUSTOM:CoffeePotBug1"
+      },
+      {
+        "value": "CUSTOM:DuneSpider"
+      },
+      {
+        "value": "CUSTOM:FrostAnt"
+      },
+      {
+        "value": "CUSTOM:Frostburnt"
+      },
+      {
+        "value": "CUSTOM:LapisTreadling"
+      },
+      {
+        "value": "CUSTOM:PinacateBeetle"
+      },
+      {
+        "value": "CUSTOM:Piranha"
+      },
+      {
+        "value": "CUSTOM:PirateCrewman"
+      },
+      {
+        "value": "CUSTOM:PirateDeadeye"
+      },
+      {
+        "value": "CUSTOM:RedstoneTreadling"
+      },
+      {
+        "value": "EntityBlaze"
+      },
+      {
+        "value": "EntityCaveSpider"
+      },
+      {
+        "value": "EntityCreeper"
+      },
+      {
+        "value": "EntityDrowned"
+      },
+      {
+        "value": "EntityGhast"
+      },
+      {
+        "value": "EntityGuardian"
+      },
+      {
+        "value": "EntityHoglin"
+      },
+      {
+        "value": "EntityHusk"
+      },
+      {
+        "value": "EntityIllusionIllager"
+      },
+      {
+        "value": "EntityParrot"
+      },
+      {
+        "value": "EntityPiglin"
+      },
+      {
+        "value": "EntityPillager"
+      },
+      {
+        "value": "EntityPolarBear"
+      },
+      {
+        "value": "EntityShulker"
+      },
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySpider"
+      },
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityVindicator"
+      },
+      {
+        "value": "EntityWitch"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      },
+      {
+        "value": "EntityWolf"
+      },
+      {
+        "value": "EntityZoglin"
+      },
+      {
+        "value": "EntityZombie"
+      },
+      {
+        "value": "EntityZombieVillager"
+      },
+      {
+        "value": "EntityPigZombie"
+      }
+    ],
+    "biomes": [],
+    "name": "quality_2",
+    "namespace": "mod"
+  }
+}

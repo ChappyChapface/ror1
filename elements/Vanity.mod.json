@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Vanity",
+    "icon": {
+      "value": "CUSTOM:FancyPants.legs"
+    },
+    "showSearch": false
+  }
+}

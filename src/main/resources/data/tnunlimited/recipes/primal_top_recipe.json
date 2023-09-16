@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:primal_chestplate",
+    "count": 1
+  }
+}

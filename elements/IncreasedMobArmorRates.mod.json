@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "More Mob Loadouts",
+    "description": "Custom mob armor and weapons while in hardmode.",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gluttonys_cleaver",
+    "customModelName": "Normal",
+    "name": "Gluttony's Cleaver",
+    "specialInfo": [
+      "§aAbility: §7Killing entities adds ingredients to a list",
+      "§7Right click to view and use the list to generate food",
+      "§9Melee/Slashing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 8.0,
+    "attackSpeed": 0.9,
+    "enchantability": 15,
+    "damageVsEntity": 7.0,
+    "usageCount": 666,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Rithium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "GluttonysCleaverOpen"
+    }
+  }
+}

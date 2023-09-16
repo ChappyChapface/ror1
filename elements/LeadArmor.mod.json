@@ -1,0 +1,98 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lead_helmet",
+    "enableBody": true,
+    "textureBody": "lead_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "lead_leggings",
+    "enableBoots": true,
+    "textureBoots": "lead_boots",
+    "onHelmetTick": {
+      "name": "LeadArmorBodyTickEvent"
+    },
+    "onBodyTick": {
+      "name": "LeadArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "LeadArmorBodyTickEvent"
+    },
+    "onBootsTick": {
+      "name": "LeadArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "lead_",
+    "helmetName": "Lead Helmet",
+    "bodyName": "Lead Chestplate",
+    "leggingsName": "Lead Leggings",
+    "bootsName": "Lead Boots",
+    "helmetSpecialInfo": [
+      "§cDebuff: §7Sets Maximum Saturation to 5",
+      "§aSet Bonus:",
+      "§7Crouching doubles falling speed"
+    ],
+    "bodySpecialInfo": [
+      "§cDebuff: §7Sets Maximum Saturation to 5",
+      "§aSet Bonus:",
+      "§7Crouching doubles falling speed"
+    ],
+    "leggingsSpecialInfo": [
+      "§cDebuff: §7Sets Maximum Saturation to 5",
+      "§aSet Bonus:",
+      "§7Crouching doubles falling speed"
+    ],
+    "bootsSpecialInfo": [
+      "§cDebuff: §7Sets Maximum Saturation to 5",
+      "§aSet Bonus:",
+      "§7Crouching doubles falling speed"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 30,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 18,
+    "toughness": 4.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ]
+  }
+}

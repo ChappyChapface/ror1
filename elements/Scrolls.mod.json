@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EnchantedScrollOfFortune"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfSmite"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfBOA"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfEfficiency"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfLooting"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfSharpness"
+      },
+      {
+        "value": "CUSTOM:EnchantedScrollOfUnbreaking"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "scrolls",
+    "namespace": "mod"
+  }
+}

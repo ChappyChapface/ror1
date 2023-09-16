@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tnunlimited:bloodrip"
+  },
+  "addition": {
+    "item": "tnunlimited:nubrium"
+  },
+  "result": {
+    "item": "tnunlimited:staff_of_the_bloodgod"
+  }
+}

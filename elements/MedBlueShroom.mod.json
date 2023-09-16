@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "2medblueshroom",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 800000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 2,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 8,
+    "spawnZOffset": 8,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:BlueShroomslate"
+      },
+      {
+        "value": "CUSTOM:ShroomGrass"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BlueShroomsBiome"
+      }
+    ],
+    "ignoreBlocks": "AIR",
+    "generateCondition": {
+      "name": "MedBlueShroomAdditionalGenerationCondition"
+    }
+  }
+}

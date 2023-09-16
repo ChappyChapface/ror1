@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/lead_spike_block",
+    "particle": "tnunlimited:blocks/lead_spike_block"
+  },
+  "render_type": "cutout_mipped"
+}

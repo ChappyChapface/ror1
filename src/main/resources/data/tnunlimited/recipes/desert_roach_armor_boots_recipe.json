@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:desert_ingot"
+    },
+    "2": {
+      "item": "tnunlimited:desert_ingot"
+    },
+    "3": {
+      "item": "tnunlimited:desert_ingot"
+    },
+    "5": {
+      "item": "tnunlimited:desert_ingot"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:desert_roach_armor_boots",
+    "count": 1
+  }
+}

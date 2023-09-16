@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/cobbled_dacite",
+    "up": "tnunlimited:blocks/cobbled_dacite",
+    "north": "tnunlimited:blocks/cobbled_dacite",
+    "east": "tnunlimited:blocks/cobbled_dacite",
+    "south": "tnunlimited:blocks/cobbled_dacite",
+    "west": "tnunlimited:blocks/cobbled_dacite",
+    "particle": "tnunlimited:blocks/cobbled_dacite"
+  },
+  "render_type": "solid"
+}

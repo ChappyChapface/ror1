@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "tnunlimited:bedrock_coin"
+    },
+    "title": {
+      "translate": "advancements.classes.title"
+    },
+    "description": {
+      "translate": "advancements.classes.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "classes": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

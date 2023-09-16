@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diorite"
+    },
+    "2": {
+      "item": "minecraft:diorite"
+    },
+    "3": {
+      "item": "minecraft:diorite"
+    },
+    "4": {
+      "item": "minecraft:diorite"
+    },
+    "5": {
+      "item": "minecraft:diorite"
+    },
+    "6": {
+      "item": "minecraft:diorite"
+    },
+    "7": {
+      "item": "minecraft:diorite"
+    },
+    "8": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:diorite_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "1": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "2": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "3": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "4": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "5": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "6": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "7": {
+      "item": "tnunlimited:raw_lead"
+    },
+    "8": {
+      "item": "tnunlimited:raw_lead"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:blockofrawlead",
+    "count": 1
+  }
+}

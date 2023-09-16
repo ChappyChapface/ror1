@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:antimony"
+    },
+    "title": {
+      "translate": "advancements.antimony_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.antimony_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "antimony_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:antimony"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tnunlimited:antimony_armor_armor_body_recipe",
+      "tnunlimited:antimony_armor_armor_leggings_recipe",
+      "tnunlimited:antimony_armor_armor_boots_recipe",
+      "tnunlimited:antimony_armor_armor_helmet_recipe",
+      "tnunlimited:antimony_tools_pickaxe_recipe",
+      "tnunlimited:antimony_tools_axe_recipe",
+      "tnunlimited:antimony_tools_sword_recipe",
+      "tnunlimited:antimony_tools_shovel_recipe",
+      "tnunlimited:antimony_tools_hoe_recipe",
+      "tnunlimited:antimony_club_reciper",
+      "tnunlimited:antimony_wand_re",
+      "tnunlimited:antimony_sickle_recipe"
+    ]
+  },
+  "parent": "tnunlimited:lead_advancement"
+}

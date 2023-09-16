@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DesertChitin"
+      },
+      {
+        "value": "CUSTOM:DecayedClaw"
+      },
+      {
+        "value": "CUSTOM:DesertChitin"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "CUSTOM:DesertChitin"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "CUSTOM:DesertChitin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnchantedScrollOfLooting"
+    },
+    "name": "scroll_recipe_looting",
+    "namespace": "mod"
+  }
+}

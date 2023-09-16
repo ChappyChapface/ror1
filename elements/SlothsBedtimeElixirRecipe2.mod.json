@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cherry"
+      },
+      {
+        "value": "CUSTOM:GoldenEgg"
+      },
+      {
+        "value": "Items.HONEY_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:SlothsFormula"
+      },
+      {
+        "value": "CUSTOM:Kiwi"
+      },
+      {
+        "value": "CUSTOM:Mug"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "CUSTOM:SlothsFormula"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SlothsBedtimeElixir2"
+    },
+    "name": "sloths_bedtime_elixir_recipe_2",
+    "namespace": "mod"
+  }
+}

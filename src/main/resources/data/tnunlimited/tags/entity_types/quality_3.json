@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enderman",
+    "elder_guardian",
+    "piglin_brute",
+    "ravager",
+    "evoker",
+    "tnunlimited:coroner"
+  ]
+}

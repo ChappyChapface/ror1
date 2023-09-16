@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:primal_boots",
+    "count": 1
+  }
+}

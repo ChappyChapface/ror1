@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "tnunlimited:sin_chest_structure",
+  "step": "underground_structures"
+}

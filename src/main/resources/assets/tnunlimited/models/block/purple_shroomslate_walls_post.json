@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "tnunlimited:blocks/blue_shroomslate",
+    "particle": "tnunlimited:blocks/blue_shroomslate"
+  },
+  "render_type": "solid"
+}

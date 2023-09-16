@@ -1,0 +1,80 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_craft",
+          "text": "Craft",
+          "onClick": {
+            "name": "GluttonyCraftFood"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gluttony_craft_nbt_display",
+          "text": {
+            "fixedValue": "",
+            "name": "GluttonyCraftNBTDisplay"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 158,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gluttony_craft_kills",
+          "text": {
+            "fixedValue": "",
+            "name": "GluttonyCraftKills"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 158,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 9,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "tnunlimited:aardiumingot"
+  },
+  "result": {
+    "item": "tnunlimited:aardium_helmet"
+  }
+}

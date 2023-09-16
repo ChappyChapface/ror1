@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "desert"
+  ],
+  "spawners": {
+    "type": "tnunlimited:wastelandish_hopper",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

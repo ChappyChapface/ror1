@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:clay_ball"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "minecraft:clay_ball"
+    },
+    "4": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:mug",
+    "count": 1
+  }
+}

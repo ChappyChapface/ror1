@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite"
+    },
+    "2": {
+      "item": "minecraft:granite"
+    },
+    "3": {
+      "item": "minecraft:granite"
+    },
+    "5": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:granite_boots",
+    "count": 1
+  }
+}

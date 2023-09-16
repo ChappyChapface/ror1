@@ -1,0 +1,26 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "deepslate_shrine",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": -8,
+    "spawnXOffset": -8,
+    "spawnZOffset": -8,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.DEEPSLATE"
+      }
+    ],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

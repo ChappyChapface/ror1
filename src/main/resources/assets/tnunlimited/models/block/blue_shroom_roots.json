@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/blue_shroom_root",
+    "particle": "tnunlimited:blocks/blue_shroom_root"
+  },
+  "render_type": "cutout"
+}

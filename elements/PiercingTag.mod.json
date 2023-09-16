@@ -1,0 +1,69 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GalvanizedPickaxe"
+      },
+      {
+        "value": "CUSTOM:LeadPickaxe"
+      },
+      {
+        "value": "CUSTOM:Aardiumpickaxe"
+      },
+      {
+        "value": "CUSTOM:ChainmailPickaxe"
+      },
+      {
+        "value": "CUSTOM:GildedChainmailPickaxe"
+      },
+      {
+        "value": "CUSTOM:PickaxeOfLuminescence"
+      },
+      {
+        "value": "CUSTOM:NubriumPickaxe"
+      },
+      {
+        "value": "CUSTOM:AntimonyToolsPickaxe"
+      },
+      {
+        "value": "Items.WOODEN_PICKAXE"
+      },
+      {
+        "value": "Items.STONE_PICKAXE"
+      },
+      {
+        "value": "Items.IRON_PICKAXE"
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "Items.DIAMOND_PICKAXE"
+      },
+      {
+        "value": "Items.NETHERITE_PICKAXE"
+      },
+      {
+        "value": "CUSTOM:DioriteSpear"
+      },
+      {
+        "value": "CUSTOM:GlacierGlaive"
+      },
+      {
+        "value": "CUSTOM:NitroSpear"
+      },
+      {
+        "value": "CUSTOM:BitterDesire"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "piercing_weapon",
+    "namespace": "forge"
+  }
+}

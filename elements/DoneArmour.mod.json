@@ -1,0 +1,82 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ep",
+    "enableBody": true,
+    "textureBody": "zz_2",
+    "enableLeggings": true,
+    "textureLeggings": "zzzzz2",
+    "enableBoots": true,
+    "textureBoots": "zzzzzzzzzzz",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "done_",
+    "helmetName": "Bomeen Helmet",
+    "bodyName": "Bomeen Chestplate",
+    "leggingsName": "Bomeen Leggings",
+    "bootsName": "Bomeen Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+3 Build Range and grants haste II"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7+3 Build Range and grants haste II"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+3 Build Range and grants haste II"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+3 Build Range and grants haste II"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 35,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 25,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Done"
+      }
+    ]
+  }
+}

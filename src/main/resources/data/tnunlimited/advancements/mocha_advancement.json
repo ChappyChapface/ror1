@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:mocha"
+    },
+    "title": {
+      "translate": "advancements.mocha_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.mocha_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mocha_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:mocha"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:nether/brew_potion"
+}

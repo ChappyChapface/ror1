@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tnunlimited:block/overdrive_table"
+    }
+  }
+}

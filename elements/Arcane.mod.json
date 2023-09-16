@@ -1,0 +1,77 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Arcane",
+    "type": "WEARABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "VANISHING_CURSE"
+      }
+    ],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:SlothsPillow"
+      },
+      {
+        "value": "CUSTOM:Contract"
+      },
+      {
+        "value": "CUSTOM:MiracleRune"
+      },
+      {
+        "value": "CUSTOM:PetCactus"
+      },
+      {
+        "value": "CUSTOM:GoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:FleurBand"
+      },
+      {
+        "value": "CUSTOM:HoneybeeIdol"
+      },
+      {
+        "value": "CUSTOM:RepulsiveFlowerReplica"
+      },
+      {
+        "value": "CUSTOM:Heartcore"
+      },
+      {
+        "value": "CUSTOM:CardialCharm"
+      },
+      {
+        "value": "CUSTOM:DecardialNecklace"
+      },
+      {
+        "value": "CUSTOM:IronBand"
+      },
+      {
+        "value": "CUSTOM:BandOfBeatdown"
+      },
+      {
+        "value": "CUSTOM:HematiteInfusedAnchor"
+      },
+      {
+        "value": "CUSTOM:NeedleGauntlet"
+      },
+      {
+        "value": "CUSTOM:CloudBoots"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

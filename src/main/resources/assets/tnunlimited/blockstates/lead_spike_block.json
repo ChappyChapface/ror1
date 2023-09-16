@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tnunlimited:block/lead_spike_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tnunlimited:block/lead_spike_block"
+    },
+    "axis=z": {
+      "model": "tnunlimited:block/lead_spike_block",
+      "x": 90
+    }
+  }
+}

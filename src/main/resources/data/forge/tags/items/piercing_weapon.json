@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tnunlimited:nitro_spear",
+    "tnunlimited:pickaxe_of_luminescence",
+    "tnunlimited:chainmail_pickaxe",
+    "tnunlimited:glacier_glaive",
+    "tnunlimited:bitter_desire",
+    "minecraft:stone_pickaxe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:iron_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:netherite_pickaxe",
+    "tnunlimited:antimony_tools_pickaxe",
+    "tnunlimited:nubrium_pickaxe",
+    "tnunlimited:lead_pickaxe",
+    "tnunlimited:galvanized_pickaxe",
+    "minecraft:diamond_pickaxe",
+    "tnunlimited:aardiumpickaxe",
+    "tnunlimited:gilded_chainmail_pickaxe",
+    "tnunlimited:diorite_spear"
+  ]
+}

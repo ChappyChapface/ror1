@@ -1,0 +1,65 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlockofAardium"
+      },
+      {
+        "value": "CUSTOM:ZincBlock"
+      },
+      {
+        "value": "CUSTOM:BlockOfLead"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.EXPOSED_COPPER"
+      },
+      {
+        "value": "Blocks.WEATHERED_COPPER"
+      },
+      {
+        "value": "Blocks.OXIDIZED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_WEATHERED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_OXIDIZED_COPPER"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "beacon_base_blocks",
+    "namespace": "minecraft"
+  }
+}

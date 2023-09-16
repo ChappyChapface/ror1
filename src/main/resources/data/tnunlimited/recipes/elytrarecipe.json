@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:desert_chitin"
+    },
+    "1": {
+      "item": "minecraft:shulker_shell"
+    },
+    "2": {
+      "item": "tnunlimited:desert_chitin"
+    },
+    "3": {
+      "item": "tnunlimited:desert_chitin"
+    },
+    "4": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "5": {
+      "item": "tnunlimited:desert_chitin"
+    },
+    "6": {
+      "item": "tnunlimited:desert_chitin"
+    },
+    "8": {
+      "item": "tnunlimited:desert_chitin"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

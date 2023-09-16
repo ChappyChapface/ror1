@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:rose_gold_ingot"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "tnunlimited:rose_gold_ingot"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "tnunlimited:block_of_rose_gold"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:enchanted_scroll_of_smite",
+    "count": 1
+  }
+}

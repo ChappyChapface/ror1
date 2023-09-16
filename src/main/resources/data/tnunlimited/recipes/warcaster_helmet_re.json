@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "tnunlimited:coroners_plate"
+  },
+  "result": {
+    "item": "tnunlimited:warcaster_helmet"
+  }
+}

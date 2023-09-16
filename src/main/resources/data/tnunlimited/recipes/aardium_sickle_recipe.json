@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tnunlimited:iron_sickle"
+  },
+  "addition": {
+    "item": "tnunlimited:aardiumingot"
+  },
+  "result": {
+    "item": "tnunlimited:aardium_sickle"
+  }
+}

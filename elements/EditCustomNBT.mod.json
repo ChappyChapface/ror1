@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "editCustomNbt",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">entity</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">target</field><field name=\"type\">entity</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">staticLoadout</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">logic</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">NBTCommandStaicLoadout</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">staticEnchants</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">logic</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">NBTCommandStaticEnchants</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">staticPotions</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">logic</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">NBTCommandStaticPotions</field></block></statement></block></statement></block></next></block></next></block></statement></block></statement></block></next></block></xml>"
+  }
+}

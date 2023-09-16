@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "4": {
+      "item": "tnunlimited:pickaxe_of_luminescence"
+    },
+    "5": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "6": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "7": {
+      "item": "minecraft:end_crystal"
+    },
+    "8": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:pickaxe_of_effulgence",
+    "count": 1
+  }
+}

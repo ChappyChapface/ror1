@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tnunlimited:blocks/strawberry_bush_stage4"
+  }
+}

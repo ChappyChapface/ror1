@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:rithium"
+    },
+    "1": {
+      "item": "tnunlimited:rithium"
+    },
+    "2": {
+      "item": "tnunlimited:rithium"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "tnunlimited:speed_boots"
+    },
+    "5": {
+      "item": "tnunlimited:rithium"
+    },
+    "6": {
+      "item": "tnunlimited:rithium"
+    },
+    "7": {
+      "item": "tnunlimited:rithium"
+    },
+    "8": {
+      "item": "tnunlimited:rithium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:super_speed_boots",
+    "count": 1
+  }
+}

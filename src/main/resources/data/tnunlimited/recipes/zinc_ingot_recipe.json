@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:zinc_sheet"
+    },
+    "1": {
+      "item": "tnunlimited:zinc_sheet"
+    },
+    "2": {
+      "item": "tnunlimited:zinc_sheet"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:zinc_ingot",
+    "count": 1
+  }
+}

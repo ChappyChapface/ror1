@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "iceball",
+    "customModelName": "Normal",
+    "name": "Iceball",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Glowingice"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.glass.break"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.5,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Iceball"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "iceball.png",
+    "onBulletHitsBlock": {
+      "name": "Iceballprojectile"
+    },
+    "onBulletHitsEntity": {
+      "name": "Iceballprojectile"
+    },
+    "onBulletFlyingTick": {
+      "name": "IceballWhileProjectileFlyingTick"
+    }
+  }
+}

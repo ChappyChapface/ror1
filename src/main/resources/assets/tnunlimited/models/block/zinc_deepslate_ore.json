@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/zincdeepslateore",
+    "up": "tnunlimited:blocks/zincdeepslateore",
+    "north": "tnunlimited:blocks/zincdeepslateore",
+    "east": "tnunlimited:blocks/zincdeepslateore",
+    "south": "tnunlimited:blocks/zincdeepslateore",
+    "west": "tnunlimited:blocks/zincdeepslateore",
+    "particle": "tnunlimited:blocks/zincdeepslateore"
+  },
+  "render_type": "solid"
+}

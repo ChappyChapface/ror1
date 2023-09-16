@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/chiseled_lemonstone",
+    "up": "tnunlimited:blocks/chiseled_lemonstone",
+    "north": "tnunlimited:blocks/chiseled_lemonstone",
+    "east": "tnunlimited:blocks/chiseled_lemonstone",
+    "south": "tnunlimited:blocks/chiseled_lemonstone",
+    "west": "tnunlimited:blocks/chiseled_lemonstone",
+    "particle": "tnunlimited:blocks/chiseled_lemonstone"
+  },
+  "render_type": "solid"
+}

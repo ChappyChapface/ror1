@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "tnunlimited:blocks/dacite_bricks",
+    "top": "tnunlimited:blocks/dacite_bricks",
+    "side": "tnunlimited:blocks/dacite_bricks"
+  },
+  "render_type": "solid"
+}

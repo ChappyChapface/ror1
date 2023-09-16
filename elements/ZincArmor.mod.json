@@ -1,0 +1,85 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "galvanizedhelmet",
+    "enableBody": true,
+    "textureBody": "galvanizedchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "galvanizedleggings",
+    "enableBoots": true,
+    "textureBoots": "galvanizedboots",
+    "onHelmetTick": {
+      "name": "ArmorSetBonuses"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "galvanized_armor_",
+    "helmetName": "Galvanized Helmet",
+    "bodyName": "Galvanized Chestplate",
+    "leggingsName": "Galvanized Leggings",
+    "bootsName": "Galvanized Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Increased ability and breathe underwater"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7Increased ability and breathe underwater"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Increased ability and breathe underwater"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7Increased ability and breathe underwater"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 15,
+    "damageValueHelmet": 4,
+    "damageValueBody": 5,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 2,
+    "enchantability": 18,
+    "toughness": 1.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ZincIngot"
+      }
+    ]
+  }
+}

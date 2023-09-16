@@ -1,0 +1,20 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Instant Depletion",
+    "icon": "instant_expulsion.png",
+    "color": {
+      "value": -15592874,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "InstantDepletingEffect"
+    }
+  }
+}

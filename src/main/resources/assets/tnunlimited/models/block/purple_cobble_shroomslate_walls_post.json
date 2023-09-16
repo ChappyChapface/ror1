@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "tnunlimited:blocks/purplecobbleshroomslate",
+    "particle": "tnunlimited:blocks/purplecobbleshroomslate"
+  },
+  "render_type": "solid"
+}

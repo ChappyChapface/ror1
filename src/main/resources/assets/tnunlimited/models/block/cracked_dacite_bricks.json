@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/cracked_dacite_bricks",
+    "up": "tnunlimited:blocks/cracked_dacite_bricks",
+    "north": "tnunlimited:blocks/cracked_dacite_bricks",
+    "east": "tnunlimited:blocks/cracked_dacite_bricks",
+    "south": "tnunlimited:blocks/cracked_dacite_bricks",
+    "west": "tnunlimited:blocks/cracked_dacite_bricks",
+    "particle": "tnunlimited:blocks/cracked_dacite_bricks"
+  },
+  "render_type": "solid"
+}

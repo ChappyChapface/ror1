@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_crystal"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "minecraft:end_crystal"
+    },
+    "3": {
+      "item": "minecraft:tnt"
+    },
+    "4": {
+      "item": "tnunlimited:tiny_self_detonator"
+    },
+    "5": {
+      "item": "minecraft:tnt"
+    },
+    "6": {
+      "item": "minecraft:end_crystal"
+    },
+    "7": {
+      "item": "minecraft:tnt"
+    },
+    "8": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:wraths_death_cry",
+    "count": 1
+  }
+}

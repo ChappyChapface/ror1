@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:enchanted_scroll_of_fortune"
+    },
+    "title": {
+      "translate": "advancements.more_power.title"
+    },
+    "description": {
+      "translate": "advancements.more_power.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "more_power": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "tnunlimited:nubrium_advancement"
+}

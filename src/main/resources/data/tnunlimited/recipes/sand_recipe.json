@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "tnunlimited:rock"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "tnunlimited:rock"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sand",
+    "count": 4
+  }
+}

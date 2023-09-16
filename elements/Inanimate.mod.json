@@ -1,0 +1,129 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityItem"
+      },
+      {
+        "value": "EntityGlowItemFrame"
+      },
+      {
+        "value": "EntityItemFrame"
+      },
+      {
+        "value": "CUSTOM:FrostSpikeDamage"
+      },
+      {
+        "value": "CUSTOM:FrostSpikeEnity"
+      },
+      {
+        "value": "EntityAreaEffectCloud"
+      },
+      {
+        "value": "EntityArmorStand"
+      },
+      {
+        "value": "EntityArrow"
+      },
+      {
+        "value": "EntityBoat"
+      },
+      {
+        "value": "EntityChestBoat"
+      },
+      {
+        "value": "EntityEvokerFangs"
+      },
+      {
+        "value": "EntityXPOrb"
+      },
+      {
+        "value": "EntityDragonFireball"
+      },
+      {
+        "value": "EntityEgg"
+      },
+      {
+        "value": "EntityEnderPearl"
+      },
+      {
+        "value": "EntityExpBottle"
+      },
+      {
+        "value": "EntityEnderEye"
+      },
+      {
+        "value": "EntityFallingBlock"
+      },
+      {
+        "value": "EntityFireball"
+      },
+      {
+        "value": "EntityFireworkRocket"
+      },
+      {
+        "value": "EntityLeashKnot"
+      },
+      {
+        "value": "EntityLightningBolt"
+      },
+      {
+        "value": "EntityLlamaSpit"
+      },
+      {
+        "value": "EntityMarker"
+      },
+      {
+        "value": "EntityMinecart"
+      },
+      {
+        "value": "EntityMinecartChest"
+      },
+      {
+        "value": "EntityMinecartCommandBlock"
+      },
+      {
+        "value": "EntityMinecartFurnace"
+      },
+      {
+        "value": "EntityMinecartHopper"
+      },
+      {
+        "value": "EntityMinecartMobSpawner"
+      },
+      {
+        "value": "EntityMinecartTNT"
+      },
+      {
+        "value": "EntityPainting"
+      },
+      {
+        "value": "EntityPotion"
+      },
+      {
+        "value": "EntityShulkerBullet"
+      },
+      {
+        "value": "EntitySmallFireball"
+      },
+      {
+        "value": "EntitySpectralArrow"
+      },
+      {
+        "value": "EntityTNTPrimed"
+      },
+      {
+        "value": "EntityWitherSkull"
+      }
+    ],
+    "biomes": [],
+    "name": "inanimate",
+    "namespace": "forge"
+  }
+}

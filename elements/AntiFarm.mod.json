@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Anti-Farm",
+    "description": "Entities only have drops if killed by a player or their tamed entities.",
+    "category": "DROPS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

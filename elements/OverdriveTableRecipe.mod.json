@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SOUL_TORCH"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SOUL_TORCH"
+      },
+      {
+        "value": "CUSTOM:NubriumBlock"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:NubriumBlock"
+      },
+      {
+        "value": "CUSTOM:BlockOfLead"
+      },
+      {
+        "value": "Blocks.SOUL_CAMPFIRE"
+      },
+      {
+        "value": "CUSTOM:BlockOfLead"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OverdriveTable"
+    },
+    "name": "overdrive_table_recipe",
+    "namespace": "mod"
+  }
+}

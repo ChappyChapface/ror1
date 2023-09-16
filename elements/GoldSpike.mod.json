@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gold_wand",
+    "customModelName": "Normal",
+    "name": "Golden Spike",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:BagOfTwoHundredKidneys"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:PepperoniFood"
+    },
+    "bulletModel": "Modelspike_projectile",
+    "customBulletModelTexture": "gold_spike.png",
+    "onBulletFlyingTick": {
+      "name": "AmethystFireballFly"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "4": {
+      "item": "tnunlimited:done"
+    },
+    "5": {
+      "item": "tnunlimited:done"
+    },
+    "6": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:bomaind_sickle",
+    "count": 1
+  }
+}

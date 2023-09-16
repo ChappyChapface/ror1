@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:done"
+    },
+    "1": {
+      "item": "tnunlimited:done"
+    },
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "4": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "tnunlimited:enchanted_golden_cactus_pet"
+    },
+    "title": {
+      "translate": "advancements.prick_prick.title"
+    },
+    "description": {
+      "translate": "advancements.prick_prick.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "prick_prick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tnunlimited:enchanted_golden_cactus_pet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "tnunlimited:equipped_advancement"
+}

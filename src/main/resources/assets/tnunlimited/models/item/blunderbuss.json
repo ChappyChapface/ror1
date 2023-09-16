@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/blunderbuss",
+  "textures": {
+    "2": "tnunlimited:blocks/blunderbuss",
+    "particle": "tnunlimited:items/bullet"
+  }
+}

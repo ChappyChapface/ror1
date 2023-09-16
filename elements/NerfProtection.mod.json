@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Nerf Protection and Resistance",
+    "description": "When attacked by a living entity while wearing Protection or having Resistance, a minimum of 1 damage is taken.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

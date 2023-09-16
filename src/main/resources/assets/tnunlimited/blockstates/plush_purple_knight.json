@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/plush_purple_knight"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/plush_purple_knight",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/plush_purple_knight",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/plush_purple_knight",
+      "y": 270
+    }
+  }
+}

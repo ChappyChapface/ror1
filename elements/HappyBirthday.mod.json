@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Happy Birthday!",
+    "achievementDescription": "This world has been open for a full (in game) year!",
+    "achievementIcon": {
+      "value": "CUSTOM:PartyHat.helmet"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [
+      "BirthdayGifts"
+    ],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1000,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "adventure/sleep_in_bed"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"51\" y=\"74\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

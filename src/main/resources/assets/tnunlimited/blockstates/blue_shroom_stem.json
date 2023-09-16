@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tnunlimited:block/blue_shroom_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tnunlimited:block/blue_shroom_stem"
+    },
+    "axis=z": {
+      "model": "tnunlimited:block/blue_shroom_stem",
+      "x": 90
+    }
+  }
+}

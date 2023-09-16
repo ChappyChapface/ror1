@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tnunlimited:blocks/purplecobbleshroomslate",
+    "top": "tnunlimited:blocks/purplecobbleshroomslate",
+    "side": "tnunlimited:blocks/purplecobbleshroomslate"
+  },
+  "render_type": "solid"
+}

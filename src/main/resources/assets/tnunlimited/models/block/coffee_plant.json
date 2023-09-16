@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "tnunlimited:blocks/coffeeplant",
+    "particle": "tnunlimited:blocks/coffeeplant"
+  },
+  "render_type": "cutout"
+}

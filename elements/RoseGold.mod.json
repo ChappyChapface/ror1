@@ -1,0 +1,85 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "rose_gold_helmet",
+    "enableBody": true,
+    "textureBody": "rose_gold_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "rose_gold_leggings",
+    "enableBoots": true,
+    "textureBoots": "rose_gold_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "rose_gold_",
+    "helmetName": "Rose Gold Helmet",
+    "bodyName": "Rose Gold Chestplate",
+    "leggingsName": "Rose Gold Leggings",
+    "bootsName": "Rose Gold Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+20% Increased Movement Speed when holding a Ranged Weapon"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7+20% Increased Movement Speed when holding a Ranged Weapon"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+20% Increased Movement Speed when holding a Ranged Weapon"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+20% Increased Movement Speed when holding a Ranged Weapon"
+    ],
+    "helmetModelName": "Modelrose_gold",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "rose_gold_extras.png",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 25,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      }
+    ]
+  }
+}

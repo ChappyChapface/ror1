@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tnunlimited:blocks/polished_dacite",
+    "particle": "tnunlimited:blocks/polished_dacite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,78 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodenSickle"
+      },
+      {
+        "value": "CUSTOM:StoneSickle"
+      },
+      {
+        "value": "CUSTOM:GoldSickle"
+      },
+      {
+        "value": "CUSTOM:IronSickle"
+      },
+      {
+        "value": "CUSTOM:DiamondSickle"
+      },
+      {
+        "value": "CUSTOM:NetheriteSickle"
+      },
+      {
+        "value": "CUSTOM:GalvanizedSickle"
+      },
+      {
+        "value": "CUSTOM:GalvanizedSword"
+      },
+      {
+        "value": "CUSTOM:AardiumSickle"
+      },
+      {
+        "value": "CUSTOM:LeadSword"
+      },
+      {
+        "value": "CUSTOM:BomaindSickle"
+      },
+      {
+        "value": "CUSTOM:CriticalSword"
+      },
+      {
+        "value": "CUSTOM:DoneSword"
+      },
+      {
+        "value": "CUSTOM:BloodyRapier"
+      },
+      {
+        "value": "CUSTOM:LeadSickle"
+      },
+      {
+        "value": "CUSTOM:Aarduimsword"
+      },
+      {
+        "value": "CUSTOM:DarkWarhammer"
+      },
+      {
+        "value": "CUSTOM:Serenity"
+      },
+      {
+        "value": "CUSTOM:Reforgedaardium"
+      },
+      {
+        "value": "CUSTOM:Cutlass"
+      },
+      {
+        "value": "CUSTOM:AntBlade"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "slash_weapon",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/blue_shroom_ore",
+    "up": "tnunlimited:blocks/blue_shroom_ore",
+    "north": "tnunlimited:blocks/blue_shroom_ore",
+    "east": "tnunlimited:blocks/blue_shroom_ore",
+    "south": "tnunlimited:blocks/blue_shroom_ore",
+    "west": "tnunlimited:blocks/blue_shroom_ore",
+    "particle": "tnunlimited:blocks/blue_shroom_ore"
+  },
+  "render_type": "solid"
+}

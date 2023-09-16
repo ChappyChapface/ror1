@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "swamp",
+    "mangrove_swamp"
+  ],
+  "features": "tnunlimited:cattail",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:done"
+    },
+    "1": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "3": {
+      "item": "minecraft:golden_apple"
+    },
+    "4": {
+      "item": "tnunlimited:cardial_charm"
+    },
+    "5": {
+      "item": "minecraft:golden_apple"
+    },
+    "6": {
+      "item": "tnunlimited:done"
+    },
+    "7": {
+      "item": "minecraft:nether_star"
+    },
+    "8": {
+      "item": "tnunlimited:done"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:heartcore",
+    "count": 1
+  }
+}

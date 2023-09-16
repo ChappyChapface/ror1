@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/nubrium_glock",
+  "textures": {
+    "0": "tnunlimited:blocks/nubrium_glock",
+    "particle": "tnunlimited:items/bullet"
+  }
+}

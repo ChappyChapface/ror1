@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "tnunlimited:blue_shrooms_biome",
+  "features": "tnunlimited:purple_cobble_shroomslate",
+  "step": "underground_ores"
+}

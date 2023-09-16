@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.SHEARS"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.SPECTRAL_ARROW"
+      },
+      {
+        "value": "Items.TIPPED_ARROW"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pesticide",
+    "namespace": "mod"
+  }
+}

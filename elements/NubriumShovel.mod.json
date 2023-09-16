@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pixil-frame-0_84",
+    "customModelName": "Normal",
+    "name": "Nubrium Shovel",
+    "specialInfo": [
+      "§aAbility: §7Attacks inflict Slowness",
+      "§9Melee/Blunt"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.25,
+    "usageCount": 2831,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Nubrium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "NubriumSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

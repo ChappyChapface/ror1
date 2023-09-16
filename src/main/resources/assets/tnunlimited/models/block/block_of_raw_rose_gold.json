@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/raw_rose_gold_block",
+    "up": "tnunlimited:blocks/raw_rose_gold_block",
+    "north": "tnunlimited:blocks/raw_rose_gold_block",
+    "east": "tnunlimited:blocks/raw_rose_gold_block",
+    "south": "tnunlimited:blocks/raw_rose_gold_block",
+    "west": "tnunlimited:blocks/raw_rose_gold_block",
+    "particle": "tnunlimited:blocks/raw_rose_gold_block"
+  },
+  "render_type": "solid"
+}

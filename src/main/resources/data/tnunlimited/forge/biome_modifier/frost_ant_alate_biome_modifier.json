@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "tnunlimited:frost_ant_alate",
+    "weight": 100,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

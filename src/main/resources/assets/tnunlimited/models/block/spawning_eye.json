@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/spawn_totem_top",
+    "up": "tnunlimited:blocks/spawn_totem_top",
+    "north": "tnunlimited:blocks/spawn_totem_active",
+    "east": "tnunlimited:blocks/spawn_totem_active",
+    "south": "tnunlimited:blocks/spawn_totem_active",
+    "west": "tnunlimited:blocks/spawn_totem_active",
+    "particle": "tnunlimited:blocks/spawn_totem_top"
+  },
+  "render_type": "solid"
+}

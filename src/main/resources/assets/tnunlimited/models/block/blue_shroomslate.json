@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/blue_shroomslate",
+    "up": "tnunlimited:blocks/blue_shroomslate",
+    "north": "tnunlimited:blocks/blue_shroomslate",
+    "east": "tnunlimited:blocks/blue_shroomslate",
+    "south": "tnunlimited:blocks/blue_shroomslate",
+    "west": "tnunlimited:blocks/blue_shroomslate",
+    "particle": "tnunlimited:blocks/blue_shroomslate"
+  },
+  "render_type": "solid"
+}

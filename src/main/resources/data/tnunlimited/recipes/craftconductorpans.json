@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "1": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "2": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "3": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "5": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "6": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "8": {
+      "item": "tnunlimited:ferrotitanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:train_leggings",
+    "count": 1
+  }
+}

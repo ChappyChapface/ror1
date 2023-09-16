@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lead_shovel",
+    "customModelName": "Normal",
+    "name": "Lead Shovel",
+    "specialInfo": [
+      "§9Melee/Blunt"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 0.8,
+    "enchantability": 21,
+    "damageVsEntity": 7.5,
+    "usageCount": 1441,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

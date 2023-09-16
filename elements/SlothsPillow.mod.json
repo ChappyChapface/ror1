@@ -1,0 +1,47 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "slothspillow",
+    "customModelName": "Normal",
+    "name": "Sloth's Pillow",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:AccessoriesTab"
+    },
+    "stackSize": 1,
+    "enchantability": 30,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.6999999999999997,
+    "specialInfo": [
+      "§aWhen Equipped:",
+      "§7Attacks have a chance to inflict Drowsy",
+      "§7Targets already affected will have the duration extended shortly and the potency will increase",
+      "§7Affected by Luck"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

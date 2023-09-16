@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "tnunlimited:blockof_aardium",
+    "minecraft:weathered_copper",
+    "minecraft:oxidized_copper",
+    "tnunlimited:block_of_lead",
+    "minecraft:redstone_block",
+    "tnunlimited:zinc_block",
+    "minecraft:copper_block",
+    "minecraft:diamond_block",
+    "minecraft:waxed_weathered_copper",
+    "minecraft:netherite_block",
+    "minecraft:lapis_block",
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:exposed_copper",
+    "minecraft:gold_block",
+    "minecraft:waxed_copper_block",
+    "minecraft:emerald_block",
+    "minecraft:waxed_exposed_copper"
+  ]
+}

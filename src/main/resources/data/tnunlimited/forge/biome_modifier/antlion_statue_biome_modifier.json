@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "tnunlimited:antlion_statue",
+  "step": "surface_structures"
+}

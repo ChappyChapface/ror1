@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Blocks.DRAGON_EGG"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedEgg"
+    },
+    "name": "dragon_egg_roasting_on_an_open_fire",
+    "namespace": "mod"
+  }
+}

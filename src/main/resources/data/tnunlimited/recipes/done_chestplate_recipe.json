@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:done"
+    },
+    "2": {
+      "item": "tnunlimited:done"
+    },
+    "3": {
+      "item": "tnunlimited:done"
+    },
+    "4": {
+      "item": "tnunlimited:done"
+    },
+    "5": {
+      "item": "tnunlimited:done"
+    },
+    "6": {
+      "item": "tnunlimited:done"
+    },
+    "7": {
+      "item": "tnunlimited:done"
+    },
+    "8": {
+      "item": "tnunlimited:done"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:done_armour_chestplate",
+    "count": 1
+  }
+}

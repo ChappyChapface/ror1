@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "2": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "3": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "4": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "5": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "6": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "7": {
+      "item": "tnunlimited:ferrotitanium"
+    },
+    "8": {
+      "item": "tnunlimited:ferrotitanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:train_chestplate",
+    "count": 1
+  }
+}

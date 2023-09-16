@@ -1,0 +1,135 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PetCactus"
+      },
+      {
+        "value": "CUSTOM:GoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:EnchantedGoldenCactusPet"
+      },
+      {
+        "value": "CUSTOM:MiracleRune"
+      },
+      {
+        "value": "CUSTOM:FleurBand"
+      },
+      {
+        "value": "CUSTOM:RepulsiveFlowerReplica"
+      },
+      {
+        "value": "CUSTOM:HoneybeeIdol"
+      },
+      {
+        "value": "CUSTOM:SlothsPillow"
+      },
+      {
+        "value": "CUSTOM:Contract"
+      },
+      {
+        "value": "CUSTOM:CardialCharm"
+      },
+      {
+        "value": "CUSTOM:Heartcore"
+      },
+      {
+        "value": "CUSTOM:DecardialNecklace"
+      },
+      {
+        "value": "CUSTOM:IronBand"
+      },
+      {
+        "value": "CUSTOM:BandOfBeatdown"
+      },
+      {
+        "value": "CUSTOM:HematiteInfusedAnchor"
+      },
+      {
+        "value": "CUSTOM:CloudBoots"
+      },
+      {
+        "value": "CUSTOM:OceanBauble"
+      },
+      {
+        "value": "CUSTOM:NeedleGauntlet"
+      },
+      {
+        "value": "CUSTOM:SpikedCollar"
+      },
+      {
+        "value": "CUSTOM:Extender"
+      },
+      {
+        "value": "CUSTOM:Soulofadrenaline"
+      },
+      {
+        "value": "CUSTOM:ShiftPlate"
+      },
+      {
+        "value": "CUSTOM:LeadBand"
+      },
+      {
+        "value": "CUSTOM:AmuletOfSpite"
+      },
+      {
+        "value": "CUSTOM:GoldenFeather"
+      },
+      {
+        "value": "CUSTOM:SpeedBoots"
+      },
+      {
+        "value": "CUSTOM:SuperSpeedBoots"
+      },
+      {
+        "value": "CUSTOM:HolyRelic"
+      },
+      {
+        "value": "CUSTOM:TinySelfDetonator"
+      },
+      {
+        "value": "CUSTOM:WrathsDeathCry"
+      },
+      {
+        "value": "CUSTOM:GamblersLuckyCoin"
+      },
+      {
+        "value": "CUSTOM:TwoLayerHelmet.helmet"
+      },
+      {
+        "value": "CUSTOM:GlassSkull.helmet"
+      },
+      {
+        "value": "CUSTOM:RoseGoldRing"
+      },
+      {
+        "value": "CUSTOM:CrownOfPride"
+      },
+      {
+        "value": "CUSTOM:Eyeofanticipation"
+      },
+      {
+        "value": "CUSTOM:ThickHorseshoe"
+      },
+      {
+        "value": "CUSTOM:Snorkle"
+      },
+      {
+        "value": "CUSTOM:AirTank"
+      },
+      {
+        "value": "CUSTOM:GalvanizedAirTank"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "accessory",
+    "namespace": "mod"
+  }
+}

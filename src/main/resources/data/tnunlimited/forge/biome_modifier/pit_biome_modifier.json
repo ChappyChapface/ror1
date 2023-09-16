@@ -1,0 +1,29 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mushroom_fields",
+    "savanna_plateau",
+    "forest",
+    "sunflower_plains",
+    "snowy_plains",
+    "sparse_jungle",
+    "taiga",
+    "birch_forest",
+    "flower_forest",
+    "snowy_slopes",
+    "snowy_taiga",
+    "old_growth_birch_forest",
+    "windswept_hills",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "savanna",
+    "windswept_savanna",
+    "stony_peaks",
+    "wooded_badlands",
+    "windswept_forest",
+    "old_growth_spruce_taiga"
+  ],
+  "features": "tnunlimited:pit",
+  "step": "surface_structures"
+}

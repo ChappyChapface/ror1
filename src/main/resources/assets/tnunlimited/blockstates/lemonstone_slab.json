@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tnunlimited:block/lemonstone_slab"
+    },
+    "type=top": {
+      "model": "tnunlimited:block/lemonstone_slab_top"
+    },
+    "type=double": {
+      "model": "tnunlimited:block/lemonstone_slab_full"
+    }
+  }
+}

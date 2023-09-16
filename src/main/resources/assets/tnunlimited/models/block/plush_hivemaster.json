@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_hivemaster",
+  "textures": {
+    "all": "tnunlimited:blocks/plush_hivemaster",
+    "particle": "tnunlimited:blocks/plush_hivemaster",
+    "1": "tnunlimited:blocks/plush_hivemaster"
+  },
+  "render_type": "solid"
+}

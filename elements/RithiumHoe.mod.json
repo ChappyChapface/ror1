@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rithiumrealhoe",
+    "customModelName": "Normal",
+    "name": "Rithium Hoe",
+    "specialInfo": [
+      "§9Melee"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 4.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Rithium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

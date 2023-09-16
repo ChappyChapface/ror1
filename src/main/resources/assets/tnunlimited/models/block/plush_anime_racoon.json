@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/plush_anime_racoon",
+  "textures": {
+    "all": "tnunlimited:blocks/plush_anime_racoon",
+    "particle": "tnunlimited:blocks/plush_anime_racoon",
+    "0": "tnunlimited:blocks/plush_anime_racoon"
+  },
+  "render_type": "solid"
+}

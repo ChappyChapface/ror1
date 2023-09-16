@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:sloths_formula"
+    },
+    {
+      "item": "tnunlimited:cherry"
+    },
+    {
+      "item": "tnunlimited:golden_egg"
+    },
+    {
+      "item": "minecraft:honey_block"
+    },
+    {
+      "item": "tnunlimited:sloths_formula"
+    },
+    {
+      "item": "tnunlimited:kiwi"
+    },
+    {
+      "item": "tnunlimited:mug"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "tnunlimited:sloths_formula"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:sloths_bedtime_elixir_3",
+    "count": 1
+  }
+}

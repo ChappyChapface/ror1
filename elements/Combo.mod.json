@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Combo",
+    "type": "WEAPON",
+    "rarity": "UNCOMMON",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "SHARPNESS"
+      },
+      {
+        "value": "BANE_OF_ARTHROPODS"
+      },
+      {
+        "value": "KNOCKBACK"
+      },
+      {
+        "value": "SMITE"
+      },
+      {
+        "value": "CUSTOM:CurseOfDullness"
+      },
+      {
+        "value": "CUSTOM:Puncturing"
+      },
+      {
+        "value": "CUSTOM:TruePiercing"
+      },
+      {
+        "value": "CUSTOM:Impulsive"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

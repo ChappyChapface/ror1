@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "taiga",
+    "birch_forest"
+  ],
+  "features": "tnunlimited:strawberry_bushstage_0",
+  "step": "underground_ores"
+}

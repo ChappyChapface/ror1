@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "windswept_hills",
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_slopes",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "tnunlimited:frostburnt",
+    "weight": 120,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

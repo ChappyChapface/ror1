@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/plush_stoatman"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/plush_stoatman",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/plush_stoatman",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/plush_stoatman",
+      "y": 270
+    }
+  }
+}
