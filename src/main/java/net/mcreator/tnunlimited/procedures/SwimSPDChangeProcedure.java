@@ -54,6 +54,7 @@ public class SwimSPDChangeProcedure {
 			});
 		}
 		entity.getPersistentData().putDouble("mAirLeft", 0);
+		entity.getPersistentData().putDouble("mFireResistLeft", 0);
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.ZINC_ARMOR_HELMET.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.ZINC_ARMOR_CHESTPLATE.get()
 				&& ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.ZINC_ARMOR_LEGGINGS.get()
@@ -76,6 +77,13 @@ public class SwimSPDChangeProcedure {
 					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 2, 0, false, false));
 			}
 		}
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.RITHIUM_ARMOUR_HELMET.get()
+				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.RITHIUM_ARMOUR_CHESTPLATE.get()
+				&& ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.RITHIUM_ARMOUR_LEGGINGS.get()
+						|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.FANCY_PANTS_LEGGINGS.get())
+				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.RITHIUM_ARMOUR_BOOTS.get()) {
+			entity.getPersistentData().putDouble("mFireResistLeft", (entity.getPersistentData().getDouble("mFireResistLeft") + 200));
+		}
 		if (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc00).getItem() == TnunlimitedModItems.AIR_TANK.get()
 				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == TnunlimitedModItems.AIR_TANK.get()
 				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc02).getItem() == TnunlimitedModItems.AIR_TANK.get()) {
@@ -94,6 +102,11 @@ public class SwimSPDChangeProcedure {
 			} else {
 				entity.getPersistentData().putDouble("mAirLeft", (entity.getPersistentData().getDouble("mAirLeft") + 100 + entity.getPersistentData().getDouble("mAirLeft") * 0.2));
 			}
+		}
+		if (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc00).getItem() == TnunlimitedModItems.SUPER_SPEED_BOOTS.get()
+				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == TnunlimitedModItems.SUPER_SPEED_BOOTS.get()
+				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc02).getItem() == TnunlimitedModItems.SUPER_SPEED_BOOTS.get()) {
+			entity.getPersistentData().putDouble("mFireResistLeft", (entity.getPersistentData().getDouble("mFireResistLeft") + 100));
 		}
 		if (entity.getPersistentData().getDouble("airLeft") > 0 && entity.getAirSupply() < 300) {
 			entity.setAirSupply(299);
@@ -119,6 +132,25 @@ public class SwimSPDChangeProcedure {
 		}
 		if (entity.getPersistentData().getDouble("airLeft") > entity.getPersistentData().getDouble("mAirLeft")) {
 			entity.getPersistentData().putDouble("airLeft", (entity.getPersistentData().getDouble("mAirLeft")));
+		}
+		if (entity.getPersistentData().getDouble("fireResistLeft") > 0 && entity.isOnFire()) {
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2, 0));
+			entity.getPersistentData().putDouble("fireResistLeft", (entity.getPersistentData().getDouble("fireResistLeft") - 1));
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal(
+						("Resistance: " + new java.text.DecimalFormat("###").format(entity.getPersistentData().getDouble("fireResistLeft")) + "/" + new java.text.DecimalFormat("###").format(entity.getPersistentData().getDouble("mFireResistLeft")))),
+						true);
+		}
+		if (!entity.isOnFire() && entity.getPersistentData().getDouble("fireResistLeft") < entity.getPersistentData().getDouble("mFireResistLeft")) {
+			entity.getPersistentData().putDouble("fireResistLeft", (entity.getPersistentData().getDouble("fireResistLeft") + 1));
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(Component.literal(
+						("Resistance: " + new java.text.DecimalFormat("###").format(entity.getPersistentData().getDouble("fireResistLeft")) + "/" + new java.text.DecimalFormat("###").format(entity.getPersistentData().getDouble("mFireResistLeft")))),
+						true);
+		}
+		if (entity.getPersistentData().getDouble("fireResistLeft") > entity.getPersistentData().getDouble("mFireResistLeft")) {
+			entity.getPersistentData().putDouble("fireResistLeft", (entity.getPersistentData().getDouble("mFireResistLeft")));
 		}
 		{
 			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).swimSpeedIncrease;

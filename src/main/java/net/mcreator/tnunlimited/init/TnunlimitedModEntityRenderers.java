@@ -40,6 +40,7 @@ import net.mcreator.tnunlimited.client.renderer.IronSpikeRenderer;
 import net.mcreator.tnunlimited.client.renderer.GoldSpikeRenderer;
 import net.mcreator.tnunlimited.client.renderer.GildedBugRenderer;
 import net.mcreator.tnunlimited.client.renderer.GalvanizedHarpoonRenderer;
+import net.mcreator.tnunlimited.client.renderer.FuryHookRenderer;
 import net.mcreator.tnunlimited.client.renderer.FrostburntRenderer;
 import net.mcreator.tnunlimited.client.renderer.FrostburnSphereRenderer;
 import net.mcreator.tnunlimited.client.renderer.FrostSpikeRenderer;
@@ -137,5 +138,6 @@ public class TnunlimitedModEntityRenderers {
 		event.registerEntityRenderer(TnunlimitedModEntities.KKOREUL_BULLET.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(TnunlimitedModEntities.KKOREUL_MINION.get(), KkoreulMinionRenderer::new);
 		event.registerEntityRenderer(TnunlimitedModEntities.KKOREUL.get(), KkoreulRenderer::new);
+		event.registerEntityRenderer(TnunlimitedModEntities.FURY_HOOK.get(), FuryHookRenderer::new);
 	}
 }

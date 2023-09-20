@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Unlock Tank Class",
-    "achievementDescription": "Take 250 total damage",
+    "achievementDescription": "Take 200 total damage",
     "achievementIcon": {
       "value": "CUSTOM:BedrockCoin"
     },

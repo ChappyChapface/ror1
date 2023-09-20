@@ -25,6 +25,7 @@ import net.mcreator.tnunlimited.enchantment.ImpulsiveEnchantment;
 import net.mcreator.tnunlimited.enchantment.HarvestingEnchantment;
 import net.mcreator.tnunlimited.enchantment.FullMagicJacketEnchantment;
 import net.mcreator.tnunlimited.enchantment.FloatingEnchantment;
+import net.mcreator.tnunlimited.enchantment.ExtendedChainsEnchantment;
 import net.mcreator.tnunlimited.enchantment.DashingEnchantment;
 import net.mcreator.tnunlimited.enchantment.CurseOfHesitationEnchantment;
 import net.mcreator.tnunlimited.enchantment.CurseOfDullnessEnchantment;
@@ -64,4 +65,5 @@ public class TnunlimitedModEnchantments {
 	public static final RegistryObject<Enchantment> PUNCTURING = REGISTRY.register("puncturing", () -> new PuncturingEnchantment());
 	public static final RegistryObject<Enchantment> TRUE_PIERCING = REGISTRY.register("true_piercing", () -> new TruePiercingEnchantment());
 	public static final RegistryObject<Enchantment> BEATDOWN = REGISTRY.register("beatdown", () -> new BeatdownEnchantment());
+	public static final RegistryObject<Enchantment> EXTENDED_CHAINS = REGISTRY.register("extended_chains", () -> new ExtendedChainsEnchantment());
 }

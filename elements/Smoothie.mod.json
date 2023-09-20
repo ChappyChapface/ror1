@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "goldenegg",
+    "texture": "smoothie",
     "customModelName": "Normal",
     "name": "Smoothie",
     "rarity": "COMMON",
@@ -27,7 +27,7 @@
     "specialInfo": [
       "§aEffect: §7Has the combined effects of 2 blended fruits"
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -38,7 +38,7 @@
     "nutritionalValue": 0,
     "saturation": 0.0,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.GLASS_BOTTLE"
     },
     "isMeat": false,
     "isAlwaysEdible": true,

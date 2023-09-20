@@ -112,6 +112,7 @@ public class TnunlimitedModVariables {
 			clone.piercingSTR = original.piercingSTR;
 			clone.tempPierce = original.tempPierce;
 			clone.reachChange = original.reachChange;
+			clone.energybladecharge = original.energybladecharge;
 			clone.AtkSpd = original.AtkSpd;
 			clone.AtkSpdIncrease = original.AtkSpdIncrease;
 			clone.nitroclaymorecharge = original.nitroclaymorecharge;
@@ -132,9 +133,15 @@ public class TnunlimitedModVariables {
 			clone.PlayerItem = original.PlayerItem;
 			clone.playerYaw = original.playerYaw;
 			clone.playerPitch = original.playerPitch;
+			clone.recentDamageDealt = original.recentDamageDealt;
+			clone.ninjaClassUnlock = original.ninjaClassUnlock;
+			clone.directionSelector = original.directionSelector;
 			if (!event.isWasDeath()) {
 				clone.doubleJumps = original.doubleJumps;
 				clone.page = original.page;
+				clone.tarX = original.tarX;
+				clone.tarY = original.tarY;
+				clone.tarZ = original.tarZ;
 			}
 		}
 
@@ -199,7 +206,6 @@ public class TnunlimitedModVariables {
 		public boolean dragon_killed = false;
 		public double SessionLength = 0;
 		public double NetherTowerLimitedCount = 0;
-		public double energybladecharge = 0.0;
 		public double worldAge = 0;
 		public boolean stageSpawn = false;
 
@@ -213,7 +219,6 @@ public class TnunlimitedModVariables {
 			dragon_killed = nbt.getBoolean("dragon_killed");
 			SessionLength = nbt.getDouble("SessionLength");
 			NetherTowerLimitedCount = nbt.getDouble("NetherTowerLimitedCount");
-			energybladecharge = nbt.getDouble("energybladecharge");
 			worldAge = nbt.getDouble("worldAge");
 			stageSpawn = nbt.getBoolean("stageSpawn");
 		}
@@ -223,7 +228,6 @@ public class TnunlimitedModVariables {
 			nbt.putBoolean("dragon_killed", dragon_killed);
 			nbt.putDouble("SessionLength", SessionLength);
 			nbt.putDouble("NetherTowerLimitedCount", NetherTowerLimitedCount);
-			nbt.putDouble("energybladecharge", energybladecharge);
 			nbt.putDouble("worldAge", worldAge);
 			nbt.putBoolean("stageSpawn", stageSpawn);
 			return nbt;
@@ -354,6 +358,7 @@ public class TnunlimitedModVariables {
 		public double piercingSTR = 0;
 		public double tempPierce = 0;
 		public double reachChange = 0;
+		public double energybladecharge = 0.0;
 		public double AtkSpd = 0;
 		public double AtkSpdIncrease = 0;
 		public double nitroclaymorecharge = 0;
@@ -375,6 +380,12 @@ public class TnunlimitedModVariables {
 		public ItemStack PlayerItem = ItemStack.EMPTY;
 		public double playerYaw = 0;
 		public double playerPitch = 0;
+		public double recentDamageDealt = 0;
+		public boolean ninjaClassUnlock = false;
+		public Direction directionSelector = Direction.DOWN;
+		public double tarX = 0;
+		public double tarY = 0;
+		public double tarZ = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -423,6 +434,7 @@ public class TnunlimitedModVariables {
 			nbt.putDouble("piercingSTR", piercingSTR);
 			nbt.putDouble("tempPierce", tempPierce);
 			nbt.putDouble("reachChange", reachChange);
+			nbt.putDouble("energybladecharge", energybladecharge);
 			nbt.putDouble("AtkSpd", AtkSpd);
 			nbt.putDouble("AtkSpdIncrease", AtkSpdIncrease);
 			nbt.putDouble("nitroclaymorecharge", nitroclaymorecharge);
@@ -444,6 +456,12 @@ public class TnunlimitedModVariables {
 			nbt.put("PlayerItem", PlayerItem.save(new CompoundTag()));
 			nbt.putDouble("playerYaw", playerYaw);
 			nbt.putDouble("playerPitch", playerPitch);
+			nbt.putDouble("recentDamageDealt", recentDamageDealt);
+			nbt.putBoolean("ninjaClassUnlock", ninjaClassUnlock);
+			nbt.putInt("directionSelector", directionSelector.get3DDataValue());
+			nbt.putDouble("tarX", tarX);
+			nbt.putDouble("tarY", tarY);
+			nbt.putDouble("tarZ", tarZ);
 			return nbt;
 		}
 
@@ -489,6 +507,7 @@ public class TnunlimitedModVariables {
 			piercingSTR = nbt.getDouble("piercingSTR");
 			tempPierce = nbt.getDouble("tempPierce");
 			reachChange = nbt.getDouble("reachChange");
+			energybladecharge = nbt.getDouble("energybladecharge");
 			AtkSpd = nbt.getDouble("AtkSpd");
 			AtkSpdIncrease = nbt.getDouble("AtkSpdIncrease");
 			nitroclaymorecharge = nbt.getDouble("nitroclaymorecharge");
@@ -510,6 +529,12 @@ public class TnunlimitedModVariables {
 			PlayerItem = ItemStack.of(nbt.getCompound("PlayerItem"));
 			playerYaw = nbt.getDouble("playerYaw");
 			playerPitch = nbt.getDouble("playerPitch");
+			recentDamageDealt = nbt.getDouble("recentDamageDealt");
+			ninjaClassUnlock = nbt.getBoolean("ninjaClassUnlock");
+			directionSelector = Direction.from3DDataValue(nbt.getInt("directionSelector"));
+			tarX = nbt.getDouble("tarX");
+			tarY = nbt.getDouble("tarY");
+			tarZ = nbt.getDouble("tarZ");
 		}
 	}
 
@@ -574,6 +599,7 @@ public class TnunlimitedModVariables {
 					variables.piercingSTR = message.data.piercingSTR;
 					variables.tempPierce = message.data.tempPierce;
 					variables.reachChange = message.data.reachChange;
+					variables.energybladecharge = message.data.energybladecharge;
 					variables.AtkSpd = message.data.AtkSpd;
 					variables.AtkSpdIncrease = message.data.AtkSpdIncrease;
 					variables.nitroclaymorecharge = message.data.nitroclaymorecharge;
@@ -595,6 +621,12 @@ public class TnunlimitedModVariables {
 					variables.PlayerItem = message.data.PlayerItem;
 					variables.playerYaw = message.data.playerYaw;
 					variables.playerPitch = message.data.playerPitch;
+					variables.recentDamageDealt = message.data.recentDamageDealt;
+					variables.ninjaClassUnlock = message.data.ninjaClassUnlock;
+					variables.directionSelector = message.data.directionSelector;
+					variables.tarX = message.data.tarX;
+					variables.tarY = message.data.tarY;
+					variables.tarZ = message.data.tarZ;
 				}
 			});
 			context.setPacketHandled(true);

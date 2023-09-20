@@ -54,6 +54,7 @@ import net.mcreator.tnunlimited.client.model.ModelJermaHelmet;
 import net.mcreator.tnunlimited.client.model.ModelIceShootSword;
 import net.mcreator.tnunlimited.client.model.ModelGildedBug;
 import net.mcreator.tnunlimited.client.model.ModelGalvanizedHarpoon;
+import net.mcreator.tnunlimited.client.model.ModelFuryHook_Converted;
 import net.mcreator.tnunlimited.client.model.ModelDuneSpider;
 import net.mcreator.tnunlimited.client.model.ModelDart;
 import net.mcreator.tnunlimited.client.model.ModelCoffeePotBug1;
@@ -108,6 +109,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(ModelRoachChestplate.LAYER_LOCATION, ModelRoachChestplate::createBodyLayer);
 		event.registerLayerDefinition(ModelLapisTreadling.LAYER_LOCATION, ModelLapisTreadling::createBodyLayer);
 		event.registerLayerDefinition(Modeldioritehelmet.LAYER_LOCATION, Modeldioritehelmet::createBodyLayer);
+		event.registerLayerDefinition(ModelFuryHook_Converted.LAYER_LOCATION, ModelFuryHook_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelfrost_ant_queen.LAYER_LOCATION, Modelfrost_ant_queen::createBodyLayer);
 		event.registerLayerDefinition(Modelblood_spheres.LAYER_LOCATION, Modelblood_spheres::createBodyLayer);
 		event.registerLayerDefinition(ModeldioriteChestplate.LAYER_LOCATION, ModeldioriteChestplate::createBodyLayer);

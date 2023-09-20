@@ -8,6 +8,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.InteractionHand;
 
 import net.mcreator.tnunlimited.init.TnunlimitedModItems;
 
@@ -17,13 +18,20 @@ public class CoffeePlantPlantRightClickedProcedure {
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL || (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL) {
 			if (world instanceof Level _level && !_level.isClientSide()) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(TnunlimitedModItems.COFFEE_FRUIT.get()));
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(TnunlimitedModItems.COFFEE_BEANS.get()));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL);
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.swing(InteractionHand.MAIN_HAND, true);
+			} else {
+				if (entity instanceof LivingEntity _entity)
+					_entity.swing(InteractionHand.OFF_HAND, true);
 			}
 		}
 	}

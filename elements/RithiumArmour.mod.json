@@ -20,19 +20,19 @@
     "bootsName": "Rithium Boots",
     "helmetSpecialInfo": [
       "§aSet Bonus:",
-      "§7Grants Fire Resistance"
+      "§7Grants +10s Fire Resistance"
     ],
     "bodySpecialInfo": [
       "§aSet Bonus:",
-      "§7Grants Fire Resistance"
+      "§7Grants +10s Fire Resistance"
     ],
     "leggingsSpecialInfo": [
       "§aSet Bonus:",
-      "§7Grants Fire Resistance"
+      "§7Grants +10s Fire Resistance"
     ],
     "bootsSpecialInfo": [
       "§aSet Bonus:",
-      "§7Grants Fire Resistance"
+      "§7Grants +10s Fire Resistance"
     ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -68,7 +68,7 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 9,
-    "toughness": 0.0,
+    "toughness": 2.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""

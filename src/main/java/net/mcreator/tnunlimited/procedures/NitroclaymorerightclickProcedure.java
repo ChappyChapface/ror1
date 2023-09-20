@@ -21,7 +21,7 @@ public class NitroclaymorerightclickProcedure {
 		if (entity == null)
 			return;
 		{
-			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).nitroclaymorecharge + 9;
+			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).nitroclaymorecharge + 5;
 			entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.nitroclaymorecharge = _setval;
 				capability.syncPlayerVariables(entity);

@@ -83,9 +83,8 @@ public class HeartcoreEffectProcedure {
 		if (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc00).getItem() == TnunlimitedModItems.GAMBLERS_LUCKY_COIN.get()
 				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == TnunlimitedModItems.GAMBLERS_LUCKY_COIN.get()
 				|| ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc02).getItem() == TnunlimitedModItems.GAMBLERS_LUCKY_COIN.get()) {
-			if (Mth.nextInt(RandomSource.create(), 1, (int) (Math.round(
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) * 4 * (1 / (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).LuckIncrease))
-					+ 1)) <= 1) {
+			if (Mth.nextInt(RandomSource.create(), 1, (int) (Math.round((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) * 4
+					* (1 / ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).LuckIncrease + 1))) + 1)) <= 1) {
 				if (event != null && event.isCancelable()) {
 					event.setCanceled(true);
 				}

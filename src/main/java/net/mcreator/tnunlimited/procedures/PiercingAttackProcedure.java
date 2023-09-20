@@ -39,7 +39,7 @@ public class PiercingAttackProcedure {
 								* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
 			} else {
 				entity.hurt(DamageSource.GENERIC, (float) ((4 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
+						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 1) * 1.5));
 			}
 		}
 		if (TnunlimitedModItems.DIORITE_SPEAR.get() == (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
@@ -50,7 +50,7 @@ public class PiercingAttackProcedure {
 								* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
 			} else {
 				entity.hurt(DamageSource.GENERIC, (float) ((3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
+						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 1) * 1.5));
 			}
 		}
 		if (TnunlimitedModItems.NITRO_SPEAR.get() == (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
@@ -61,7 +61,7 @@ public class PiercingAttackProcedure {
 								* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
 			} else {
 				entity.hurt(DamageSource.GENERIC, (float) ((6 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
+						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 1) * 1.5));
 			}
 		}
 		if (TnunlimitedModItems.BITTER_DESIRE.get() == (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
@@ -72,7 +72,7 @@ public class PiercingAttackProcedure {
 								* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
 			} else {
 				entity.hurt(DamageSource.GENERIC, (float) ((5 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
+						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 1) * 1.5));
 			}
 		}
 		if (TnunlimitedModItems.GALVANIZED_HARPOON.get() == (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
@@ -83,7 +83,7 @@ public class PiercingAttackProcedure {
 								* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
 			} else {
 				entity.hurt(DamageSource.GENERIC, (float) ((3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 5) * 1.5));
+						* ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).piercingSTR + 1) * 1.5));
 			}
 		}
 	}

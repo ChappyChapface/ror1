@@ -9,8 +9,8 @@
     "actionSound": {
       "value": "block.note.guitar"
     },
-    "hat": "None",
-    "professionTextureFile": "berniezombiereal.png",
-    "zombifiedProfessionTextureFile": "berniezombiereal.png"
+    "hat": "Full",
+    "professionTextureFile": "musician.png",
+    "zombifiedProfessionTextureFile": "musician.png"
   }
 }

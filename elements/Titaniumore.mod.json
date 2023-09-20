@@ -117,7 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -133,10 +135,13 @@
         "value": "Blocks.STONE#5"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 32,
+    "generateCondition": {
+      "name": "PostDragSpawnCondition"
+    }
   }
 }

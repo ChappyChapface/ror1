@@ -1288,6 +1288,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
           }
         ]
       }
@@ -7662,12 +7666,7 @@
         "files": [
           "src/main/java/net/mcreator/tnunlimited/procedures/NightVisionHelmetHelmetTickEventProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -8158,6 +8157,10 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
           },
           {
             "name": "x",
@@ -10354,7 +10357,9 @@
           "src/main/java/net/mcreator/tnunlimited/block/TitaniumoreBlock.java",
           "src/main/resources/assets/tnunlimited/blockstates/titaniumore.json",
           "src/main/resources/assets/tnunlimited/models/block/titaniumore.json",
-          "src/main/resources/assets/tnunlimited/models/item/titaniumore.json"
+          "src/main/resources/assets/tnunlimited/models/item/titaniumore.json",
+          "src/main/resources/data/tnunlimited/forge/biome_modifier/titaniumore_biome_modifier.json",
+          "src/main/java/net/mcreator/tnunlimited/world/features/ores/TitaniumoreFeature.java"
         ]
       }
     },
@@ -12130,7 +12135,28 @@
         "files": [
           "src/main/java/net/mcreator/tnunlimited/procedures/NitrobladeRightclickedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
@@ -16924,6 +16950,10 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -18872,6 +18902,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "amount",
             "type": "number"
           }
@@ -20745,6 +20779,16 @@
           "src/main/resources/assets/tnunlimited/blockstates/cracked_dacite_bricks.json",
           "src/main/java/net/mcreator/tnunlimited/block/CrackedDaciteBricksBlock.java",
           "src/main/resources/assets/tnunlimited/models/block/cracked_dacite_bricks.json"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
         ]
       }
     },
@@ -21388,6 +21432,28 @@
           "src/main/resources/assets/tnunlimited/models/block/purple_cobble_shroomslate_shairs_inner.json",
           "src/main/resources/assets/tnunlimited/models/block/purple_cobble_shroomslate_shairs.json",
           "src/main/java/net/mcreator/tnunlimited/block/PurpleCobbleShroomslateShairsBlock.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     },
@@ -21837,10 +21903,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -22473,7 +22535,9 @@
       "locked_code": false,
       "registry_name": "musician",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/tnunlimited/textures/entity/villager/profession/musician.png.mcmeta"
+        ]
       }
     },
     {
@@ -22984,6 +23048,184 @@
           "src/main/resources/data/tnunlimited/recipes/blender_recipe.json"
         ]
       }
+    },
+    {
+      "name": "NinjaUnlock",
+      "type": "achievement",
+      "sortid": 1306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninja_unlock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tnunlimited/advancements/ninja_unlock.json"
+        ]
+      }
+    },
+    {
+      "name": "FuryHookYoink",
+      "type": "procedure",
+      "sortid": 1307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook_yoink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/FuryHookYoinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuryHook",
+      "type": "rangeditem",
+      "sortid": 1308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/item/FuryHookItem.java",
+          "src/main/resources/assets/tnunlimited/models/item/fury_hook.json",
+          "src/main/java/net/mcreator/tnunlimited/client/renderer/FuryHookRenderer.java",
+          "src/main/java/net/mcreator/tnunlimited/entity/FuryHookEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "FuryHookCooldowm",
+      "type": "procedure",
+      "sortid": 1309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook_cooldowm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/FuryHookCooldowmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuryHookNoGrav",
+      "type": "procedure",
+      "sortid": 1310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook_no_grav",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/FuryHookNoGravProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuryHookBlockHit",
+      "type": "procedure",
+      "sortid": 1311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook_block_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/FuryHookBlockHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FeralHuntingKnife",
+      "type": "tool",
+      "sortid": 1312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_hunting_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/item/FeralHuntingKnifeItem.java",
+          "src/main/resources/assets/tnunlimited/models/item/feral_hunting_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "FuryHookRecipe",
+      "type": "recipe",
+      "sortid": 1313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fury_hook_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tnunlimited/recipes/fury_hook_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HookAdvancement",
+      "type": "achievement",
+      "sortid": 1314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hook_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tnunlimited/advancements/hook_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtendedChains",
+      "type": "enchantment",
+      "sortid": 1320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extended_chains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/enchantment/ExtendedChainsEnchantment.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -23248,7 +23490,7 @@
     {
       "name": "energybladecharge",
       "type": "number",
-      "scope": "map",
+      "scope": "player_persistent",
       "value": "0.0"
     },
     {
@@ -23387,6 +23629,42 @@
       "name": "playerPitch",
       "type": "number",
       "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "recentDamageDealt",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ninjaClassUnlock",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "directionSelector",
+      "type": "direction",
+      "scope": "player_persistent",
+      "value": "DOWN"
+    },
+    {
+      "name": "tarX",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "tarY",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "tarZ",
+      "type": "number",
+      "scope": "player_lifetime",
       "value": "0"
     }
   ],
@@ -23725,6 +24003,7 @@
       "block.tnunlimited.blue_shroom_fungi": "Purple Shroom Fungi",
       "item.tnunlimited.bleeding_heart_charm": "Bleeding Heart Charm",
       "gui.tnunlimited.stat_sheet.label_fam_str": "FAM STR:",
+      "advancements.ninja_unlock.title": "Unlock Ninja Class",
       "item.tnunlimited.warcaster_boots": "Warcaster Boots",
       "item.tnunlimited.shift_plate": "Shift Plate",
       "enchantment.tnunlimited.aerial_movement": "Aerial Movement",
@@ -23732,7 +24011,7 @@
       "item.tnunlimited.ocean_waste": "Music Disc",
       "enchantment.tnunlimited.harvesting": "Harvesting",
       "item.minecraft.splash_potion.effect.potion_of_sturdy_ii": "Splash Potion of Sturdy",
-      "gui.tnunlimited.blender_gui.label_blender": "BLENDER",
+      "gui.tnunlimited.blender_gui.label_blender": "Bottle",
       "item.tnunlimited.galvanized_club": "Galvanized Club",
       "item.tnunlimited.wooden_sickle": "Wooden Sickle",
       "item.minecraft.lingering_potion.effect.replenishment_ii": "Lingering Potion of Replenishment",
@@ -23740,7 +24019,7 @@
       "item.tnunlimited.slime_armour_leggings": "Slime Leggings",
       "death.attack.potato": "%1$s failed to pass the potato",
       "item.tnunlimited.rithium_pickaxe": "Rithium Pickaxe",
-      "advancements.smoothie_advancement.descr": "Smoothie",
+      "advancements.smoothie_advancement.descr": "Blend and drink a Smoothie",
       "item.tnunlimited.golden_egg": "Golden Egg",
       "gamerule.nerfCrossbow.description": "Quick Charge will now reduce crossbow damage by 10% per level.",
       "subtitles.enter_the_fog": "",
@@ -23824,6 +24103,8 @@
       "block.tnunlimited.lead_ore": "Lead Ore",
       "entity.tnunlimited.player_frost_spike_entity": "Frost Spike",
       "gui.tnunlimited.stat_sheet.label_armor1": "ARMOR:",
+      "enchantment.tnunlimited.extended_chains": "Extended Chains",
+      "item.tnunlimited.fury_hook": "Fury Hook",
       "item.tnunlimited.lead_pickaxe": "Lead Pickaxe",
       "key.tnunlimited.doublejump": "Doublejump",
       "item.tnunlimited.coal_treadling_spawn_egg": "Coal Treadling Spawn Egg",
@@ -23834,7 +24115,8 @@
       "item.tnunlimited.hamburger": "Hamburger",
       "item.minecraft.potion.effect.instant_depletion": "Potion of Instant Depletion",
       "gui.tnunlimited.spawning_eye_gui.button_feed": "Feed",
-      "advancements.tank_unlock.descr": "Take 250 total damage",
+      "advancements.tank_unlock.descr": "Take 200 total damage",
+      "advancements.hook_advancement.descr": "Grapple an entity with the Fury Hook",
       "item.tnunlimited.slime_armour_helmet": "Slime Helmet",
       "effect.tnunlimited.sturdy": "Sturdy",
       "item.tnunlimited.dryout_disc": "Music Disc",
@@ -23942,6 +24224,7 @@
       "item.tnunlimited.coroner_spawn_egg": "Coroner Spawn Egg",
       "item.tnunlimited.done_armour_leggings": "Bomeen Leggings",
       "item.tnunlimited.lead_band": "Lead Band",
+      "item.tnunlimited.feral_hunting_knife": "Feral Hunting Knife",
       "item.tnunlimited.galvanized_hoe": "Galvanized Hoe",
       "item.tnunlimited.lead_axe": "Lead Axe",
       "item.tnunlimited.frost_spike_enity_spawn_egg": "Frost Spike Spawn Egg",
@@ -23995,6 +24278,7 @@
       "item.tnunlimited.antimony_tools_pickaxe": "Antimony Pickaxe",
       "item.tnunlimited.rithium_axe": "Rithium Axe",
       "subtitles.the_dragon_guarding_the_abyss": "The Dragon Guarding the Abyss - pokeplaza",
+      "advancements.ninja_unlock.descr": "Deal 200 damage without taking damage",
       "effect.tnunlimited.instant_mana_effect": "Instant Mana",
       "item.tnunlimited.the_dragon_guarding_the_abyss": "Music Disc",
       "item.tnunlimited.rose_gold_disc": "Rose Gold Disc",
@@ -24064,7 +24348,7 @@
       "block.tnunlimited.cattail": "Cattail",
       "subtitles.tdgta-loop": "",
       "item.tnunlimited.bedrock_andy_spawn_egg": "Bedrock Andy Spawn Egg",
-      "gui.tnunlimited.blender_gui.label_ingredients": "Ingredients",
+      "gui.tnunlimited.blender_gui.label_ingredients": "Plants",
       "block.tnunlimited.chiseled_lemonstone": "Chiseled Lemonstone",
       "gamerule.antiFarm": "Anti-Farm",
       "item.tnunlimited.kiwi": "Kiwi",
@@ -24117,6 +24401,7 @@
       "item.tnunlimited.granite_boots": "Granite Boots",
       "item.tnunlimited.rose_gold_ingot": "Rose Gold Ingot",
       "item.tnunlimited.wither_and_rot.desc": "Chapface - Wither and Rot",
+      "advancements.hook_advancement.title": "Get Over Here!",
       "advancements.tank_unlock.title": "Unlock Tank Class",
       "effect.tnunlimited.bleeding": "Bleeding",
       "gui.tnunlimited.stat_sheet.label_armor": "ARMOR:",
@@ -24256,7 +24541,7 @@
       "item.tnunlimited.critical_sword": "Critical Sword",
       "block.tnunlimited.polished_dacite_pressure_plate": "Polished Dacite Pressure Plate",
       "block.tnunlimited.palm_wood_wood": "Palm Log Wood",
-      "advancements.smoothie_advancement.title": "MMMMMMMMM SMOOOOOTHIE",
+      "advancements.smoothie_advancement.title": "Fruity Fusion",
       "item.minecraft.splash_potion.effect.depleting_plus": "Splash Potion of Depleting",
       "item.minecraft.potion.effect.replenishment_ii": "Potion of Replenishment",
       "item.tnunlimited.pirate_deadeye_spawn_egg": "Pirate Deadeye Spawn Egg",

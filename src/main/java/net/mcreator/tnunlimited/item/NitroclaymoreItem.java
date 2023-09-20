@@ -37,7 +37,7 @@ public class NitroclaymoreItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 22f;
+				return 16f;
 			}
 
 			public int getLevel() {

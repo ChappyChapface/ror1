@@ -37,7 +37,7 @@ public class BandOfBeatdownEffectProcedure {
 				|| ((sourceentity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == TnunlimitedModItems.BAND_OF_BEATDOWN.get()
 				|| ((sourceentity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc02).getItem() == TnunlimitedModItems.BAND_OF_BEATDOWN.get())
 				&& (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("forge:blunt_weapon")))) {
-			entity.hurt(DamageSource.GENERIC, (float) (amount * ((entity instanceof LivingEntity _livEnt ? _livEnt.getArmorValue() : 0) / 20)));
+			entity.hurt(DamageSource.GENERIC, (float) ((amount / 50) * (entity instanceof LivingEntity _livEnt ? _livEnt.getArmorValue() : 0)));
 		}
 	}
 }

@@ -8,7 +8,7 @@
     "name": "Bloody Rapier",
     "specialInfo": [
       "§aAbility: §7Attacks inflict Bleeding",
-      "§9Melee/Slashing"
+      "§9Melee/Piercing"
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -29,9 +29,6 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "BloodyRapierEffect"
-    }
+    "damageOnCrafting": false
   }
 }

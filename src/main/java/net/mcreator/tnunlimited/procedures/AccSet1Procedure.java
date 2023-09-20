@@ -150,8 +150,8 @@ public class AccSet1Procedure {
 		if (!(entity instanceof ServerPlayer _plr43 && _plr43.level instanceof ServerLevel
 				&& _plr43.getAdvancements().getOrStartProgress(_plr43.server.getAdvancements().getAdvancement(new ResourceLocation("tnunlimited:equipped_advancement"))).isDone())
 				&& !(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == Blocks.AIR.asItem())
-				&& !(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == Blocks.AIR.asItem())
-				&& !(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc01).getItem() == Blocks.AIR.asItem())) {
+				&& !(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc02).getItem() == Blocks.AIR.asItem())
+				&& !(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc00).getItem() == Blocks.AIR.asItem())) {
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("tnunlimited:equipped_advancement"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

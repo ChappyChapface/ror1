@@ -63,7 +63,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tnunlimited:tree_bark_disc",
+          "name": "tnunlimited:bedrock_coin",
           "weight": 1,
           "functions": [
             {

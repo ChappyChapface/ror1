@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "MMMMMMMMM SMOOOOOTHIE",
-    "achievementDescription": "Smoothie",
+    "achievementName": "Fruity Fusion",
+    "achievementDescription": "Blend and drink a Smoothie",
     "achievementIcon": {
       "value": "CUSTOM:Smoothie"
     },
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
-    "achievementType": "goal",
+    "achievementType": "task",
     "parent": {
       "value": "nether/brew_potion"
     },

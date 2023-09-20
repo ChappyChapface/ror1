@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/furyhook",
+  "textures": {
+    "0": "tnunlimited:blocks/furyhook",
+    "particle": "tnunlimited:items/rawtitanium"
+  }
+}

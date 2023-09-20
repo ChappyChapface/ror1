@@ -50,7 +50,7 @@ public class BluntChargeProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.DARK_WARHAMMER.get()
 				&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.CHARGING.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.CHARGING.get()).getAmplifier() : 0) < 2
 				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.GRANITE_CLUB.get()
-						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.CHARGING.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.CHARGING.get()).getAmplifier() : 0) < 0
+						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.CHARGING.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.CHARGING.get()).getAmplifier() : 0) < 1
 				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.LEAD_CLUB.get()
 						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.CHARGING.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.CHARGING.get()).getAmplifier() : 0) < 2
 				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.IRON_CLUB.get()
@@ -70,6 +70,8 @@ public class BluntChargeProcedure {
 		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.AARDIUM_CLUB.get()
 				&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.CHARGING.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.CHARGING.get()).getAmplifier() : 0) < 1) {
 			entity.getPersistentData().putDouble("bluntCharge", (entity.getPersistentData().getDouble("bluntCharge") + 3));
+		} else {
+			entity.getPersistentData().putDouble("bluntCharge", 0);
 		}
 		if (entity.getPersistentData().getDouble("bluntCharge") >= 25 - EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.IMPULSIVE.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 2
 				&& EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.IMPULSIVE.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0

@@ -21,7 +21,7 @@ public class NitrokniferightclickProcedure {
 		if (entity == null)
 			return;
 		{
-			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).nitroknifecharge + 4;
+			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).nitroknifecharge + 2;
 			entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.nitroknifecharge = _setval;
 				capability.syncPlayerVariables(entity);

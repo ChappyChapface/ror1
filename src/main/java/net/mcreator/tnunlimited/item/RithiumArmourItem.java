@@ -56,7 +56,7 @@ public abstract class RithiumArmourItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 
 			@Override
@@ -75,7 +75,7 @@ public abstract class RithiumArmourItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7aSet Bonus:"));
-			list.add(Component.literal("\u00A77Grants Fire Resistance"));
+			list.add(Component.literal("\u00A77Grants +10s Fire Resistance"));
 		}
 
 		@Override
@@ -93,7 +93,7 @@ public abstract class RithiumArmourItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7aSet Bonus:"));
-			list.add(Component.literal("\u00A77Grants Fire Resistance"));
+			list.add(Component.literal("\u00A77Grants +10s Fire Resistance"));
 		}
 
 		@Override
@@ -111,7 +111,7 @@ public abstract class RithiumArmourItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7aSet Bonus:"));
-			list.add(Component.literal("\u00A77Grants Fire Resistance"));
+			list.add(Component.literal("\u00A77Grants +10s Fire Resistance"));
 		}
 
 		@Override
@@ -129,7 +129,7 @@ public abstract class RithiumArmourItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7aSet Bonus:"));
-			list.add(Component.literal("\u00A77Grants Fire Resistance"));
+			list.add(Component.literal("\u00A77Grants +10s Fire Resistance"));
 		}
 
 		@Override

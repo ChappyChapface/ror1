@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "goldenegg",
+    "texture": "air_tank",
     "customModelName": "Normal",
     "name": "Air Tank",
     "rarity": "COMMON",

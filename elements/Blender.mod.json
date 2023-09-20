@@ -105,7 +105,7 @@
     "hasInventory": true,
     "guiBoundTo": "BlenderGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 4,
+    "inventorySize": 5,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,

@@ -26,6 +26,6 @@ public class SuperSpeedBootsItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7aWhen Equipped:"));
-		list.add(Component.literal("\u00A77+20% Movement Speed and grants Fire Resistance"));
+		list.add(Component.literal("\u00A77+20% Movement Speed and grants +5s Fire Resistance"));
 	}
 }

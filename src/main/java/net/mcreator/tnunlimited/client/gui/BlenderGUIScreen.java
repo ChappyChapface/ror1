@@ -71,9 +71,9 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_blender"), 22, 9, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_fuel"), 94, 36, -12829636);
-		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_ingredients"), 14, 63, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_blender"), 131, 61, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_fuel"), 138, 9, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.tnunlimited.blender_gui.label_ingredients"), 10, 60, -12829636);
 	}
 
 	@Override
@@ -86,7 +86,7 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		button_blend = new Button(this.leftPos + 78, this.topPos + 52, 51, 20, Component.translatable("gui.tnunlimited.blender_gui.button_blend"), e -> {
+		button_blend = new Button(this.leftPos + 59, this.topPos + 43, 51, 20, Component.translatable("gui.tnunlimited.blender_gui.button_blend"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new BlenderGUIButtonMessage(0, x, y, z));
 				BlenderGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

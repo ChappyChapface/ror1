@@ -78,12 +78,12 @@ public class OverdriveTableUIMenu extends AbstractContainerMenu implements Suppl
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 26) {
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 26) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(new ResourceLocation("tnunlimited:scrolls")));
 			}
-		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 26) {
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 133, 26) {
 			@Override

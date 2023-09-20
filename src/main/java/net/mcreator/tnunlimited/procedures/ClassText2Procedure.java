@@ -22,6 +22,8 @@ public class ClassText2Procedure {
 				return "+25% Familiar Damage";
 			} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 5) {
 				return "+25% Armor";
+			} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 6) {
+				return "+10% Spd, +10% AtkSpd";
 			}
 		} else if (entity instanceof Player _plr ? _plr.containerMenu instanceof StatSheetMenu : false) {
 			if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 1) {

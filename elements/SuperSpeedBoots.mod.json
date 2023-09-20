@@ -26,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§aWhen Equipped:",
-      "§7+20% Movement Speed and grants Fire Resistance"
+      "§7+20% Movement Speed and grants +5s Fire Resistance"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

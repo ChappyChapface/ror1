@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "goldenegg",
+    "texture": "galvanized_air_tank",
     "customModelName": "Normal",
     "name": "Galvanized Air Tank",
     "rarity": "COMMON",

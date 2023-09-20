@@ -22,6 +22,7 @@ import net.mcreator.tnunlimited.world.features.plants.BlueShroomFungiFeature;
 import net.mcreator.tnunlimited.world.features.plants.BlueLavanderFeature;
 import net.mcreator.tnunlimited.world.features.ores.ZincOreFeature;
 import net.mcreator.tnunlimited.world.features.ores.ZincDeepslateOreFeature;
+import net.mcreator.tnunlimited.world.features.ores.TitaniumoreFeature;
 import net.mcreator.tnunlimited.world.features.ores.SupergraniteFeature;
 import net.mcreator.tnunlimited.world.features.ores.StrawberryBushstage4Feature;
 import net.mcreator.tnunlimited.world.features.ores.StrawberryBushstage0Feature;
@@ -70,6 +71,7 @@ public class TnunlimitedModFeatures {
 	public static final RegistryObject<Feature<?>> DEEPSLATE_ANTINOMY_ORE = REGISTRY.register("deepslate_antinomy_ore", DeepslateAntinomyOreFeature::feature);
 	public static final RegistryObject<Feature<?>> NUBRIUM_ORE = REGISTRY.register("nubrium_ore", NubriumOreFeature::feature);
 	public static final RegistryObject<Feature<?>> SUPERGRANITE = REGISTRY.register("supergranite", SupergraniteFeature::feature);
+	public static final RegistryObject<Feature<?>> TITANIUMORE = REGISTRY.register("titaniumore", TitaniumoreFeature::feature);
 	public static final RegistryObject<Feature<?>> LEMONSTONE = REGISTRY.register("lemonstone", LemonstoneFeature::feature);
 	public static final RegistryObject<Feature<?>> DACITE = REGISTRY.register("dacite", DaciteFeature::feature);
 	public static final RegistryObject<Feature<?>> COFFEE_PLANT = REGISTRY.register("coffee_plant", CoffeePlantFeature::feature);

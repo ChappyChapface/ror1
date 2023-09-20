@@ -16,7 +16,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -71,9 +70,12 @@ public class HolyRelicEffectProcedure {
 					&& (!(((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)).isEnchanted())
 							|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem())) {
 				if (amount > 4) {
-					entity.hurt(DamageSource.OUT_OF_WORLD, 4);
-					if (event != null && event.isCancelable()) {
-						event.setCanceled(true);
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 4 > 0) {
+						if (event != null && event.isCancelable()) {
+							event.setCanceled(true);
+						}
+						if (entity instanceof LivingEntity _entity)
+							_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) - 4));
 					}
 				}
 			}
