@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "tnunlimited:blocks/palm_planks"
+  },
+  "render_type": "solid"
+}

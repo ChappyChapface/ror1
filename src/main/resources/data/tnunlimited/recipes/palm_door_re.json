@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "1": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "2": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "3": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "4": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "5": {
+      "item": "tnunlimited:palm_planks"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:palm_door",
+    "count": 3
+  }
+}

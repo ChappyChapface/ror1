@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:stripped_palm_log"
+    },
+    "1": {
+      "item": "tnunlimited:stripped_palm_log"
+    },
+    "2": {
+      "item": "tnunlimited:stripped_palm_log"
+    },
+    "3": {
+      "item": "tnunlimited:stripped_palm_log"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:stripped_palm_wood_block",
+    "count": 3
+  }
+}

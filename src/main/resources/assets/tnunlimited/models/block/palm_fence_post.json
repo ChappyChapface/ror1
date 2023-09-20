@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "tnunlimited:blocks/palm_planks",
+    "particle": "tnunlimited:blocks/palm_planks"
+  },
+  "render_type": "solid"
+}

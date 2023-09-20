@@ -807,6 +807,17 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> POWERRING = REGISTRY.register("powerring", () -> new PowerringItem());
 	public static final RegistryObject<Item> FURY_HOOK = REGISTRY.register("fury_hook", () -> new FuryHookItem());
 	public static final RegistryObject<Item> FERAL_HUNTING_KNIFE = REGISTRY.register("feral_hunting_knife", () -> new FeralHuntingKnifeItem());
+	public static final RegistryObject<Item> STRIPPED_PALM_LOG = block(TnunlimitedModBlocks.STRIPPED_PALM_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> STRIPPED_PALM_WOOD_BLOCK = block(TnunlimitedModBlocks.STRIPPED_PALM_WOOD_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_PLANKS = block(TnunlimitedModBlocks.PALM_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_SLAB = block(TnunlimitedModBlocks.PALM_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_STAIRS = block(TnunlimitedModBlocks.PALM_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_PRESSURE_PLATE = block(TnunlimitedModBlocks.PALM_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> PALM_BUTTON = block(TnunlimitedModBlocks.PALM_BUTTON, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> PALM_FENCE = block(TnunlimitedModBlocks.PALM_FENCE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_FENCE_GATE = block(TnunlimitedModBlocks.PALM_FENCE_GATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_DOOR = doubleBlock(TnunlimitedModBlocks.PALM_DOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_TRAPDOOR = block(TnunlimitedModBlocks.PALM_TRAPDOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

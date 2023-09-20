@@ -21,6 +21,8 @@ import net.mcreator.tnunlimited.block.TitaniumoreBlock;
 import net.mcreator.tnunlimited.block.TangeloBlossomBlock;
 import net.mcreator.tnunlimited.block.TallMireshroomBlock;
 import net.mcreator.tnunlimited.block.SupergraniteBlock;
+import net.mcreator.tnunlimited.block.StrippedPalmWoodBlockBlock;
+import net.mcreator.tnunlimited.block.StrippedPalmLogBlock;
 import net.mcreator.tnunlimited.block.StrawberryBushstage4Block;
 import net.mcreator.tnunlimited.block.StrawberryBushstage3Block;
 import net.mcreator.tnunlimited.block.StrawberryBushstage2Block;
@@ -56,6 +58,15 @@ import net.mcreator.tnunlimited.block.PlushAnimeRacoonBlock;
 import net.mcreator.tnunlimited.block.PlushAardvarkmanBlock;
 import net.mcreator.tnunlimited.block.PalmWoodWoodBlock;
 import net.mcreator.tnunlimited.block.PalmWoodLogBlock;
+import net.mcreator.tnunlimited.block.PalmTrapdoorBlock;
+import net.mcreator.tnunlimited.block.PalmStairsBlock;
+import net.mcreator.tnunlimited.block.PalmSlabBlock;
+import net.mcreator.tnunlimited.block.PalmPressurePlateBlock;
+import net.mcreator.tnunlimited.block.PalmPlanksBlock;
+import net.mcreator.tnunlimited.block.PalmFenceGateBlock;
+import net.mcreator.tnunlimited.block.PalmFenceBlock;
+import net.mcreator.tnunlimited.block.PalmDoorBlock;
+import net.mcreator.tnunlimited.block.PalmButtonBlock;
 import net.mcreator.tnunlimited.block.OverdriveTableBlock;
 import net.mcreator.tnunlimited.block.NubriumOreBlock;
 import net.mcreator.tnunlimited.block.NubriumBlockBlock;
@@ -216,6 +227,17 @@ public class TnunlimitedModBlocks {
 	public static final RegistryObject<Block> POLISHED_DACITE_BUTTON = REGISTRY.register("polished_dacite_button", () -> new PolishedDaciteButtonBlock());
 	public static final RegistryObject<Block> LEAD_TRAPDOOR = REGISTRY.register("lead_trapdoor", () -> new LeadTrapdoorBlock());
 	public static final RegistryObject<Block> BLENDER = REGISTRY.register("blender", () -> new BlenderBlock());
+	public static final RegistryObject<Block> STRIPPED_PALM_LOG = REGISTRY.register("stripped_palm_log", () -> new StrippedPalmLogBlock());
+	public static final RegistryObject<Block> STRIPPED_PALM_WOOD_BLOCK = REGISTRY.register("stripped_palm_wood_block", () -> new StrippedPalmWoodBlockBlock());
+	public static final RegistryObject<Block> PALM_PLANKS = REGISTRY.register("palm_planks", () -> new PalmPlanksBlock());
+	public static final RegistryObject<Block> PALM_SLAB = REGISTRY.register("palm_slab", () -> new PalmSlabBlock());
+	public static final RegistryObject<Block> PALM_STAIRS = REGISTRY.register("palm_stairs", () -> new PalmStairsBlock());
+	public static final RegistryObject<Block> PALM_PRESSURE_PLATE = REGISTRY.register("palm_pressure_plate", () -> new PalmPressurePlateBlock());
+	public static final RegistryObject<Block> PALM_BUTTON = REGISTRY.register("palm_button", () -> new PalmButtonBlock());
+	public static final RegistryObject<Block> PALM_FENCE = REGISTRY.register("palm_fence", () -> new PalmFenceBlock());
+	public static final RegistryObject<Block> PALM_FENCE_GATE = REGISTRY.register("palm_fence_gate", () -> new PalmFenceGateBlock());
+	public static final RegistryObject<Block> PALM_DOOR = REGISTRY.register("palm_door", () -> new PalmDoorBlock());
+	public static final RegistryObject<Block> PALM_TRAPDOOR = REGISTRY.register("palm_trapdoor", () -> new PalmTrapdoorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

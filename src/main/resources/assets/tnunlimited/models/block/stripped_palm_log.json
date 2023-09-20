@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/stripped_palm_log_top",
+    "up": "tnunlimited:blocks/stripped_palm_log_top",
+    "north": "tnunlimited:blocks/stripped_palm_log",
+    "east": "tnunlimited:blocks/stripped_palm_log",
+    "south": "tnunlimited:blocks/stripped_palm_log",
+    "west": "tnunlimited:blocks/stripped_palm_log",
+    "particle": "tnunlimited:blocks/stripped_palm_log_top"
+  },
+  "render_type": "solid"
+}

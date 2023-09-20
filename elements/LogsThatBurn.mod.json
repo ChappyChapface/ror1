@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PalmWoodWood"
+      },
+      {
+        "value": "CUSTOM:PalmWoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmWoodBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs_that_burn",
+    "namespace": "minecraft"
+  }
+}

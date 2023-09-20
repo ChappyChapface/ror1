@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "1": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "2": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "3": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "4": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "5": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_sign",
+    "count": 3
+  }
+}
