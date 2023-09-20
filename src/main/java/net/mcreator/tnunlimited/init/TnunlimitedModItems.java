@@ -88,6 +88,7 @@ import net.mcreator.tnunlimited.item.RawtitaniumItem;
 import net.mcreator.tnunlimited.item.RawRoseGoldItem;
 import net.mcreator.tnunlimited.item.RawRithiumItem;
 import net.mcreator.tnunlimited.item.RawLeadItem;
+import net.mcreator.tnunlimited.item.RawFerrotitaniumItem;
 import net.mcreator.tnunlimited.item.RawAntimonyItem;
 import net.mcreator.tnunlimited.item.RawAardiumItem;
 import net.mcreator.tnunlimited.item.ProphetItem;
@@ -814,10 +815,16 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> PALM_STAIRS = block(TnunlimitedModBlocks.PALM_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PALM_PRESSURE_PLATE = block(TnunlimitedModBlocks.PALM_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> PALM_BUTTON = block(TnunlimitedModBlocks.PALM_BUTTON, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> PALM_FENCE = block(TnunlimitedModBlocks.PALM_FENCE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_FENCE = block(TnunlimitedModBlocks.PALM_FENCE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> PALM_FENCE_GATE = block(TnunlimitedModBlocks.PALM_FENCE_GATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> PALM_DOOR = doubleBlock(TnunlimitedModBlocks.PALM_DOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> PALM_TRAPDOOR = block(TnunlimitedModBlocks.PALM_TRAPDOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PALM_DOOR = doubleBlock(TnunlimitedModBlocks.PALM_DOOR, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> PALM_TRAPDOOR = block(TnunlimitedModBlocks.PALM_TRAPDOOR, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLOCK_OF_TITANIUM = block(TnunlimitedModBlocks.BLOCK_OF_TITANIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOCK_OF_RAW_TITANIUM = block(TnunlimitedModBlocks.BLOCK_OF_RAW_TITANIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOCK_OF_FERROTITANIUM = block(TnunlimitedModBlocks.BLOCK_OF_FERROTITANIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOCK_OF_RAW_FERROTITANIUM = block(TnunlimitedModBlocks.BLOCK_OF_RAW_FERROTITANIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RAW_FERROTITANIUM = REGISTRY.register("raw_ferrotitanium", () -> new RawFerrotitaniumItem());
+	public static final RegistryObject<Item> BLOCK_OF_RAW_AARDIUM = block(TnunlimitedModBlocks.BLOCK_OF_RAW_AARDIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "palm_door_icon",
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",
@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "REDSTONE"
     },
     "destroyTool": "axe",
     "customDrop": {

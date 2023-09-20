@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:titanium"
+    },
+    "1": {
+      "item": "tnunlimited:titanium"
+    },
+    "2": {
+      "item": "tnunlimited:titanium"
+    },
+    "3": {
+      "item": "tnunlimited:titanium"
+    },
+    "4": {
+      "item": "tnunlimited:titanium"
+    },
+    "5": {
+      "item": "tnunlimited:titanium"
+    },
+    "6": {
+      "item": "tnunlimited:titanium"
+    },
+    "7": {
+      "item": "tnunlimited:titanium"
+    },
+    "8": {
+      "item": "tnunlimited:titanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:block_of_titanium",
+    "count": 1
+  }
+}

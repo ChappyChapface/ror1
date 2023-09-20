@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/block_of_raw_aardium",
+    "up": "tnunlimited:blocks/block_of_raw_aardium",
+    "north": "tnunlimited:blocks/block_of_raw_aardium",
+    "east": "tnunlimited:blocks/block_of_raw_aardium",
+    "south": "tnunlimited:blocks/block_of_raw_aardium",
+    "west": "tnunlimited:blocks/block_of_raw_aardium",
+    "particle": "tnunlimited:blocks/block_of_raw_aardium"
+  },
+  "render_type": "solid"
+}

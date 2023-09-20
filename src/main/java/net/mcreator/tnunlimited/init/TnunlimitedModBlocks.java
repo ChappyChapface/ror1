@@ -116,10 +116,15 @@ import net.mcreator.tnunlimited.block.BlueShroomBlockBlock;
 import net.mcreator.tnunlimited.block.BlueLavanderBlock;
 import net.mcreator.tnunlimited.block.BlockofrawleadBlock;
 import net.mcreator.tnunlimited.block.BlockofAardiumBlock;
+import net.mcreator.tnunlimited.block.BlockOfTitaniumBlock;
 import net.mcreator.tnunlimited.block.BlockOfRoseGoldBlock;
+import net.mcreator.tnunlimited.block.BlockOfRawTitaniumBlock;
 import net.mcreator.tnunlimited.block.BlockOfRawRoseGoldBlock;
+import net.mcreator.tnunlimited.block.BlockOfRawFerrotitaniumBlock;
 import net.mcreator.tnunlimited.block.BlockOfRawAntimonyBlock;
+import net.mcreator.tnunlimited.block.BlockOfRawAardiumBlock;
 import net.mcreator.tnunlimited.block.BlockOfLeadBlock;
+import net.mcreator.tnunlimited.block.BlockOfFerrotitaniumBlock;
 import net.mcreator.tnunlimited.block.BlockOfAntimonyBlock;
 import net.mcreator.tnunlimited.block.BlenderBlock;
 import net.mcreator.tnunlimited.block.AntimonyOreBlock;
@@ -238,6 +243,11 @@ public class TnunlimitedModBlocks {
 	public static final RegistryObject<Block> PALM_FENCE_GATE = REGISTRY.register("palm_fence_gate", () -> new PalmFenceGateBlock());
 	public static final RegistryObject<Block> PALM_DOOR = REGISTRY.register("palm_door", () -> new PalmDoorBlock());
 	public static final RegistryObject<Block> PALM_TRAPDOOR = REGISTRY.register("palm_trapdoor", () -> new PalmTrapdoorBlock());
+	public static final RegistryObject<Block> BLOCK_OF_TITANIUM = REGISTRY.register("block_of_titanium", () -> new BlockOfTitaniumBlock());
+	public static final RegistryObject<Block> BLOCK_OF_RAW_TITANIUM = REGISTRY.register("block_of_raw_titanium", () -> new BlockOfRawTitaniumBlock());
+	public static final RegistryObject<Block> BLOCK_OF_FERROTITANIUM = REGISTRY.register("block_of_ferrotitanium", () -> new BlockOfFerrotitaniumBlock());
+	public static final RegistryObject<Block> BLOCK_OF_RAW_FERROTITANIUM = REGISTRY.register("block_of_raw_ferrotitanium", () -> new BlockOfRawFerrotitaniumBlock());
+	public static final RegistryObject<Block> BLOCK_OF_RAW_AARDIUM = REGISTRY.register("block_of_raw_aardium", () -> new BlockOfRawAardiumBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
