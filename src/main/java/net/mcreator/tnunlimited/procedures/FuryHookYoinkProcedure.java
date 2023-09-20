@@ -1,22 +1,8 @@
 package net.mcreator.tnunlimited.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.advancements.Advancement;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.tnunlimited.init.TnunlimitedModMobEffects;
-import net.mcreator.tnunlimited.init.TnunlimitedModItems;
-import net.mcreator.tnunlimited.TnunlimitedMod;
-
-import java.util.Iterator;
+import javax.annotation.Nullable;
 
 public class FuryHookYoinkProcedure {
 	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {

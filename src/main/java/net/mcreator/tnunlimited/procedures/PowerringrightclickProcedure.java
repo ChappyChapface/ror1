@@ -4,12 +4,14 @@ import net.minecraftforge.eventbus.api.Event;
 
 import javax.annotation.Nullable;
 
-public class FuryHookCooldowmProcedure {
+public class PowerringrightclickProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 100);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 1800);
+		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.INSTANT_MANA_EFFECT.get(), 2, 2));
 		if (!(new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {

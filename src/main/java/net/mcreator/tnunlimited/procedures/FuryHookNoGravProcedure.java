@@ -1,12 +1,8 @@
 package net.mcreator.tnunlimited.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.tnunlimited.init.TnunlimitedModEnchantments;
+import javax.annotation.Nullable;
 
 public class FuryHookNoGravProcedure {
 	public static void execute(Entity entity, Entity immediatesourceentity) {
