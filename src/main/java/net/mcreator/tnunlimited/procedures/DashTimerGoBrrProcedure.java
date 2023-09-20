@@ -47,6 +47,34 @@ public class DashTimerGoBrrProcedure {
 							* Math.sin((90 - ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).playerYaw + 90)) * (3.14159265 / 180))),
 					0.001, (0.99 * Math.sin((90 - (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).playerPitch) * (3.14159265 / 180))
 							* Math.sin(((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).playerYaw + 90) * (3.14159265 / 180)))));
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get())
+				? _livEnt.getEffect(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get()).getAmplifier()
+				: 0) == 2) {
+			entity.fallDistance = 0;
+			entity.setDeltaMovement(new Vec3(
+					(1 * ((entity.getPersistentData().getDouble("tarX") - x)
+							/ Math.sqrt(Math.pow(entity.getPersistentData().getDouble("tarX") - x, 2) + Math.pow(entity.getPersistentData().getDouble("tarY") - y, 2) + Math.pow(entity.getPersistentData().getDouble("tarZ") - z, 2)))),
+					(1 * ((entity.getPersistentData().getDouble("tarY") - y)
+							/ Math.sqrt(Math.pow(entity.getPersistentData().getDouble("tarX") - x, 2) + Math.pow(entity.getPersistentData().getDouble("tarY") - y, 2) + Math.pow(entity.getPersistentData().getDouble("tarZ") - z, 2)))),
+					(1 * ((entity.getPersistentData().getDouble("tarZ") - z)
+							/ Math.sqrt(Math.pow(entity.getPersistentData().getDouble("tarX") - x, 2) + Math.pow(entity.getPersistentData().getDouble("tarY") - y, 2) + Math.pow(entity.getPersistentData().getDouble("tarZ") - z, 2))))));
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get())
+				? _livEnt.getEffect(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get()).getAmplifier()
+				: 0) == 3) {
+			entity.fallDistance = 0;
+			entity.setDeltaMovement(new Vec3(
+					(1 * (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarX - x)
+							/ Math.sqrt(Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarX - x, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarY - y, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarZ - z, 2)))),
+					(1 * (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarY - y)
+							/ Math.sqrt(Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarX - x, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarY - y, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarZ - z, 2)))),
+					(1 * (((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarZ - z)
+							/ Math.sqrt(Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarX - x, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarY - y, 2)
+									+ Math.pow((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).tarZ - z, 2))))));
 		} else {
 			entity.setDeltaMovement(new Vec3(
 					(0.33 * Math.sin((90 - (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).playerPitch) * (3.14159265 / 180))

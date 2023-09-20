@@ -203,6 +203,7 @@ import net.mcreator.tnunlimited.item.GalvanizedHarpoonItem;
 import net.mcreator.tnunlimited.item.GalvanizedClubItem;
 import net.mcreator.tnunlimited.item.GalvanizedAxeItem;
 import net.mcreator.tnunlimited.item.GalvanizedAirTankItem;
+import net.mcreator.tnunlimited.item.FuryHookItem;
 import net.mcreator.tnunlimited.item.FrostmouthItem;
 import net.mcreator.tnunlimited.item.FrostburnSphereItem;
 import net.mcreator.tnunlimited.item.FrostSpikeItem;
@@ -216,6 +217,7 @@ import net.mcreator.tnunlimited.item.FleurBandItem;
 import net.mcreator.tnunlimited.item.FlashringItem;
 import net.mcreator.tnunlimited.item.FlameringItem;
 import net.mcreator.tnunlimited.item.FerrotitaniumItem;
+import net.mcreator.tnunlimited.item.FeralHuntingKnifeItem;
 import net.mcreator.tnunlimited.item.FancyPantsItem;
 import net.mcreator.tnunlimited.item.EyeofanticipationItem;
 import net.mcreator.tnunlimited.item.ExtenderItem;
@@ -803,6 +805,8 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> BLENDER = block(TnunlimitedModBlocks.BLENDER, CreativeModeTab.TAB_TRANSPORTATION);
 	public static final RegistryObject<Item> SMOOTHIE = REGISTRY.register("smoothie", () -> new SmoothieItem());
 	public static final RegistryObject<Item> POWERRING = REGISTRY.register("powerring", () -> new PowerringItem());
+	public static final RegistryObject<Item> FURY_HOOK = REGISTRY.register("fury_hook", () -> new FuryHookItem());
+	public static final RegistryObject<Item> FERAL_HUNTING_KNIFE = REGISTRY.register("feral_hunting_knife", () -> new FeralHuntingKnifeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

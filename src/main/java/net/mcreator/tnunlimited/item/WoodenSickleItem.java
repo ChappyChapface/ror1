@@ -23,7 +23,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class WoodenSickleItem extends Item {
 	public WoodenSickleItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(59));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(118));
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class WoodenSickleItem extends Item {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 0f, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 1.5f, AttributeModifier.Operation.ADDITION));
 			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", 6, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}

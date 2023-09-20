@@ -8,6 +8,7 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -39,7 +40,7 @@ public class BlenderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		super(TnunlimitedModMenus.BLENDER_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(4);
+		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -83,22 +84,28 @@ public class BlenderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return stack.is(ItemTags.create(new ResourceLocation("tnunlimited:blender_fruits")));
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 44) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 16, 20) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(new ResourceLocation("tnunlimited:blender_fruits")));
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 142, 44) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 76, 20) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 96, 17) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 140, 20) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(new ResourceLocation("tnunlimited:blender_fuels")));
+			}
+		}));
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 140, 44) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return Items.GLASS_BOTTLE == stack.getItem();
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -120,16 +127,16 @@ public class BlenderGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 4) {
-				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
-				if (index < 4 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

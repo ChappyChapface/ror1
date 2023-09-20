@@ -43,23 +43,23 @@ public class NitroChargeOverlay {
 			if (NitroKnifeConProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						ReturnChargeProcedure.execute(world, entity), posX + -108, posY + 104, -25345);
+						ReturnChargeProcedure.execute(entity), posX + -108, posY + 104, -25345);
 			if (NitroBladeConProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						ReturnChargeProcedure.execute(world, entity), posX + -108, posY + 104, -25345);
+						ReturnChargeProcedure.execute(entity), posX + -108, posY + 104, -25345);
 			if (NitroClaymoreConProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						ReturnChargeProcedure.execute(world, entity), posX + -108, posY + 104, -25345);
+						ReturnChargeProcedure.execute(entity), posX + -108, posY + 104, -25345);
 			if (BluntConProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						ReturnChargeProcedure.execute(world, entity), posX + -108, posY + 104, -39424);
+						ReturnChargeProcedure.execute(entity), posX + -108, posY + 104, -39424);
 			if (OverchargedCleaverConProcedure.execute(entity))
 				Minecraft.getInstance().font.draw(event.getPoseStack(),
 
-						ReturnChargeProcedure.execute(world, entity), posX + -108, posY + 104, -26317);
+						ReturnChargeProcedure.execute(entity), posX + -108, posY + 104, -26317);
 		}
 	}
 }

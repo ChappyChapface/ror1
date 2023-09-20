@@ -42,8 +42,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 177,
-          "y": 80
+          "x": 141,
+          "y": 56
         }
       },
       {
@@ -54,8 +54,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 267,
-          "y": 80
+          "x": 201,
+          "y": 56
         }
       },
       {
@@ -72,8 +72,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 221,
-          "y": 53
+          "x": 265,
+          "y": 56
         }
       },
       {
@@ -86,8 +86,8 @@
           },
           "width": 51,
           "height": 20,
-          "x": 204,
-          "y": 89
+          "x": 185,
+          "y": 80
         }
       },
       {
@@ -95,14 +95,14 @@
         "data": {
           "name": "label_blender",
           "text": {
-            "fixedValue": "BLENDER"
+            "fixedValue": "Bottle"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 148,
-          "y": 46
+          "x": 257,
+          "y": 98
         }
       },
       {
@@ -116,8 +116,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 220,
-          "y": 73
+          "x": 264,
+          "y": 46
         }
       },
       {
@@ -125,22 +125,40 @@
         "data": {
           "name": "label_ingredients",
           "text": {
-            "fixedValue": "Ingredients"
+            "fixedValue": "Plants"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 140,
-          "y": 100
+          "x": 136,
+          "y": 97
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.GLASS_BOTTLE"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 265,
+          "y": 80
         }
       }
     ],
     "gridSettings": {
       "sx": 16,
-      "sy": 18,
-      "ox": 7,
-      "oy": 1,
+      "sy": 16,
+      "ox": 14,
+      "oy": 16,
       "snapOnGrid": true
     }
   }

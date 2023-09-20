@@ -18,8 +18,8 @@
     "efficiency": 9.0,
     "attackSpeed": 10.0,
     "enchantability": 15,
-    "damageVsEntity": 6.0,
-    "usageCount": 2031,
+    "damageVsEntity": 7.5,
+    "usageCount": 4062,
     "blocksAffected": [
       {
         "value": "Blocks.HAY_BLOCK"

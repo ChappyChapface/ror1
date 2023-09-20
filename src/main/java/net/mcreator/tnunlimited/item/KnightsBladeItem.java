@@ -65,7 +65,7 @@ public class KnightsBladeItem extends SwordItem {
 		list.add(Component.literal("\u00A7aAbility: \u00A77Increased damage against glowing targets"));
 		list.add(Component.literal("\u00A77Right Click to make nearby entities glow"));
 		list.add(Component.literal("\u00A7cCooldown: \u00A7730 Seconds"));
-		list.add(Component.literal("\u00A79Melee/Piercing"));
+		list.add(Component.literal("\u00A79Melee/Slashing"));
 	}
 
 	@Override

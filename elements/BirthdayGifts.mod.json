@@ -83,7 +83,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:TreeBarkDisc"
+              "value": "CUSTOM:BedrockCoin"
             },
             "weight": 1,
             "minCount": 1,

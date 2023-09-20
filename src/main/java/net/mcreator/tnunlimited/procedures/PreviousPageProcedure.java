@@ -22,7 +22,7 @@ public class PreviousPageProcedure {
 				}
 			} else {
 				{
-					double _setval = 5;
+					double _setval = 6;
 					entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.page = _setval;
 						capability.syncPlayerVariables(entity);

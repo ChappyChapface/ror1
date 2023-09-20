@@ -33,7 +33,8 @@ public class BlendProcedure {
 				&& !((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
 						.getItem() == (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem())
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
-						.is(ItemTags.create(new ResourceLocation("tnunlimited:blender_fuels")))) {
+						.is(ItemTags.create(new ResourceLocation("tnunlimited:blender_fuels")))
+				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(TnunlimitedModItems.SMOOTHIE.get());
 				_setstack.setCount(1);
@@ -302,6 +303,10 @@ public class BlendProcedure {
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(3)).set(ItemStack.EMPTY);
+					_player.containerMenu.broadcastChanges();
+				}
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+					((Slot) _slots.get(4)).set(ItemStack.EMPTY);
 					_player.containerMenu.broadcastChanges();
 				}
 			});

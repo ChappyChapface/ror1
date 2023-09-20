@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.living.LivingChangeTargetEvent;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -17,6 +18,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.tnunlimited.init.TnunlimitedModMobEffects;
+import net.mcreator.tnunlimited.init.TnunlimitedModGameRules;
 import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
 import net.mcreator.tnunlimited.entity.IronSpikeEntity;
 
@@ -26,17 +28,17 @@ import javax.annotation.Nullable;
 public class EntitySetsTargetProcedure {
 	@SubscribeEvent
 	public static void onEntitySetsAttackTarget(LivingChangeTargetEvent event) {
-		execute(event, event.getOriginalTarget(), event.getEntity());
+		execute(event, event.getEntity().level, event.getOriginalTarget(), event.getEntity());
 	}
 
-	public static void execute(Entity entity, Entity sourceentity) {
-		execute(null, entity, sourceentity);
+	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
+		execute(null, world, entity, sourceentity);
 	}
 
-	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
+	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if ((entity instanceof Player || entity instanceof ServerPlayer) && sourceentity instanceof IronGolem) {
+		if ((entity instanceof Player || entity instanceof ServerPlayer) && sourceentity instanceof IronGolem && world.getLevelData().getGameRules().getBoolean(TnunlimitedModGameRules.PURGATORYMODE)) {
 			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 2));
 			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())

@@ -132,9 +132,15 @@ public class TnunlimitedModVariables {
 			clone.PlayerItem = original.PlayerItem;
 			clone.playerYaw = original.playerYaw;
 			clone.playerPitch = original.playerPitch;
+			clone.directionSelector = original.directionSelector;
+			clone.recentDamageDealt = original.recentDamageDealt;
+			clone.ninjaClassUnlock = original.ninjaClassUnlock;
 			if (!event.isWasDeath()) {
 				clone.doubleJumps = original.doubleJumps;
 				clone.page = original.page;
+				clone.tarY = original.tarY;
+				clone.tarZ = original.tarZ;
+				clone.tarX = original.tarX;
 			}
 		}
 
@@ -375,6 +381,12 @@ public class TnunlimitedModVariables {
 		public ItemStack PlayerItem = ItemStack.EMPTY;
 		public double playerYaw = 0;
 		public double playerPitch = 0;
+		public Direction directionSelector = Direction.DOWN;
+		public double tarY = 0;
+		public double tarZ = 0;
+		public double tarX = 0;
+		public double recentDamageDealt = 0;
+		public boolean ninjaClassUnlock = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -444,6 +456,12 @@ public class TnunlimitedModVariables {
 			nbt.put("PlayerItem", PlayerItem.save(new CompoundTag()));
 			nbt.putDouble("playerYaw", playerYaw);
 			nbt.putDouble("playerPitch", playerPitch);
+			nbt.putInt("directionSelector", directionSelector.get3DDataValue());
+			nbt.putDouble("tarY", tarY);
+			nbt.putDouble("tarZ", tarZ);
+			nbt.putDouble("tarX", tarX);
+			nbt.putDouble("recentDamageDealt", recentDamageDealt);
+			nbt.putBoolean("ninjaClassUnlock", ninjaClassUnlock);
 			return nbt;
 		}
 
@@ -510,6 +528,12 @@ public class TnunlimitedModVariables {
 			PlayerItem = ItemStack.of(nbt.getCompound("PlayerItem"));
 			playerYaw = nbt.getDouble("playerYaw");
 			playerPitch = nbt.getDouble("playerPitch");
+			directionSelector = Direction.from3DDataValue(nbt.getInt("directionSelector"));
+			tarY = nbt.getDouble("tarY");
+			tarZ = nbt.getDouble("tarZ");
+			tarX = nbt.getDouble("tarX");
+			recentDamageDealt = nbt.getDouble("recentDamageDealt");
+			ninjaClassUnlock = nbt.getBoolean("ninjaClassUnlock");
 		}
 	}
 
@@ -595,6 +619,12 @@ public class TnunlimitedModVariables {
 					variables.PlayerItem = message.data.PlayerItem;
 					variables.playerYaw = message.data.playerYaw;
 					variables.playerPitch = message.data.playerPitch;
+					variables.directionSelector = message.data.directionSelector;
+					variables.tarY = message.data.tarY;
+					variables.tarZ = message.data.tarZ;
+					variables.tarX = message.data.tarX;
+					variables.recentDamageDealt = message.data.recentDamageDealt;
+					variables.ninjaClassUnlock = message.data.ninjaClassUnlock;
 				}
 			});
 			context.setPacketHandled(true);

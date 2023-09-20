@@ -46,7 +46,7 @@ public class CriticalSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7aAbility: \u00A7710% chance to deal extra damage"));
+		list.add(Component.literal("\u00A7aAbility: \u00A7720% chance to deal extra damage"));
 		list.add(Component.literal("\u00A77Affected by Luck"));
 		list.add(Component.literal("\u00A79Melee/Slashing"));
 	}

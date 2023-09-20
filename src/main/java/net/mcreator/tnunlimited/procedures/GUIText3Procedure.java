@@ -14,6 +14,8 @@ public class GUIText3Procedure {
 		if (entity instanceof Player _plr ? _plr.containerMenu instanceof StarterClassMenu : false) {
 			if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 5) {
 				return "-10% Speed";
+			} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 6) {
+				return "-25% Armor";
 			}
 		} else if (entity instanceof Player _plr ? _plr.containerMenu instanceof StatSheetMenu : false) {
 			if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 1) {

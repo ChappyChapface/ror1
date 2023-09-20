@@ -17,11 +17,21 @@ public class NitrobladeEntitySwingsItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		TnunlimitedModVariables.MapVariables.get(world).energybladecharge = TnunlimitedModVariables.MapVariables.get(world).energybladecharge - 8;
-		TnunlimitedModVariables.MapVariables.get(world).syncData(world);
-		if (TnunlimitedModVariables.MapVariables.get(world).energybladecharge < 0) {
-			TnunlimitedModVariables.MapVariables.get(world).energybladecharge = 50;
-			TnunlimitedModVariables.MapVariables.get(world).syncData(world);
+		{
+			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).energybladecharge - 8;
+			entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.energybladecharge = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
+		if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).energybladecharge < 0) {
+			{
+				double _setval = 50;
+				entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.energybladecharge = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(TnunlimitedModItems.NITROBLADE.get(), 134);
 			if (world instanceof ServerLevel _level)

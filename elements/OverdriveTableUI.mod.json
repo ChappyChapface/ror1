@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "TAG:tnunlimited:scrolls"
+            "value": ""
           },
           "disablePlacement": {
             "fixedValue": false
@@ -32,7 +32,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "TAG:tnunlimited:scrolls"
           },
           "disablePlacement": {
             "fixedValue": false

@@ -18,8 +18,8 @@
     "efficiency": 4.0,
     "attackSpeed": 10.0,
     "enchantability": 5,
-    "damageVsEntity": 3.0,
-    "usageCount": 131,
+    "damageVsEntity": 4.5,
+    "usageCount": 262,
     "blocksAffected": [
       {
         "value": "Blocks.MELON_BLOCK"

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 45",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chain"
+    },
+    "4": {
+      "item": "minecraft:chain"
+    },
+    "5": {
+      "item": "tnunlimited:titanium"
+    },
+    "7": {
+      "item": "tnunlimited:titanium"
+    },
+    "8": {
+      "item": "tnunlimited:titanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:deleted_mod_element",
+    "count": 1
+  }
+}

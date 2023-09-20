@@ -7,6 +7,7 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
@@ -14,6 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
@@ -25,6 +27,10 @@ import net.mcreator.tnunlimited.init.TnunlimitedModItems;
 import net.mcreator.tnunlimited.init.TnunlimitedModEnchantments;
 
 import javax.annotation.Nullable;
+
+import java.util.stream.Collectors;
+import java.util.List;
+import java.util.Comparator;
 
 @Mod.EventBusSubscriber
 public class STRChangeProcedure {
@@ -183,6 +189,8 @@ public class STRChangeProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.ABSORPTION);
 		}
 		if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).rpgClass == 1) {
 			{
@@ -191,6 +199,24 @@ public class STRChangeProcedure {
 					capability.OmniStrengthIncrease = _setval;
 					capability.syncPlayerVariables(entity);
 				});
+			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.FERAL_HUNTING_KNIFE.get()) {
+			{
+				final Vec3 _center = new Vec3(x, y, z);
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(16 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
+						.collect(Collectors.toList());
+				for (Entity entityiterator : _entfound) {
+					if (entityiterator instanceof LivingEntity _livEnt ? _livEnt.hasEffect(TnunlimitedModMobEffects.BLEEDING.get()) : false) {
+						{
+							double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).OmniStrengthIncrease + 0.2;
+							entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+								capability.OmniStrengthIncrease = _setval;
+								capability.syncPlayerVariables(entity);
+							});
+						}
+					}
+				}
 			}
 		}
 		{

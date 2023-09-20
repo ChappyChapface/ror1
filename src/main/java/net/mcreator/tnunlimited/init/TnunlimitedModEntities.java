@@ -54,6 +54,7 @@ import net.mcreator.tnunlimited.entity.HellfireEntity;
 import net.mcreator.tnunlimited.entity.GoldSpikeEntity;
 import net.mcreator.tnunlimited.entity.GildedBugEntity;
 import net.mcreator.tnunlimited.entity.GalvanizedHarpoonEntity;
+import net.mcreator.tnunlimited.entity.FuryHookEntity;
 import net.mcreator.tnunlimited.entity.FrostburntEntity;
 import net.mcreator.tnunlimited.entity.FrostburnSphereEntity;
 import net.mcreator.tnunlimited.entity.FrostSpikeEntity;
@@ -268,6 +269,8 @@ public class TnunlimitedModEntities {
 					.sized(0.68f, 1.1f));
 	public static final RegistryObject<EntityType<KkoreulEntity>> KKOREUL = register("kkoreul",
 			EntityType.Builder.<KkoreulEntity>of(KkoreulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(KkoreulEntity::new).fireImmune().sized(0.6f, 2.2f));
+	public static final RegistryObject<EntityType<FuryHookEntity>> FURY_HOOK = register("projectile_fury_hook",
+			EntityType.Builder.<FuryHookEntity>of(FuryHookEntity::new, MobCategory.MISC).setCustomClientFactory(FuryHookEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

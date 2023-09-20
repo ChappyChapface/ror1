@@ -22,6 +22,8 @@ public class ClassTextProcedure {
 				return "TAMER";
 			} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 5) {
 				return "TANK";
+			} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 6) {
+				return "NINJA";
 			}
 		} else if (entity instanceof Player _plr ? _plr.containerMenu instanceof StatSheetMenu : false) {
 			if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).page == 1) {
@@ -35,6 +37,8 @@ public class ClassTextProcedure {
 					return "CLASS: Tamer";
 				} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).rpgClass == 5) {
 					return "CLASS: Tank";
+				} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).rpgClass == 6) {
+					return "CLASS: Ninja";
 				} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).rpgClass == 0) {
 					return "CLASS: Null";
 				}

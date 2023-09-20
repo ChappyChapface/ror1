@@ -63,6 +63,14 @@ public class ArmorChangeProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
+		} else if ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).rpgClass == 6) {
+			{
+				double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).ArmorIncrease - 0.25;
+				entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.ArmorIncrease = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		}
 		if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.RESISTING.get(), ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).Acc00)) != 0) {
 			{
