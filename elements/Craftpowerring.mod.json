@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "CUSTOM:Purifiedenergy"
+        "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "CUSTOM:Purifiedenergy"
+        "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Nitroblade"
+      "value": "CUSTOM:Powerring"
     },
-    "name": "craftnitroblade",
+    "name": "craftpowerring",
     "namespace": "mod"
   }
 }

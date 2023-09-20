@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bacon2",
+    "texture": "powerring",
     "customModelName": "Normal",
-    "name": "Cooked Bacon",
+    "name": "Powerring",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:AccessoriesTab"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -24,19 +24,25 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "§aAbility: §7Grants Instant mana",
+      "§cCooldown: §72 Minutes"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
+    "onRightClickedInAir": {
+      "name": "Powerringrightclick"
+    },
+    "isFood": false,
     "nutritionalValue": 4,
-    "saturation": 0.5,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": true,
+    "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

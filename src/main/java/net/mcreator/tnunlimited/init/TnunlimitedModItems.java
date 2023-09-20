@@ -92,6 +92,7 @@ import net.mcreator.tnunlimited.item.RawAntimonyItem;
 import net.mcreator.tnunlimited.item.RawAardiumItem;
 import net.mcreator.tnunlimited.item.ProphetItem;
 import net.mcreator.tnunlimited.item.PrimalItem;
+import net.mcreator.tnunlimited.item.PowerringItem;
 import net.mcreator.tnunlimited.item.PlunderNBlunderbussItem;
 import net.mcreator.tnunlimited.item.PlumSoupItem;
 import net.mcreator.tnunlimited.item.PlumItem;
@@ -801,6 +802,7 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> GALVANIZED_AIR_TANK = REGISTRY.register("galvanized_air_tank", () -> new GalvanizedAirTankItem());
 	public static final RegistryObject<Item> BLENDER = block(TnunlimitedModBlocks.BLENDER, CreativeModeTab.TAB_TRANSPORTATION);
 	public static final RegistryObject<Item> SMOOTHIE = REGISTRY.register("smoothie", () -> new SmoothieItem());
+	public static final RegistryObject<Item> POWERRING = REGISTRY.register("powerring", () -> new PowerringItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
