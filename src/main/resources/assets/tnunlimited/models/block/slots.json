@@ -1,0 +1,9 @@
+{
+  "parent": "tnunlimited:custom/slots",
+  "textures": {
+    "all": "tnunlimited:blocks/slotstex",
+    "particle": "tnunlimited:blocks/slotstex",
+    "0": "tnunlimited:blocks/slotstex"
+  },
+  "render_type": "solid"
+}

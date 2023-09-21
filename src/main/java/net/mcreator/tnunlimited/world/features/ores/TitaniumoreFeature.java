@@ -21,7 +21,7 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Holder;
 
-import net.mcreator.tnunlimited.procedures.PostDragSpawnConditionProcedure;
+import net.mcreator.tnunlimited.procedures.DuneSpiderSpawnProcedure;
 import net.mcreator.tnunlimited.init.TnunlimitedModBlocks;
 
 import java.util.Set;
@@ -38,9 +38,9 @@ public class TitaniumoreFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), TnunlimitedModBlocks.TITANIUMORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), TnunlimitedModBlocks.TITANIUMORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), TnunlimitedModBlocks.TITANIUMORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TnunlimitedModBlocks.TITANIUMORE.get().defaultBlockState())), 8));
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), TnunlimitedModBlocks.TITANIUMORE.get().defaultBlockState())), 9));
 		PLACED_FEATURE = PlacementUtils.register("tnunlimited:titaniumore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -57,7 +57,7 @@ public class TitaniumoreFeature extends OreFeature {
 		int x = context.origin().getX();
 		int y = context.origin().getY();
 		int z = context.origin().getZ();
-		if (!PostDragSpawnConditionProcedure.execute(x, z))
+		if (!DuneSpiderSpawnProcedure.execute(x, z))
 			return false;
 		return super.place(context);
 	}

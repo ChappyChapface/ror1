@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:titanium"
+    },
+    "2": {
+      "item": "tnunlimited:titanium"
+    },
+    "3": {
+      "item": "tnunlimited:titanium"
+    },
+    "5": {
+      "item": "tnunlimited:titanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:titanium_armor_boots",
+    "count": 1
+  }
+}

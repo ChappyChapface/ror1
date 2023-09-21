@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "tnunlimited:ichor"
+    },
+    "3": {
+      "item": "tnunlimited:ichor"
+    },
+    "4": {
+      "item": "tnunlimited:bleeding_heart_charm"
+    },
+    "5": {
+      "item": "tnunlimited:ichor"
+    },
+    "7": {
+      "item": "tnunlimited:ichor"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:ichor_heart_charm",
+    "count": 1
+  }
+}

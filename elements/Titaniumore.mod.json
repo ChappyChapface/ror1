@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Rawtitanium"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -135,13 +135,13 @@
         "value": "Blocks.STONE#5"
       }
     ],
-    "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": -16,
-    "maxGenerateHeight": 32,
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 9,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64,
     "generateCondition": {
-      "name": "PostDragSpawnCondition"
+      "name": "DuneSpiderSpawn"
     }
   }
 }

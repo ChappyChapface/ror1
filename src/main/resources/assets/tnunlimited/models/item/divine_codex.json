@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/tome",
+  "textures": {
+    "0": "tnunlimited:blocks/divine_codex",
+    "particle": "tnunlimited:items/palm_door_icon"
+  }
+}

@@ -24,6 +24,7 @@ import net.mcreator.tnunlimited.client.particle.GoldMagicCircleParticle;
 import net.mcreator.tnunlimited.client.particle.EnergyreverseParticle;
 import net.mcreator.tnunlimited.client.particle.EnergyParticle;
 import net.mcreator.tnunlimited.client.particle.DiamondMagicCircleParticle;
+import net.mcreator.tnunlimited.client.particle.DaywalkerSparklezParticle;
 import net.mcreator.tnunlimited.client.particle.CoronerFireParticle;
 import net.mcreator.tnunlimited.client.particle.BulletShellParticle;
 import net.mcreator.tnunlimited.client.particle.BloodsplashParticle;
@@ -58,5 +59,6 @@ public class TnunlimitedModParticles {
 		event.register(TnunlimitedModParticleTypes.ICE_SHARDS.get(), IceShardsParticle::provider);
 		event.register(TnunlimitedModParticleTypes.SLASH.get(), SlashParticle::provider);
 		event.register(TnunlimitedModParticleTypes.PARRY.get(), ParryParticle::provider);
+		event.register(TnunlimitedModParticleTypes.DAYWALKER_SPARKLEZ.get(), DaywalkerSparklezParticle::provider);
 	}
 }

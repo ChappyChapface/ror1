@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:titanium"
+    },
+    "1": {
+      "item": "tnunlimited:titanium"
+    },
+    "2": {
+      "item": "tnunlimited:titanium"
+    },
+    "3": {
+      "item": "tnunlimited:titanium"
+    },
+    "5": {
+      "item": "tnunlimited:titanium"
+    },
+    "6": {
+      "item": "tnunlimited:titanium"
+    },
+    "8": {
+      "item": "tnunlimited:titanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:titanium_armor_leggings",
+    "count": 1
+  }
+}

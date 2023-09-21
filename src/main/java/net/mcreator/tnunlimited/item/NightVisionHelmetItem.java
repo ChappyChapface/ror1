@@ -85,9 +85,7 @@ public abstract class NightVisionHelmetItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			NightVisionHelmetHelmetTickEventProcedure.execute(
-
-			);
+			NightVisionHelmetHelmetTickEventProcedure.execute(entity);
 		}
 	}
 }

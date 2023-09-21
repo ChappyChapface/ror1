@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/palmleaves",
+    "up": "tnunlimited:blocks/palmleaves",
+    "north": "tnunlimited:blocks/palmleaves",
+    "east": "tnunlimited:blocks/palmleaves",
+    "south": "tnunlimited:blocks/palmleaves",
+    "west": "tnunlimited:blocks/palmleaves",
+    "particle": "tnunlimited:blocks/palmleaves"
+  },
+  "render_type": "cutout"
+}
