@@ -26,6 +26,7 @@ import net.mcreator.tnunlimited.item.WitherAndRotChiptuneItem;
 import net.mcreator.tnunlimited.item.WitchItem;
 import net.mcreator.tnunlimited.item.WeatherClockItem;
 import net.mcreator.tnunlimited.item.WarcasterItem;
+import net.mcreator.tnunlimited.item.VillagerNoseItem;
 import net.mcreator.tnunlimited.item.VambraceItem;
 import net.mcreator.tnunlimited.item.TwoLayerHelmetItem;
 import net.mcreator.tnunlimited.item.TreeBarkItem;
@@ -90,6 +91,7 @@ import net.mcreator.tnunlimited.item.RawRithiumItem;
 import net.mcreator.tnunlimited.item.RawLeadItem;
 import net.mcreator.tnunlimited.item.RawAntimonyItem;
 import net.mcreator.tnunlimited.item.RawAardiumItem;
+import net.mcreator.tnunlimited.item.PurpleStickySlimeItemItem;
 import net.mcreator.tnunlimited.item.ProphetItem;
 import net.mcreator.tnunlimited.item.PrimalItem;
 import net.mcreator.tnunlimited.item.PowerringItem;
@@ -807,6 +809,11 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> POWERRING = REGISTRY.register("powerring", () -> new PowerringItem());
 	public static final RegistryObject<Item> FURY_HOOK = REGISTRY.register("fury_hook", () -> new FuryHookItem());
 	public static final RegistryObject<Item> FERAL_HUNTING_KNIFE = REGISTRY.register("feral_hunting_knife", () -> new FeralHuntingKnifeItem());
+	public static final RegistryObject<Item> PURPLE_STICKY_SLIME_ITEM = REGISTRY.register("purple_sticky_slime_item", () -> new PurpleStickySlimeItemItem());
+	public static final RegistryObject<Item> PURPLE_STICKY_SLIME = block(TnunlimitedModBlocks.PURPLE_STICKY_SLIME, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> WET_SAND = block(TnunlimitedModBlocks.WET_SAND, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> VILLAGER_NOSE_HELMET = REGISTRY.register("villager_nose_helmet", () -> new VillagerNoseItem.Helmet());
+	public static final RegistryObject<Item> PLAM_LEAVES = block(TnunlimitedModBlocks.PLAM_LEAVES, TnunlimitedModTabs.TAB_ACCESSORIES_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

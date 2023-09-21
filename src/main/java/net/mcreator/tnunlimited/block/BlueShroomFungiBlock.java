@@ -1,6 +1,10 @@
 
 package net.mcreator.tnunlimited.block;
 
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraftforge.common.PlantType;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -22,7 +26,7 @@ import java.util.Collections;
 
 public class BlueShroomFungiBlock extends FlowerBlock {
 	public BlueShroomFungiBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().lightLevel(s -> 2).noCollission());
 	}
 
 	@Override
@@ -50,8 +54,7 @@ public class BlueShroomFungiBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(TnunlimitedModBlocks.SHROOM_GRASS.get()) || groundState.is(TnunlimitedModBlocks.BLUE_SHROOMSLATE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT)
-				|| groundState.is(TnunlimitedModBlocks.BLUE_SHROOM_STEM.get());
+		return groundState.is(TnunlimitedModBlocks.SHROOM_GRASS.get()) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.GRASS_BLOCK);
 	}
 
 	@Override
@@ -59,5 +62,10 @@ public class BlueShroomFungiBlock extends FlowerBlock {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.CAVE;
 	}
 }

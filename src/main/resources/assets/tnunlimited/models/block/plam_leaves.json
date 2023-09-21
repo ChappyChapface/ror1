@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tnunlimited:blocks/palmleaves",
+    "particle": "tnunlimited:blocks/palmleaves"
+  },
+  "render_type": "cutout"
+}

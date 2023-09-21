@@ -1,6 +1,8 @@
 
 package net.mcreator.tnunlimited.block;
 
+import net.minecraftforge.common.PlantType;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -50,7 +52,7 @@ public class BlueShroomRootsBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(TnunlimitedModBlocks.SHROOM_GRASS.get()) || groundState.is(TnunlimitedModBlocks.BLUE_SHROOMSLATE.get()) || groundState.is(Blocks.GRAVEL) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT);
+		return groundState.is(TnunlimitedModBlocks.SHROOM_GRASS.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT);
 	}
 
 	@Override
@@ -58,5 +60,10 @@ public class BlueShroomRootsBlock extends FlowerBlock {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.CAVE;
 	}
 }

@@ -1,7 +1,6 @@
 
 package net.mcreator.tnunlimited.world.features.plants;
 
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
@@ -33,8 +32,8 @@ public class PurpleLightglowFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new PurpleLightglowFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("tnunlimited:purple_lightglow", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(TnunlimitedModBlocks.PURPLE_LIGHTGLOW.get())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("tnunlimited:purple_lightglow", CONFIGURED_FEATURE, List.of(CountPlacement.of(15), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(TnunlimitedModBlocks.PURPLE_LIGHTGLOW.get())), List.of(), 50));
+		PLACED_FEATURE = PlacementUtils.register("tnunlimited:purple_lightglow", CONFIGURED_FEATURE, List.of(CountPlacement.of(20), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

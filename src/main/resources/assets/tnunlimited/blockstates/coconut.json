@@ -1,7 +1,57 @@
 {
   "variants": {
-    "": {
+    "face=floor,facing=north": {
       "model": "tnunlimited:block/coconut"
+    },
+    "face=floor,facing=east": {
+      "model": "tnunlimited:block/coconut",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "tnunlimited:block/coconut",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "tnunlimited:block/coconut",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "tnunlimited:block/coconut",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "tnunlimited:block/coconut",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "tnunlimited:block/coconut",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "tnunlimited:block/coconut",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "tnunlimited:block/coconut",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "tnunlimited:block/coconut",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "tnunlimited:block/coconut",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "tnunlimited:block/coconut",
+      "x": 180,
+      "y": 90
     }
   }
 }

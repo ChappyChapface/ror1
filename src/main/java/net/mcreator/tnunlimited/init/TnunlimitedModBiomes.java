@@ -59,7 +59,7 @@ public class TnunlimitedModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					for (Climate.ParameterPoint parameterPoint : BlueShroomsBiomeBiome.PARAMETER_POINTS) {
+					for (Climate.ParameterPoint parameterPoint : BlueShroomsBiomeBiome.UNDERGROUND_PARAMETER_POINTS) {
 						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, BLUE_SHROOMS_BIOME.getId()))));
 					}
 
@@ -73,7 +73,7 @@ public class TnunlimitedModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLUE_SHROOMS_BIOME.getId()), TnunlimitedModBlocks.SHROOM_GRASS.get().defaultBlockState(),
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BLUE_SHROOMS_BIOME.getId()), TnunlimitedModBlocks.SHROOM_GRASS.get().defaultBlockState(),
 								TnunlimitedModBlocks.BLUE_SHROOMSLATE.get().defaultBlockState(), TnunlimitedModBlocks.BLUE_SHROOMSLATE.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
@@ -86,12 +86,11 @@ public class TnunlimitedModBiomes {
 		}
 	}
 
-	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
 		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
-				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
-						SurfaceRules.sequence(
-								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
-								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
+				SurfaceRules.sequence(
+						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))));
 	}
 }

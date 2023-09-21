@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.tnunlimited.block.ZincOreBlock;
 import net.mcreator.tnunlimited.block.ZincDeepslateOreBlock;
 import net.mcreator.tnunlimited.block.ZincBlockBlock;
+import net.mcreator.tnunlimited.block.WetSandBlock;
 import net.mcreator.tnunlimited.block.TitaniumoreBlock;
 import net.mcreator.tnunlimited.block.TangeloBlossomBlock;
 import net.mcreator.tnunlimited.block.TallMireshroomBlock;
@@ -30,6 +31,7 @@ import net.mcreator.tnunlimited.block.SpawningEyeBlock;
 import net.mcreator.tnunlimited.block.ShroomGrassBlock;
 import net.mcreator.tnunlimited.block.RithiumBlockBlock;
 import net.mcreator.tnunlimited.block.RawRithiumBlockBlock;
+import net.mcreator.tnunlimited.block.PurpleStickySlimeBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateWallsBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateStairsBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateSlabsBlock;
@@ -54,6 +56,7 @@ import net.mcreator.tnunlimited.block.PlushHivemasterBlock;
 import net.mcreator.tnunlimited.block.PlushGlowingGolemBlock;
 import net.mcreator.tnunlimited.block.PlushAnimeRacoonBlock;
 import net.mcreator.tnunlimited.block.PlushAardvarkmanBlock;
+import net.mcreator.tnunlimited.block.PlamLeavesBlock;
 import net.mcreator.tnunlimited.block.PalmWoodWoodBlock;
 import net.mcreator.tnunlimited.block.PalmWoodLogBlock;
 import net.mcreator.tnunlimited.block.OverdriveTableBlock;
@@ -216,6 +219,9 @@ public class TnunlimitedModBlocks {
 	public static final RegistryObject<Block> POLISHED_DACITE_BUTTON = REGISTRY.register("polished_dacite_button", () -> new PolishedDaciteButtonBlock());
 	public static final RegistryObject<Block> LEAD_TRAPDOOR = REGISTRY.register("lead_trapdoor", () -> new LeadTrapdoorBlock());
 	public static final RegistryObject<Block> BLENDER = REGISTRY.register("blender", () -> new BlenderBlock());
+	public static final RegistryObject<Block> PURPLE_STICKY_SLIME = REGISTRY.register("purple_sticky_slime", () -> new PurpleStickySlimeBlock());
+	public static final RegistryObject<Block> WET_SAND = REGISTRY.register("wet_sand", () -> new WetSandBlock());
+	public static final RegistryObject<Block> PLAM_LEAVES = REGISTRY.register("plam_leaves", () -> new PlamLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

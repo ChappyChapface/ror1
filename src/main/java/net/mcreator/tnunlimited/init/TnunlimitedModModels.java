@@ -37,6 +37,7 @@ import net.mcreator.tnunlimited.client.model.Modelcrow;
 import net.mcreator.tnunlimited.client.model.Modelbloodrip_shoot;
 import net.mcreator.tnunlimited.client.model.Modelblood_spheres;
 import net.mcreator.tnunlimited.client.model.ModelWastelandish_Hopper;
+import net.mcreator.tnunlimited.client.model.ModelVillagerNose;
 import net.mcreator.tnunlimited.client.model.ModelRoachHelmet;
 import net.mcreator.tnunlimited.client.model.ModelRoachChestplate;
 import net.mcreator.tnunlimited.client.model.ModelRedstoneTreadling;
@@ -114,6 +115,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(Modelblood_spheres.LAYER_LOCATION, Modelblood_spheres::createBodyLayer);
 		event.registerLayerDefinition(ModeldioriteChestplate.LAYER_LOCATION, ModeldioriteChestplate::createBodyLayer);
 		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
+		event.registerLayerDefinition(ModelVillagerNose.LAYER_LOCATION, ModelVillagerNose::createBodyLayer);
 		event.registerLayerDefinition(ModelDart.LAYER_LOCATION, ModelDart::createBodyLayer);
 		event.registerLayerDefinition(Modelrose_gold.LAYER_LOCATION, Modelrose_gold::createBodyLayer);
 		event.registerLayerDefinition(Modelender_protector.LAYER_LOCATION, Modelender_protector::createBodyLayer);

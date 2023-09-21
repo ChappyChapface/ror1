@@ -1,6 +1,31 @@
 
 package net.mcreator.tnunlimited.entity;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.ItemSupplier;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.util.RandomSource;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.Packet;
+
+import net.mcreator.tnunlimited.procedures.FuryHookYoinkProcedure;
+import net.mcreator.tnunlimited.procedures.FuryHookNoGravProcedure;
+import net.mcreator.tnunlimited.procedures.FuryHookBlockHitProcedure;
+import net.mcreator.tnunlimited.init.TnunlimitedModItems;
+import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
+
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class FuryHookEntity extends AbstractArrow implements ItemSupplier {
 	public FuryHookEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -44,7 +69,7 @@ public class FuryHookEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		FuryHookYoinkProcedure.execute();
+		FuryHookYoinkProcedure.execute(this.level, entityHitResult.getEntity(), this.getOwner());
 	}
 
 	@Override
@@ -56,7 +81,7 @@ public class FuryHookEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void tick() {
 		super.tick();
-		FuryHookNoGravProcedure.execute();
+		FuryHookNoGravProcedure.execute(this.getOwner(), this);
 		if (this.inGround)
 			this.discard();
 	}

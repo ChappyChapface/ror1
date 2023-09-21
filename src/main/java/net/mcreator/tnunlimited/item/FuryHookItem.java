@@ -1,8 +1,32 @@
 
 package net.mcreator.tnunlimited.item;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.tnunlimited.procedures.FuryHookCooldowmProcedure;
+import net.mcreator.tnunlimited.entity.FuryHookEntity;
+
+import java.util.List;
+
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
 
 public class FuryHookItem extends Item {
 	public FuryHookItem() {
@@ -54,7 +78,7 @@ public class FuryHookItem extends Item {
 				FuryHookEntity entityarrow = FuryHookEntity.shoot(world, entity, world.getRandom(), 1f, 5, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-				FuryHookCooldowmProcedure.execute();
+				FuryHookCooldowmProcedure.execute(entity, itemstack);
 			}
 		}
 	}

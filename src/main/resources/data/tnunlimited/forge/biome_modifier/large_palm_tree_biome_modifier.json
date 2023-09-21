@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "beach",
+  "features": "tnunlimited:large_palm_tree",
+  "step": "surface_structures"
+}
