@@ -5,14 +5,14 @@
   ],
   "key": {
     "0": {
-      "item": "tnunlimited:palm_planks"
+      "item": "tnunlimited:deleted_mod_element"
     },
     "1": {
-      "item": "tnunlimited:palm_planks"
+      "item": "tnunlimited:deleted_mod_element"
     }
   },
   "result": {
-    "item": "tnunlimited:palm_pressure_plate",
+    "item": "tnunlimited:deleted_mod_element",
     "count": 1
   }
 }

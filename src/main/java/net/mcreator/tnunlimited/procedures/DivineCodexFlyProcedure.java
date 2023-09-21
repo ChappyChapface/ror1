@@ -1,15 +1,8 @@
 package net.mcreator.tnunlimited.procedures;
 
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.tnunlimited.init.TnunlimitedModParticleTypes;
+import javax.annotation.Nullable;
 
 public class DivineCodexFlyProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity immediatesourceentity) {
@@ -32,6 +25,6 @@ public class DivineCodexFlyProcedure {
 				immediatesourceentity.discard();
 		}
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (TnunlimitedModParticleTypes.DAYWALKER_SPARKLEZ.get()), x, y, z, 8, 0.1, 0.1, 0.1, 0);
+			_level.sendParticles((SimpleParticleType) (TnunlimitedModParticleTypes.DELETED_MOD_ELEMENT.get()), x, y, z, 8, 0.1, 0.1, 0.1, 0);
 	}
 }

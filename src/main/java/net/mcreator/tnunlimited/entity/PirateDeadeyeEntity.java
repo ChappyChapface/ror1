@@ -1,45 +1,16 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.animal.AbstractGolem;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RestrictSunGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.OpenDoorGoal;
-import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
-import net.minecraft.world.entity.ai.goal.FollowMobGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.core.BlockPos;
 
-import net.mcreator.tnunlimited.init.TnunlimitedModItems;
-import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
+import javax.annotation.Nullable;
 
 public class PirateDeadeyeEntity extends Monster {
+
 	public PirateDeadeyeEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(TnunlimitedModEntities.PIRATE_DEADEYE.get(), world);
 	}
@@ -49,7 +20,9 @@ public class PirateDeadeyeEntity extends Monster {
 		maxUpStep = 0.6f;
 		xpReward = 10;
 		setNoAi(false);
+
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(TnunlimitedModItems.FLINTLOCK.get()));
+
 	}
 
 	@Override
@@ -60,15 +33,18 @@ public class PirateDeadeyeEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setAlertOthers());
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
 		this.goalSelector.addGoal(3, new AvoidEntityGoal<>(this, Player.class, (float) 3, 1, 1.2));
 		this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, AbstractGolem.class, (float) 3, 1, 1.2));
 		this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1.2, false) {
+
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
+
 		});
 		this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, (float) 12));
 		this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, AbstractGolem.class, (float) 12));
@@ -80,6 +56,7 @@ public class PirateDeadeyeEntity extends Monster {
 		this.goalSelector.addGoal(13, new MoveBackToVillageGoal(this, 0.6, false));
 		this.goalSelector.addGoal(14, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(15, new FloatGoal(this));
+
 	}
 
 	@Override
@@ -120,6 +97,7 @@ public class PirateDeadeyeEntity extends Monster {
 	}
 
 	public static void init() {
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -129,7 +107,10 @@ public class PirateDeadeyeEntity extends Monster {
 		builder = builder.add(Attributes.ARMOR, 4);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 13);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.2);
+
 		return builder;
 	}
+
 }

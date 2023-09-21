@@ -1,28 +1,13 @@
 package net.mcreator.tnunlimited.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.tnunlimited.world.inventory.BlenderGUIMenu;
-import net.mcreator.tnunlimited.network.BlenderGUIButtonMessage;
-import net.mcreator.tnunlimited.TnunlimitedMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
+
 	private final static HashMap<String, Object> guistate = BlenderGUIMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	Button button_blend;
 
 	public BlenderGUIScreen(BlenderGUIMenu container, Inventory inventory, Component text) {
@@ -43,6 +28,7 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -50,8 +36,10 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -61,6 +49,7 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -85,14 +74,19 @@ public class BlenderGUIScreen extends AbstractContainerScreen<BlenderGUIMenu> {
 	@Override
 	public void init() {
 		super.init();
+
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+
 		button_blend = new Button(this.leftPos + 59, this.topPos + 43, 51, 20, Component.translatable("gui.tnunlimited.blender_gui.button_blend"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new BlenderGUIButtonMessage(0, x, y, z));
 				BlenderGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
+
 		guistate.put("button:button_blend", button_blend);
 		this.addRenderableWidget(button_blend);
+
 	}
+
 }

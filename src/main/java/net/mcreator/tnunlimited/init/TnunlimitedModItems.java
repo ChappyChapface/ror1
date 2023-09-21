@@ -94,6 +94,7 @@ import net.mcreator.tnunlimited.item.RawLeadItem;
 import net.mcreator.tnunlimited.item.RawFerrotitaniumItem;
 import net.mcreator.tnunlimited.item.RawAntimonyItem;
 import net.mcreator.tnunlimited.item.RawAardiumItem;
+import net.mcreator.tnunlimited.item.PurpleStickySlimeItemItem;
 import net.mcreator.tnunlimited.item.ProphetItem;
 import net.mcreator.tnunlimited.item.PrimalItem;
 import net.mcreator.tnunlimited.item.PowerringItem;
@@ -820,7 +821,9 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> FURY_HOOK = REGISTRY.register("fury_hook", () -> new FuryHookItem());
 	public static final RegistryObject<Item> FERAL_HUNTING_KNIFE = REGISTRY.register("feral_hunting_knife", () -> new FeralHuntingKnifeItem());
 	public static final RegistryObject<Item> STRIPPED_PALM_LOG = block(TnunlimitedModBlocks.STRIPPED_PALM_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PURPLE_STICKY_SLIME_ITEM = REGISTRY.register("purple_sticky_slime_item", () -> new PurpleStickySlimeItemItem());
 	public static final RegistryObject<Item> STRIPPED_PALM_WOOD_BLOCK = block(TnunlimitedModBlocks.STRIPPED_PALM_WOOD_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PURPLE_STICKY_SLIME = block(TnunlimitedModBlocks.PURPLE_STICKY_SLIME, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> PALM_PLANKS = block(TnunlimitedModBlocks.PALM_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PALM_SLAB = block(TnunlimitedModBlocks.PALM_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PALM_STAIRS = block(TnunlimitedModBlocks.PALM_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);

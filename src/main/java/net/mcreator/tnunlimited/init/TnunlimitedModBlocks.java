@@ -36,6 +36,7 @@ import net.mcreator.tnunlimited.block.RithiumBlockBlock;
 import net.mcreator.tnunlimited.block.RawRithiumBlockBlock;
 import net.mcreator.tnunlimited.block.QueensAltarBlock;
 import net.mcreator.tnunlimited.block.QueensAltarActiveBlock;
+import net.mcreator.tnunlimited.block.PurpleStickySlimeBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateWallsBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateStairsBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateSlabsBlock;
@@ -240,6 +241,7 @@ public class TnunlimitedModBlocks {
 	public static final RegistryObject<Block> BLENDER = REGISTRY.register("blender", () -> new BlenderBlock());
 	public static final RegistryObject<Block> STRIPPED_PALM_LOG = REGISTRY.register("stripped_palm_log", () -> new StrippedPalmLogBlock());
 	public static final RegistryObject<Block> STRIPPED_PALM_WOOD_BLOCK = REGISTRY.register("stripped_palm_wood_block", () -> new StrippedPalmWoodBlockBlock());
+	public static final RegistryObject<Block> PURPLE_STICKY_SLIME = REGISTRY.register("purple_sticky_slime", () -> new PurpleStickySlimeBlock());
 	public static final RegistryObject<Block> PALM_PLANKS = REGISTRY.register("palm_planks", () -> new PalmPlanksBlock());
 	public static final RegistryObject<Block> PALM_SLAB = REGISTRY.register("palm_slab", () -> new PalmSlabBlock());
 	public static final RegistryObject<Block> PALM_STAIRS = REGISTRY.register("palm_stairs", () -> new PalmStairsBlock());

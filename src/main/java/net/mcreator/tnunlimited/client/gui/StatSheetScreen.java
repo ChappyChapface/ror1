@@ -1,42 +1,13 @@
 package net.mcreator.tnunlimited.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.tnunlimited.world.inventory.StatSheetMenu;
-import net.mcreator.tnunlimited.procedures.GUIText9Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText8Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText7Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText6Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText5Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText4Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText3Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText13Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText12Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText11Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText10Procedure;
-import net.mcreator.tnunlimited.procedures.GUIPageDisplayProcedure;
-import net.mcreator.tnunlimited.procedures.ClassTextProcedure;
-import net.mcreator.tnunlimited.procedures.ClassText2Procedure;
-import net.mcreator.tnunlimited.network.StatSheetButtonMessage;
-import net.mcreator.tnunlimited.TnunlimitedMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class StatSheetScreen extends AbstractContainerScreen<StatSheetMenu> {
+
 	private final static HashMap<String, Object> guistate = StatSheetMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	Button button_empty;
 	Button button_empty1;
 
@@ -58,6 +29,7 @@ public class StatSheetScreen extends AbstractContainerScreen<StatSheetMenu> {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -65,8 +37,10 @@ public class StatSheetScreen extends AbstractContainerScreen<StatSheetMenu> {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -76,6 +50,7 @@ public class StatSheetScreen extends AbstractContainerScreen<StatSheetMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -140,22 +115,29 @@ public class StatSheetScreen extends AbstractContainerScreen<StatSheetMenu> {
 	@Override
 	public void init() {
 		super.init();
+
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+
 		button_empty = new Button(this.leftPos + 132, this.topPos + 7, 30, 20, Component.translatable("gui.tnunlimited.stat_sheet.button_empty"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new StatSheetButtonMessage(0, x, y, z));
 				StatSheetButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
+
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);
+
 		button_empty1 = new Button(this.leftPos + 6, this.topPos + 7, 30, 20, Component.translatable("gui.tnunlimited.stat_sheet.button_empty1"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new StatSheetButtonMessage(1, x, y, z));
 				StatSheetButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
+
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
+
 	}
+
 }

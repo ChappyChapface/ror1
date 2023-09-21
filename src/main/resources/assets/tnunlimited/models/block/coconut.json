@@ -1,9 +1,9 @@
 {
-  "parent": "tnunlimited:custom/coconut3_",
+  "parent": "tnunlimited:custom/coconut",
   "textures": {
-    "all": "tnunlimited:blocks/coconut_texture",
-    "particle": "tnunlimited:blocks/coconut_texture",
-    "1": "tnunlimited:blocks/coconut_texture"
+    "all": "tnunlimited:blocks/coconuttexture",
+    "particle": "tnunlimited:blocks/coconuttexture",
+    "0": "tnunlimited:blocks/coconuttexture"
   },
   "render_type": "solid"
 }
