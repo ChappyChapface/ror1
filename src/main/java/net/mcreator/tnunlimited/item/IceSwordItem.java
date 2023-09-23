@@ -31,7 +31,7 @@ public class IceSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6.1f;
+				return 3f;
 			}
 
 			public int getLevel() {

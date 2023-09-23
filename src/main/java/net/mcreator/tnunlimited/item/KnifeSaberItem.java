@@ -6,6 +6,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,11 +22,11 @@ public class KnifeSaberItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 1.5f;
+				return 2.5f;
 			}
 
 			public int getLevel() {
@@ -33,13 +34,13 @@ public class KnifeSaberItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(Items.DIAMOND));
 			}
-		}, 3, -1.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 
 	@Override

@@ -5,7 +5,7 @@
     "structure": "2medblueshroom",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 800000,
+    "spawnProbability": 0,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 2,
     "spawnLocation": "Ground",
