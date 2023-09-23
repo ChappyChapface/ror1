@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "addition": {
+    "item": "tnunlimited:titanium"
+  },
+  "result": {
+    "item": "tnunlimited:ferrotitanium"
+  }
+}

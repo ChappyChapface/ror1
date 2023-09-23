@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "nubrium_helmet",
+    "textureHelmet": "nubriumhelmet1",
     "enableBody": true,
-    "textureBody": "nubrium_chestplate",
+    "textureBody": "nubriumchestplate1",
     "enableLeggings": true,
-    "textureLeggings": "nubrium_leggings",
+    "textureLeggings": "nubriumleggings1",
     "enableBoots": true,
-    "textureBoots": "nubrium_boots",
+    "textureBoots": "nubriumboots1",
     "onHelmetTick": {
       "name": "ArmorSetBonuses"
     },

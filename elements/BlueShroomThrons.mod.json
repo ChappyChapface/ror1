@@ -11,10 +11,10 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
+    "staticPlantGenerationType": "Grass",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
@@ -80,12 +80,6 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [
       {
-        "value": "CUSTOM:BlueShroomslate"
-      },
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
         "value": "CUSTOM:ShroomGrass"
       },
       {
@@ -105,8 +99,8 @@
         "value": "CUSTOM:BlueShroomsBiome"
       }
     ],
-    "patchSize": 100,
-    "generateAtAnyHeight": false,
+    "patchSize": 200,
+    "generateAtAnyHeight": true,
     "onEntityCollides": {
       "name": "BlueShroomThronsMobplayerCollidesWithPlant"
     }

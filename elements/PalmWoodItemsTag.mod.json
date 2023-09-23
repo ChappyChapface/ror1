@@ -9,11 +9,18 @@
       },
       {
         "value": "CUSTOM:PalmWoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmWoodBlock"
       }
     ],
     "blocks": [],
     "functions": [],
     "entities": [],
+    "biomes": [],
     "name": "palmwood_log",
     "namespace": "forge"
   }

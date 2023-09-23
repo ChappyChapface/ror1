@@ -1,26 +1,13 @@
 
 package net.mcreator.tnunlimited.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.tnunlimited.init.TnunlimitedModItems;
-
-import java.util.List;
-import java.util.Collections;
 
 public class TitaniumoreBlock extends Block {
 	public TitaniumoreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(3.5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3.5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -40,6 +27,6 @@ public class TitaniumoreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(TnunlimitedModItems.RAWTITANIUM.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

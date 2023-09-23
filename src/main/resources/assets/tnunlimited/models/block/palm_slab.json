@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tnunlimited:blocks/palm_planks",
+    "top": "tnunlimited:blocks/palm_planks",
+    "side": "tnunlimited:blocks/palm_planks"
+  },
+  "render_type": "solid"
+}

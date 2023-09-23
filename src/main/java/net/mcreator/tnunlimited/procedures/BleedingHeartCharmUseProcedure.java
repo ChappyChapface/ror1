@@ -9,14 +9,21 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.tnunlimited.init.TnunlimitedModMobEffects;
+import net.mcreator.tnunlimited.init.TnunlimitedModItems;
+
 public class BleedingHeartCharmUseProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
 			_player.getCooldowns().addCooldown(itemstack.getItem(), 600);
-		if (entity instanceof LivingEntity _entity)
-			_entity.setHealth((float) Math.min(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1, (entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 7));
+		if (entity instanceof Player _player)
+			_player.getCooldowns().addCooldown(TnunlimitedModItems.HEMOLYMPH_HEART_CHARM.get(), 600);
+		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.FROSTBURN.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.FROSTBURN.get()).getAmplifier() : 0) < 1) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.setHealth((float) Math.min(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1, (entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 7));
+		}
 		if (!(new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayer _serverPlayer) {

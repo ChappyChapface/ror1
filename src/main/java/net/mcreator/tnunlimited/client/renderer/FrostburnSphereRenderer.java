@@ -1,22 +1,9 @@
 package net.mcreator.tnunlimited.client.renderer;
 
-import net.minecraft.util.Mth;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.renderer.entity.EntityRenderer;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-
-import net.mcreator.tnunlimited.entity.FrostburnSphereEntity;
-import net.mcreator.tnunlimited.client.model.Modelblood_spheres;
-
-import com.mojang.math.Vector3f;
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class FrostburnSphereRenderer extends EntityRenderer<FrostburnSphereEntity> {
+
 	private static final ResourceLocation texture = new ResourceLocation("tnunlimited:textures/entities/frostburn_sphere.png");
+
 	private final Modelblood_spheres model;
 
 	public FrostburnSphereRenderer(EntityRendererProvider.Context context) {
@@ -32,6 +19,7 @@ public class FrostburnSphereRenderer extends EntityRenderer<FrostburnSphereEntit
 		poseStack.mulPose(Vector3f.ZP.rotationDegrees(90 + Mth.lerp(partialTicks, entityIn.xRotO, entityIn.getXRot())));
 		model.renderToBuffer(poseStack, vb, packedLightIn, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.0625f);
 		poseStack.popPose();
+
 		super.render(entityIn, entityYaw, partialTicks, poseStack, bufferIn, packedLightIn);
 	}
 
@@ -39,4 +27,5 @@ public class FrostburnSphereRenderer extends EntityRenderer<FrostburnSphereEntit
 	public ResourceLocation getTextureLocation(FrostburnSphereEntity entity) {
 		return texture;
 	}
+
 }

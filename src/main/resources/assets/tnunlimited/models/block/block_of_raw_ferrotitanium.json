@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "up": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "north": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "east": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "south": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "west": "tnunlimited:blocks/block_of_raw_ferrotitanium",
+    "particle": "tnunlimited:blocks/block_of_raw_ferrotitanium"
+  },
+  "render_type": "solid"
+}

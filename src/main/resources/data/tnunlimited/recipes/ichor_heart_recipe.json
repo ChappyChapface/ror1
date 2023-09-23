@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "tnunlimited:deleted_mod_element"
+    },
+    "3": {
+      "item": "tnunlimited:deleted_mod_element"
+    },
+    "4": {
+      "item": "tnunlimited:bleeding_heart_charm"
+    },
+    "5": {
+      "item": "tnunlimited:deleted_mod_element"
+    },
+    "7": {
+      "item": "tnunlimited:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:deleted_mod_element",
+    "count": 1
+  }
+}

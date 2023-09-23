@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tnunlimited:palm_wood_wood"
+      "tag": "forge:palmwood_log"
     }
   ],
   "result": {
-    "item": "minecraft:birch_planks",
+    "item": "tnunlimited:palm_planks",
     "count": 4
   }
 }

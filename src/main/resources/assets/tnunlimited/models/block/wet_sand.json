@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/wetsand",
+    "up": "tnunlimited:blocks/wetsand",
+    "north": "tnunlimited:blocks/wetsand",
+    "east": "tnunlimited:blocks/wetsand",
+    "south": "tnunlimited:blocks/wetsand",
+    "west": "tnunlimited:blocks/wetsand",
+    "particle": "tnunlimited:blocks/wetsand"
+  },
+  "render_type": "solid"
+}

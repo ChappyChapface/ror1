@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/palm_planks",
+    "up": "tnunlimited:blocks/palm_planks",
+    "north": "tnunlimited:blocks/palm_planks",
+    "east": "tnunlimited:blocks/palm_planks",
+    "south": "tnunlimited:blocks/palm_planks",
+    "west": "tnunlimited:blocks/palm_planks",
+    "particle": "tnunlimited:blocks/palm_planks"
+  },
+  "render_type": "solid"
+}

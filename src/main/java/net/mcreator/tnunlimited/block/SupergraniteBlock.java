@@ -1,29 +1,13 @@
 
 package net.mcreator.tnunlimited.block;
 
-import org.checkerframework.checker.units.qual.s;
-
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import java.util.List;
-import java.util.Collections;
 
 public class SupergraniteBlock extends Block {
 	public SupergraniteBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_MAGENTA).sound(SoundType.AMETHYST_CLUSTER).strength(4.2f, 420f).lightLevel(s -> 2).requiresCorrectToolForDrops().speedFactor(1.2f).jumpFactor(1.2f));
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_MAGENTA).sound(SoundType.AMETHYST_CLUSTER).strength(4.2f, 420f).lightLevel(s -> 2).speedFactor(1.2f).jumpFactor(1.2f));
 	}
 
 	@Override
@@ -49,13 +33,6 @@ public class SupergraniteBlock extends Block {
 	@Override
 	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
 		return true;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 4;
-		return false;
 	}
 
 	@Override

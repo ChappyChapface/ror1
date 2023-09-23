@@ -1,17 +1,7 @@
 package net.mcreator.tnunlimited.entity.layer;
 
-import software.bernie.geckolib3.renderers.geo.IGeoRenderer;
-import software.bernie.geckolib3.renderers.geo.GeoLayerRenderer;
-
-import net.minecraft.world.entity.Entity;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class CoronerLayer extends GeoLayerRenderer {
+
 	private static final ResourceLocation LAYER = new ResourceLocation("tnunlimited", "textures/entities/coroner_glow.png");
 	private static final ResourceLocation MODEL = new ResourceLocation("tnunlimited", "geo/the_coroner.geo.json");
 
