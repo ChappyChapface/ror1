@@ -27,7 +27,7 @@ public class ShiftPlateItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7aWhen Equipped:"));
-		list.add(Component.literal("\u00A77Allows you to make sharp turns and instantly turn around."));
-		list.add(Component.literal("\u00A77Look at key binds for use"));
+		list.add(Component.literal("\u00A77When dodging"));
+		list.add(Component.literal("you take a super sharp turn in that direction"));
 	}
 }

@@ -10,7 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.tnunlimited.procedures.ShiftPlateEffectRProcedure;
+import net.mcreator.tnunlimited.procedures.DashLProcedure;
 import net.mcreator.tnunlimited.TnunlimitedMod;
 
 import java.util.function.Supplier;
@@ -52,7 +52,7 @@ public class ShiftPlateKeyLMessage {
 			return;
 		if (type == 0) {
 
-			ShiftPlateEffectRProcedure.execute(entity);
+			DashLProcedure.execute(entity);
 		}
 	}
 

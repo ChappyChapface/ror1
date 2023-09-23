@@ -3,10 +3,10 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "Z",
-    "keyBindingName": "Shift Plate Left",
+    "keyBindingName": "Dodge Left",
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
-      "name": "ShiftPlateEffectR"
+      "name": "DashL"
     }
   }
 }

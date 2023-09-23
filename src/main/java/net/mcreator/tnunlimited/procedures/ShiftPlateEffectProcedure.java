@@ -1,5 +1,6 @@
 package net.mcreator.tnunlimited.procedures;
 
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -44,6 +45,8 @@ public class ShiftPlateEffectProcedure {
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get(), 2, 0));
+		} else if (entity.isOnGround()) {
+			entity.setDeltaMovement(new Vec3((0.5 * Math.sin((90 - (entity.getYRot() + 270)) * (3.14159 / 180))), 0.3, (0.5 * Math.sin((entity.getYRot() + 270) * (3.14159 / 180)))));
 		}
 	}
 }

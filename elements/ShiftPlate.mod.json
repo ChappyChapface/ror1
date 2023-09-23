@@ -26,8 +26,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§aWhen Equipped:",
-      "§7Allows you to make sharp turns and instantly turn around.",
-      "§7Look at key binds for use"
+      "§7When dodging",
+      "you take a super sharp turn in that direction"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
