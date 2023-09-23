@@ -62,7 +62,7 @@ public class KnightsBladeItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7aAbility: \u00A77Increased damage against glowing targets"));
+		list.add(Component.literal("\u00A7aAbility: \u00A77+20% increased damage for each nearby glowing entity"));
 		list.add(Component.literal("\u00A77Right Click to make nearby entities glow"));
 		list.add(Component.literal("\u00A7cCooldown: \u00A7730 Seconds"));
 		list.add(Component.literal("\u00A79Melee/Slashing"));

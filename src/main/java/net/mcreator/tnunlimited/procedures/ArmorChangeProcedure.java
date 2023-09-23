@@ -156,6 +156,26 @@ public class ArmorChangeProcedure {
 				});
 			}
 		}
+		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(TnunlimitedModMobEffects.BROKEN.get()) : false) {
+			{
+				double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).armorRawIncrease
+						- 1 * (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.BROKEN.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.BROKEN.get()).getAmplifier() : 0);
+				entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.armorRawIncrease = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		}
+		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(TnunlimitedModMobEffects.SHATTERED.get()) : false) {
+			{
+				double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).ArmorIncrease
+						- 0.1 * (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(TnunlimitedModMobEffects.SHATTERED.get()) ? _livEnt.getEffect(TnunlimitedModMobEffects.SHATTERED.get()).getAmplifier() : 0);
+				entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.ArmorIncrease = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		}
 		{
 			double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).ArmorIncrease;
 			entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -171,7 +191,7 @@ public class ArmorChangeProcedure {
 					"attribute @e[limit=1,sort=nearest] minecraft:generic.armor modifier remove 5-9-4-6-9");
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					("attribute @e[limit=1,sort=nearest] minecraft:generic.armor modifier remove 5-9-4-6-9 Armor "
+					("attribute @e[limit=1,sort=nearest] minecraft:generic.armor modifier add 5-9-4-6-9 Armor "
 							+ ((entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).armorRawIncrease + " add")));
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),

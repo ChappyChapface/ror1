@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Knight's Blade",
     "specialInfo": [
-      "§aAbility: §7Increased damage against glowing targets",
+      "§aAbility: §7+20% increased damage for each nearby glowing entity",
       "§7Right Click to make nearby entities glow",
       "§cCooldown: §730 Seconds",
       "§9Melee/Slashing"
