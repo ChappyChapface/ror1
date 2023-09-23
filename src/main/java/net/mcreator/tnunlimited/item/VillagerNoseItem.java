@@ -1,34 +1,12 @@
 
 package net.mcreator.tnunlimited.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.model.geom.ModelPart;
-import net.minecraft.client.model.HumanoidModel;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.tnunlimited.procedures.VillagerNoseNoisesProcedure;
-import net.mcreator.tnunlimited.init.TnunlimitedModTabs;
-import net.mcreator.tnunlimited.client.model.ModelVillagerNose;
-
 import java.util.function.Consumer;
-import java.util.Map;
-import java.util.Collections;
+import net.minecraft.client.model.Model;
 
 public abstract class VillagerNoseItem extends ArmorItem {
+
 	public VillagerNoseItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -38,7 +16,7 @@ public abstract class VillagerNoseItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 1}[slot.getIndex()];
+				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -48,7 +26,7 @@ public abstract class VillagerNoseItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.celebrate"));
 			}
 
 			@Override
@@ -74,6 +52,7 @@ public abstract class VillagerNoseItem extends ArmorItem {
 	}
 
 	public static class Helmet extends VillagerNoseItem {
+
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(TnunlimitedModTabs.TAB_VANITY));
 		}
@@ -103,7 +82,8 @@ public abstract class VillagerNoseItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			VillagerNoseNoisesProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+			VillagerNoseNoiseProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		}
 	}
+
 }

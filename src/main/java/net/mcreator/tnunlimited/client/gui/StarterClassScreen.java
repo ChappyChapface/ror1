@@ -1,34 +1,13 @@
 package net.mcreator.tnunlimited.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.tnunlimited.world.inventory.StarterClassMenu;
-import net.mcreator.tnunlimited.procedures.GUIText3Procedure;
-import net.mcreator.tnunlimited.procedures.GUIText13Procedure;
-import net.mcreator.tnunlimited.procedures.ClassUnlockProcedure;
-import net.mcreator.tnunlimited.procedures.ClassTextProcedure;
-import net.mcreator.tnunlimited.procedures.ClassText2Procedure;
-import net.mcreator.tnunlimited.procedures.ClassLockProcedure;
-import net.mcreator.tnunlimited.network.StarterClassButtonMessage;
-import net.mcreator.tnunlimited.TnunlimitedMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu> {
+
 	private final static HashMap<String, Object> guistate = StarterClassMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	Button button_confirm;
 	Button button_empty;
 	Button button_empty1;
@@ -51,6 +30,7 @@ public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -58,8 +38,10 @@ public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -69,6 +51,7 @@ public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -89,7 +72,11 @@ public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu
 		this.font.draw(poseStack,
 
 				GUIText3Procedure.execute(entity), 9, 40, -12829636);
-		if (ClassLockProcedure.execute(entity))
+		if (
+
+		ClassLockProcedure.execute(entity)
+
+		)
 			this.font.draw(poseStack, Component.translatable("gui.tnunlimited.starter_class.label_locked"), 71, 60, -12829636);
 		this.font.draw(poseStack,
 
@@ -105,36 +92,53 @@ public class StarterClassScreen extends AbstractContainerScreen<StarterClassMenu
 	@Override
 	public void init() {
 		super.init();
+
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+
 		button_confirm = new Button(this.leftPos + 57, this.topPos + 53, 61, 20, Component.translatable("gui.tnunlimited.starter_class.button_confirm"), e -> {
-			if (ClassUnlockProcedure.execute(entity)) {
+			if (
+
+			ClassUnlockProcedure.execute(entity)
+
+			) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new StarterClassButtonMessage(0, x, y, z));
 				StarterClassButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}) {
 			@Override
 			public void render(PoseStack ms, int gx, int gy, float ticks) {
-				if (ClassUnlockProcedure.execute(entity))
+				if (
+
+				ClassUnlockProcedure.execute(entity)
+
+				)
 					super.render(ms, gx, gy, ticks);
 			}
 		};
+
 		guistate.put("button:button_confirm", button_confirm);
 		this.addRenderableWidget(button_confirm);
+
 		button_empty = new Button(this.leftPos + 136, this.topPos + 53, 30, 20, Component.translatable("gui.tnunlimited.starter_class.button_empty"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new StarterClassButtonMessage(1, x, y, z));
 				StarterClassButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
+
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);
+
 		button_empty1 = new Button(this.leftPos + 6, this.topPos + 53, 30, 20, Component.translatable("gui.tnunlimited.starter_class.button_empty1"), e -> {
 			if (true) {
 				TnunlimitedMod.PACKET_HANDLER.sendToServer(new StarterClassButtonMessage(2, x, y, z));
 				StarterClassButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		});
+
 		guistate.put("button:button_empty1", button_empty1);
 		this.addRenderableWidget(button_empty1);
+
 	}
+
 }

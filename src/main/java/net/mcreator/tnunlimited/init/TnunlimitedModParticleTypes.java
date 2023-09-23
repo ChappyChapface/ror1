@@ -37,4 +37,5 @@ public class TnunlimitedModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> ICE_SHARDS = REGISTRY.register("ice_shards", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> SLASH = REGISTRY.register("slash", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> PARRY = REGISTRY.register("parry", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> DAYWALKER_SPARKLEZ = REGISTRY.register("daywalker_sparklez", () -> new SimpleParticleType(true));
 }

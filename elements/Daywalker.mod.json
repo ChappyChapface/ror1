@@ -1,0 +1,78 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "daywalker_helmet",
+    "enableBody": true,
+    "textureBody": "daywalker_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "daywalker_leggings",
+    "enableBoots": true,
+    "textureBoots": "daywalker_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "daywalker_",
+    "helmetName": "Daywalker Helmet",
+    "bodyName": "Daywalker Chestplate",
+    "leggingsName": "Daywalker Leggings",
+    "bootsName": "Daywalker Boots",
+    "helmetSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+15 Max Mana during daytime and near the surface"
+    ],
+    "bodySpecialInfo": [
+      "§aSet Bonus:",
+      "§7+15 Max Mana during daytime and near the surface"
+    ],
+    "leggingsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+15 Max Mana during daytime and near the surface"
+    ],
+    "bootsSpecialInfo": [
+      "§aSet Bonus:",
+      "§7+15 Max Mana during daytime and near the surface"
+    ],
+    "helmetModelName": "Modeldaywalker",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "daywalker_layer_1.png",
+    "bodyModelName": "Modeldaywalker",
+    "bodyModelPart": "body",
+    "armsModelPartL": "left_arm",
+    "armsModelPartR": "right_arm",
+    "bodyModelTexture": "daywalker_layer_1.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modeldaywalker",
+    "bootsModelPartL": "left_shoe",
+    "bootsModelPartR": "right_shoe",
+    "bootsModelTexture": "daywalker_layer_1.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 30,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 20,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

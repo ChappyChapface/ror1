@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "up": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "north": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "east": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "south": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "west": "tnunlimited:blocks/chiseled_dacite_bricks",
+    "particle": "tnunlimited:blocks/chiseled_dacite_bricks"
+  },
+  "render_type": "solid"
+}

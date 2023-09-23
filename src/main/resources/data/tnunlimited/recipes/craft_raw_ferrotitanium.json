@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:raw_iron"
+  },
+  "addition": {
+    "item": "tnunlimited:rawtitanium"
+  },
+  "result": {
+    "item": "tnunlimited:raw_ferrotitanium"
+  }
+}

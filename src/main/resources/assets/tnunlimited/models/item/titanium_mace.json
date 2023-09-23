@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/chad_mace",
+  "textures": {
+    "3": "tnunlimited:blocks/mace_head",
+    "particle": "tnunlimited:items/titanium_helmet"
+  }
+}

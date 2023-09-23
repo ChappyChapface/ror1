@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Lead Advancement",
-    "achievementDescription": "Idk I dont own lead. Asshole",
+    "achievementName": "Lead Age",
+    "achievementDescription": "Obtain Lead Ingot",
     "achievementIcon": {
       "value": "CUSTOM:LeadIngot"
     },

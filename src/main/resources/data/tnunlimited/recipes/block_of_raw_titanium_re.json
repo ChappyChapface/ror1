@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "1": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "2": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "3": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "4": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "5": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "6": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "7": {
+      "item": "tnunlimited:rawtitanium"
+    },
+    "8": {
+      "item": "tnunlimited:rawtitanium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:deleted_mod_element",
+    "count": 1
+  }
+}

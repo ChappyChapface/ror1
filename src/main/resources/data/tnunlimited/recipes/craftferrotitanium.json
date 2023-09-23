@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01"
-  ],
-  "key": {
-    "0": {
-      "item": "tnunlimited:titanium"
-    },
-    "1": {
-      "item": "minecraft:iron_ingot"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tnunlimited:titanium"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
   },
   "result": {
-    "item": "tnunlimited:ferrotitanium",
-    "count": 1
+    "item": "tnunlimited:ferrotitanium"
   }
 }

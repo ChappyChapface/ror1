@@ -46,6 +46,14 @@
     "tnunlimited:lead_door",
     "tnunlimited:polished_dacite_pressure_plate",
     "tnunlimited:polished_dacite_button",
-    "tnunlimited:lead_trapdoor"
+    "tnunlimited:lead_trapdoor",
+    "tnunlimited:block_of_titanium",
+    "tnunlimited:block_of_raw_titanium",
+    "tnunlimited:block_of_ferrotitanium",
+    "tnunlimited:block_of_raw_ferrotitanium",
+    "tnunlimited:block_of_raw_aardium",
+    "tnunlimited:chiseled_dacite_bricks",
+    "tnunlimited:queens_altar",
+    "tnunlimited:queens_altar_active"
   ]
 }

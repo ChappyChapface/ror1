@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "2": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "3": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "4": {
+      "item": "tnunlimited:palm_planks"
+    },
+    "5": {
+      "item": "tnunlimited:palm_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_boat",
+    "count": 1
+  }
+}

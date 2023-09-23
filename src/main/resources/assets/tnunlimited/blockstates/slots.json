@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tnunlimited:block/slots"
+    },
+    "facing=east": {
+      "model": "tnunlimited:block/slots",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tnunlimited:block/slots",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tnunlimited:block/slots",
+      "y": 270
+    }
+  }
+}

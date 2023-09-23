@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "1": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "2": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "3": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "4": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "5": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "6": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "7": {
+      "item": "tnunlimited:raw_aardium"
+    },
+    "8": {
+      "item": "tnunlimited:raw_aardium"
+    }
+  },
+  "result": {
+    "item": "tnunlimited:block_of_raw_aardium",
+    "count": 1
+  }
+}

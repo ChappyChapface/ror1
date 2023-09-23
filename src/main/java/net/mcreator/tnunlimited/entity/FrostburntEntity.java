@@ -1,52 +1,18 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import software.bernie.geckolib3.util.GeckoLibUtil;
-import software.bernie.geckolib3.core.manager.AnimationFactory;
-import software.bernie.geckolib3.core.manager.AnimationData;
-import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
-import software.bernie.geckolib3.core.controller.AnimationController;
-import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
-import software.bernie.geckolib3.core.builder.AnimationBuilder;
-import software.bernie.geckolib3.core.PlayState;
-import software.bernie.geckolib3.core.IAnimatable;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.animal.IronGolem;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 
-import net.mcreator.tnunlimited.procedures.DuneSpiderSpawnProcedure;
-import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
+import javax.annotation.Nullable;
+
+import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
 
 public class FrostburntEntity extends Monster implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FrostburntEntity.class, EntityDataSerializers.BOOLEAN);
@@ -66,6 +32,7 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 		super(type, world);
 		xpReward = 10;
 		setNoAi(false);
+
 	}
 
 	@Override
@@ -92,19 +59,23 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, ServerPlayer.class, true, false));
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, true, false));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, IronGolem.class, true, false));
 		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
+
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
+
 		});
 		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(8, new FloatGoal(this));
+
 	}
 
 	@Override
@@ -150,8 +121,13 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return DuneSpiderSpawnProcedure.execute(x, z);
+			return
+
+			DuneSpiderSpawnProcedure.execute(x, z)
+
+			;
 		});
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -161,6 +137,7 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 		builder = builder.add(Attributes.ARMOR, 3);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		return builder;
 	}
 
@@ -189,6 +166,7 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 			this.lastloop = false;
 			event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
 			event.getController().clearAnimationCache();
+
 			return PlayState.STOP;
 		}
 		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
@@ -212,6 +190,7 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 		if (this.deathTime == 20) {
 			this.remove(FrostburntEntity.RemovalReason.KILLED);
 			this.dropExperience();
+
 		}
 	}
 
@@ -233,4 +212,5 @@ public class FrostburntEntity extends Monster implements IAnimatable {
 	public AnimationFactory getFactory() {
 		return this.factory;
 	}
+
 }

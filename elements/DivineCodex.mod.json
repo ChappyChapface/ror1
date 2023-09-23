@@ -1,0 +1,39 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "palm_door_icon",
+    "customModelName": "tome:default",
+    "name": "Divine Codex",
+    "specialInfo": [
+      "§eMana Usage: §71",
+      "§7When used:",
+      "§2 6 Damage",
+      "§2 1.5 Attack Speed",
+      "§9Magic/Offensive"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 2561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "DivineCodexShoot"
+    },
+    "onRightClickedOnBlock": {
+      "name": "DivineCodexShoot"
+    }
+  }
+}

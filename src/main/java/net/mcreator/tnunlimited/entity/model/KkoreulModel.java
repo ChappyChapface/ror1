@@ -1,11 +1,5 @@
 package net.mcreator.tnunlimited.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.tnunlimited.entity.KkoreulEntity;
-
 public class KkoreulModel extends AnimatedGeoModel<KkoreulEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(KkoreulEntity entity) {

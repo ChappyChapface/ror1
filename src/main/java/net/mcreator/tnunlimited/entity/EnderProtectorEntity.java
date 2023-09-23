@@ -1,43 +1,16 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.projectile.ThrownPotion;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.AreaEffectCloud;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.core.BlockPos;
 
-import net.mcreator.tnunlimited.procedures.EnderProtectorSpawningConditionProcedure;
-import net.mcreator.tnunlimited.procedures.EnderProtectorAIProcedure;
-import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
+import javax.annotation.Nullable;
 
 public class EnderProtectorEntity extends Monster {
+
 	public EnderProtectorEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(TnunlimitedModEntities.ENDER_PROTECTOR.get(), world);
 	}
@@ -47,6 +20,7 @@ public class EnderProtectorEntity extends Monster {
 		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
+
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -63,14 +37,18 @@ public class EnderProtectorEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 0, false) {
+
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
+
 		});
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
+
 	}
 
 	@Override
@@ -90,6 +68,7 @@ public class EnderProtectorEntity extends Monster {
 
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
+
 		return false;
 	}
 
@@ -154,6 +133,7 @@ public class EnderProtectorEntity extends Monster {
 
 	public void aiStep() {
 		super.aiStep();
+
 		this.setNoGravity(true);
 	}
 
@@ -162,8 +142,13 @@ public class EnderProtectorEntity extends Monster {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return EnderProtectorSpawningConditionProcedure.execute(world, x, z);
+			return
+
+			EnderProtectorSpawningConditionProcedure.execute(world, x, z)
+
+			;
 		});
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -173,7 +158,10 @@ public class EnderProtectorEntity extends Monster {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 500);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		builder = builder.add(Attributes.FLYING_SPEED, 0.4);
+
 		return builder;
 	}
+
 }

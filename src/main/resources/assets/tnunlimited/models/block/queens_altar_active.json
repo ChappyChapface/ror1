@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tnunlimited:blocks/cobbled_dacite",
+    "up": "tnunlimited:blocks/frostant_spawn_totem_top",
+    "north": "tnunlimited:blocks/frostant_spawn_totem_active",
+    "east": "tnunlimited:blocks/frostant_spawn_totem_active",
+    "south": "tnunlimited:blocks/frostant_spawn_totem_active",
+    "west": "tnunlimited:blocks/frostant_spawn_totem_active",
+    "particle": "tnunlimited:blocks/cobbled_dacite"
+  },
+  "render_type": "solid"
+}

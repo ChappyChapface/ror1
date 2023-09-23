@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tnunlimited:jotunnheart"
+    },
+    {
+      "item": "tnunlimited:bleeding_heart_charm"
+    }
+  ],
+  "result": {
+    "item": "tnunlimited:hemolymph_heart_charm",
+    "count": 1
+  }
+}

@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:PalmWoodWood"
+        "value": "TAG:forge:palmwood_log"
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.PLANKS#2"
+      "value": "CUSTOM:PalmPlanks"
     },
     "name": "palm_wood_wood_rec",
     "namespace": "mod"

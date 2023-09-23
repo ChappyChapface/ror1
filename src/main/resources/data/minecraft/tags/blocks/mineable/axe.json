@@ -4,6 +4,17 @@
     "tnunlimited:palm_wood_wood",
     "tnunlimited:palm_wood_log",
     "tnunlimited:coconut",
-    "tnunlimited:blender"
+    "tnunlimited:blender",
+    "tnunlimited:stripped_palm_log",
+    "tnunlimited:stripped_palm_wood_block",
+    "tnunlimited:palm_planks",
+    "tnunlimited:palm_slab",
+    "tnunlimited:palm_stairs",
+    "tnunlimited:palm_pressure_plate",
+    "tnunlimited:palm_button",
+    "tnunlimited:palm_fence",
+    "tnunlimited:palm_fence_gate",
+    "tnunlimited:palm_door",
+    "tnunlimited:palm_trapdoor"
   ]
 }
