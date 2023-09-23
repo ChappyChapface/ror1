@@ -1,5 +1,11 @@
 package net.mcreator.tnunlimited.entity.model;
 
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.tnunlimited.entity.PlayerFrostSpikeEntityEntity;
+
 public class PlayerFrostSpikeEntityModel extends AnimatedGeoModel<PlayerFrostSpikeEntityEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PlayerFrostSpikeEntityEntity entity) {

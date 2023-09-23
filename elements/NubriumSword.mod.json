@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "nubriumsword1",
+    "texture": "nubriumsword",
     "customModelName": "Normal",
     "name": "Nubrium Sword",
     "specialInfo": [

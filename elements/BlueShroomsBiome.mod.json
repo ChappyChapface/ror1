@@ -13,23 +13,23 @@
       "value": ""
     },
     "airColor": {
-      "value": -13696933,
+      "value": -10400596,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13696933,
+      "value": -10400596,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -13696933,
+      "value": -10400596,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13696933,
+      "value": -10400596,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -13696933,
+      "value": -10400596,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -52,8 +52,8 @@
     "particlesProbability": 3.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "spawnBiome": false,
-    "spawnInCaves": true,
+    "spawnBiome": true,
+    "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
@@ -64,11 +64,11 @@
       "max": 1.0
     },
     "genContinentalness": {
-      "min": -0.1,
+      "min": -0.48,
       "max": 1.52
     },
     "genErosion": {
-      "min": 0.01,
+      "min": -0.01,
       "max": 0.5
     },
     "genWeirdness": {
@@ -117,6 +117,15 @@
     "spawnEndCity": false,
     "spawnRuinedPortal": "STANDARD",
     "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityVex"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
       {
         "entity": {
           "value": "CUSTOM:PurpleBeetle"

@@ -1,16 +1,43 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.nbt.Tag;
-import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.RangedAttackMob;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.PanicGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerBossEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.tnunlimited.procedures.CakemonsterattackProcedure;
+import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
 
 public class CakemonsterEntity extends Monster implements RangedAttackMob {
-
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public CakemonsterEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -22,12 +49,9 @@ public class CakemonsterEntity extends Monster implements RangedAttackMob {
 		maxUpStep = 0.6f;
 		xpReward = 24;
 		setNoAi(false);
-
 		setCustomName(Component.literal("Cake Monstrosity"));
 		setCustomNameVisible(true);
-
 		setPersistenceRequired();
-
 	}
 
 	@Override
@@ -38,22 +62,18 @@ public class CakemonsterEntity extends Monster implements RangedAttackMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-
 		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, (float) 3));
 		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 0.5, false) {
-
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
-
 		});
 		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, true));
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -136,7 +156,6 @@ public class CakemonsterEntity extends Monster implements RangedAttackMob {
 	}
 
 	public static void init() {
-
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -146,12 +165,8 @@ public class CakemonsterEntity extends Monster implements RangedAttackMob {
 		builder = builder.add(Attributes.ARMOR, 2);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 2);
-
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);
-
 		return builder;
 	}
-
 }

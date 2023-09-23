@@ -1,5 +1,16 @@
 package net.mcreator.tnunlimited.entity.model;
 
+import software.bernie.geckolib3.model.provider.data.EntityModelData;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib3.core.processor.IBone;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.tnunlimited.entity.FrostAntQueenPhase2Entity;
+
 public class FrostAntQueenPhase2Model extends AnimatedGeoModel<FrostAntQueenPhase2Entity> {
 	@Override
 	public ResourceLocation getAnimationResource(FrostAntQueenPhase2Entity entity) {

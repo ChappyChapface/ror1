@@ -29,7 +29,7 @@ public class GlacierGlaiveItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 7f;
 			}
 
 			public int getLevel() {

@@ -1,21 +1,37 @@
 
 package net.mcreator.tnunlimited.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.tnunlimited.procedures.IceBladeProjecProcedure;
+
+import java.util.List;
 
 public class IceSwordItem extends SwordItem {
 	public IceSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1561;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 8f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 3.25f;
 			}
 
 			public int getLevel() {
@@ -27,7 +43,7 @@ public class IceSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.ICE), new ItemStack(Blocks.PACKED_ICE), new ItemStack(Blocks.FROSTED_ICE), new ItemStack(Blocks.BLUE_ICE));
+				return Ingredient.of(new ItemStack(Blocks.ICE));
 			}
 		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}

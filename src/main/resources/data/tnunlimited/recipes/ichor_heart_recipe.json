@@ -7,23 +7,23 @@
   ],
   "key": {
     "1": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:ichor"
     },
     "3": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:ichor"
     },
     "4": {
       "item": "tnunlimited:bleeding_heart_charm"
     },
     "5": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:ichor"
     },
     "7": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:ichor"
     }
   },
   "result": {
-    "item": "tnunlimited:deleted_mod_element",
+    "item": "tnunlimited:ichor_heart_charm",
     "count": 1
   }
 }

@@ -1,7 +1,17 @@
 
 package net.mcreator.tnunlimited.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
 
 public class KnifeSaberItem extends SwordItem {
 	public KnifeSaberItem() {
@@ -11,11 +21,11 @@ public class KnifeSaberItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 8f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.5f;
+				return 1.5f;
 			}
 
 			public int getLevel() {
@@ -23,13 +33,13 @@ public class KnifeSaberItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.DIAMOND));
+				return Ingredient.of();
 			}
-		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -1.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 
 	@Override

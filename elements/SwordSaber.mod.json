@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "swordsaber",
+    "texture": "pixil-frame-0_-_2022-08-01t001426.335",
     "customModelName": "Normal",
     "name": "Sword Saber",
     "specialInfo": [
@@ -15,18 +15,14 @@
     },
     "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 9.0,
-    "attackSpeed": 1.8,
-    "enchantability": 15,
-    "damageVsEntity": 5.5,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "Items.NETHERITE_INGOT"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

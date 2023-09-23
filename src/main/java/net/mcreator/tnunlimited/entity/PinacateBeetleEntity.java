@@ -1,16 +1,37 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.nbt.Tag;
-import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.projectile.ThrownPotion;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.EatBlockGoal;
+import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.Packet;
+
+import net.mcreator.tnunlimited.procedures.PinacateBeetleStenchProcedure;
+import net.mcreator.tnunlimited.procedures.DuneSpiderSpawnProcedure;
+import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
 
 public class PinacateBeetleEntity extends PathfinderMob {
-
 	public PinacateBeetleEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(TnunlimitedModEntities.PINACATE_BEETLE.get(), world);
 	}
@@ -20,7 +41,6 @@ public class PinacateBeetleEntity extends PathfinderMob {
 		maxUpStep = 0.6f;
 		xpReward = 4;
 		setNoAi(false);
-
 	}
 
 	@Override
@@ -31,13 +51,11 @@ public class PinacateBeetleEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-
 		this.goalSelector.addGoal(1, new AvoidEntityGoal<>(this, LivingEntity.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new EatBlockGoal(this));
-
 	}
 
 	@Override
@@ -74,13 +92,8 @@ public class PinacateBeetleEntity extends PathfinderMob {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return
-
-			DuneSpiderSpawnProcedure.execute(x, z)
-
-			;
+			return DuneSpiderSpawnProcedure.execute(x, z);
 		});
-
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -90,10 +103,7 @@ public class PinacateBeetleEntity extends PathfinderMob {
 		builder = builder.add(Attributes.ARMOR, 12);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.2);
-
 		return builder;
 	}
-
 }

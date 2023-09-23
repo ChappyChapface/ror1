@@ -1,9 +1,25 @@
 
 package net.mcreator.tnunlimited.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.tnunlimited.world.inventory.AccessoriesMenu;
+import net.mcreator.tnunlimited.procedures.AccSet1Procedure;
+import net.mcreator.tnunlimited.TnunlimitedMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AccessoriesButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public AccessoriesButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +51,6 @@ public class AccessoriesButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,11 +59,9 @@ public class AccessoriesButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = AccessoriesMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
 			AccSet1Procedure.execute(world, x, y, z, entity);
@@ -59,5 +72,4 @@ public class AccessoriesButtonMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		TnunlimitedMod.addNetworkMessage(AccessoriesButtonMessage.class, AccessoriesButtonMessage::buffer, AccessoriesButtonMessage::new, AccessoriesButtonMessage::handler);
 	}
-
 }

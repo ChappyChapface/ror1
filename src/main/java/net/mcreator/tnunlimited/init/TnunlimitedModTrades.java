@@ -41,7 +41,7 @@ public class TnunlimitedModTrades {
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 32), new ItemStack(Items.DIAMOND, 3), new ItemStack(TnunlimitedModItems.BAND_OF_BEATDOWN.get()), 1, 50, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.WEAPONSMITH) {
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(TnunlimitedModItems.RITHIUM.get(), 5), new ItemStack(Items.DIAMOND, 5), new ItemStack(TnunlimitedModItems.KNIFE_SABER.get()), 1, 50, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 32), new ItemStack(Items.DIAMOND, 3), new ItemStack(TnunlimitedModItems.KNIFE_SABER.get()), 1, 50, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 16), new ItemStack(Items.IRON_SWORD), new ItemStack(TnunlimitedModItems.KATANA.get()), 5, 25, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.BUTCHER) {

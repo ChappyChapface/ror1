@@ -15,11 +15,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.tnunlimited.network.TnunlimitedModVariables;
+import net.mcreator.tnunlimited.init.TnunlimitedModMobEffects;
 import net.mcreator.tnunlimited.init.TnunlimitedModItems;
 import net.mcreator.tnunlimited.init.TnunlimitedModGameRules;
 import net.mcreator.tnunlimited.init.TnunlimitedModEnchantments;
@@ -113,62 +115,26 @@ public class RangedSTRChangeProcedure {
 			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.GALVANIZED_HARPOON.get()
 					|| (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.GALVANIZED_HARPOON.get()) {
 				if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TnunlimitedModItems.GALVANIZED_HARPOON.get()) {
-					if (Increase < 0) {
-						if (event != null && event.isCancelable()) {
-							event.setCanceled(true);
-						}
-						if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase * (-1)
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
-						} else {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase * (-1)
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
-						}
+					if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
+						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+							_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.SHATTERED.get(), 60,
+									(int) Math.round((3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)))
+											/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1))));
 					} else {
-						if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
-						} else {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) + 1)));
-						}
+						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+							_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.BROKEN.get(), 60,
+									Math.round(3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)))));
 					}
 				} else {
-					if (Increase < 0) {
-						if (event != null && event.isCancelable()) {
-							event.setCanceled(true);
-						}
-						if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
-							entity.hurt(DamageSource.OUT_OF_WORLD,
-									(float) (amount * Increase * (-1)
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) + 1)));
-						} else {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase * (-1)
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) + 1)));
-						}
+					if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
+						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+							_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.SHATTERED.get(), 60,
+									(int) Math.round((3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)))
+											/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) + 1))));
 					} else {
-						if (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) != 0) {
-							entity.hurt(DamageSource.OUT_OF_WORLD,
-									(float) (amount * Increase
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) + 1)));
-						} else {
-							entity.hurt(DamageSource.GENERIC,
-									(float) (amount * Increase
-											+ (3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) / 2)
-													/ (EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.TRUE_PIERCING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)) + 1)));
-						}
+						if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+							_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.BROKEN.get(), 60,
+									Math.round(3 + EnchantmentHelper.getItemEnchantmentLevel(TnunlimitedModEnchantments.PUNCTURING.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)))));
 					}
 				}
 			} else {

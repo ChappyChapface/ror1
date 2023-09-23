@@ -1,11 +1,22 @@
 
 package net.mcreator.tnunlimited.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.tnunlimited.init.TnunlimitedModTabs;
+
+import java.util.List;
 
 public class SoulofadrenalineItem extends Item {
-
 	public SoulofadrenalineItem() {
 		super(new Item.Properties().tab(TnunlimitedModTabs.TAB_ACCESSORIES_TAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
@@ -27,5 +38,4 @@ public class SoulofadrenalineItem extends Item {
 		list.add(Component.literal("\u00A7aWhen Equipped:"));
 		list.add(Component.literal("\u00A77Grants Speed, Strength, and Resistance II when below 25% HP"));
 	}
-
 }
