@@ -41,6 +41,10 @@ import net.mcreator.tnunlimited.client.model.Modelbloodrip_shoot;
 import net.mcreator.tnunlimited.client.model.Modelblood_spheres;
 import net.mcreator.tnunlimited.client.model.ModelWastelandish_Hopper;
 import net.mcreator.tnunlimited.client.model.ModelVillagerNose;
+import net.mcreator.tnunlimited.client.model.ModelSlimeLegs;
+import net.mcreator.tnunlimited.client.model.ModelSlimeHelmet;
+import net.mcreator.tnunlimited.client.model.ModelSlimeChestplate;
+import net.mcreator.tnunlimited.client.model.ModelSlimeBoots;
 import net.mcreator.tnunlimited.client.model.ModelRoachHelmet;
 import net.mcreator.tnunlimited.client.model.ModelRoachChestplate;
 import net.mcreator.tnunlimited.client.model.ModelRedstoneTreadling;
@@ -75,6 +79,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(ModelCoalTreadling.LAYER_LOCATION, ModelCoalTreadling::createBodyLayer);
 		event.registerLayerDefinition(Modelsomethingsomething.LAYER_LOCATION, Modelsomethingsomething::createBodyLayer);
 		event.registerLayerDefinition(Modelslash.LAYER_LOCATION, Modelslash::createBodyLayer);
+		event.registerLayerDefinition(ModelSlimeBoots.LAYER_LOCATION, ModelSlimeBoots::createBodyLayer);
 		event.registerLayerDefinition(ModelKkoreul.LAYER_LOCATION, ModelKkoreul::createBodyLayer);
 		event.registerLayerDefinition(Modelcrow.LAYER_LOCATION, Modelcrow::createBodyLayer);
 		event.registerLayerDefinition(Modelfrost_larva.LAYER_LOCATION, Modelfrost_larva::createBodyLayer);
@@ -83,6 +88,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(Modelslash2.LAYER_LOCATION, Modelslash2::createBodyLayer);
 		event.registerLayerDefinition(ModelCoffeePotBug1.LAYER_LOCATION, ModelCoffeePotBug1::createBodyLayer);
 		event.registerLayerDefinition(ModelJermaHelmetLayer1.LAYER_LOCATION, ModelJermaHelmetLayer1::createBodyLayer);
+		event.registerLayerDefinition(ModelSlimeLegs.LAYER_LOCATION, ModelSlimeLegs::createBodyLayer);
 		event.registerLayerDefinition(ModelRedstoneTreadling.LAYER_LOCATION, ModelRedstoneTreadling::createBodyLayer);
 		event.registerLayerDefinition(ModelWastelandish_Hopper.LAYER_LOCATION, ModelWastelandish_Hopper::createBodyLayer);
 		event.registerLayerDefinition(ModelDuneSpider.LAYER_LOCATION, ModelDuneSpider::createBodyLayer);
@@ -92,8 +98,10 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(Modelsteve.LAYER_LOCATION, Modelsteve::createBodyLayer);
 		event.registerLayerDefinition(ModelGalvanizedHarpoon.LAYER_LOCATION, ModelGalvanizedHarpoon::createBodyLayer);
 		event.registerLayerDefinition(Modelrose_gold_disk.LAYER_LOCATION, Modelrose_gold_disk::createBodyLayer);
+		event.registerLayerDefinition(ModelSlimeChestplate.LAYER_LOCATION, ModelSlimeChestplate::createBodyLayer);
 		event.registerLayerDefinition(ModelPiranha.LAYER_LOCATION, ModelPiranha::createBodyLayer);
 		event.registerLayerDefinition(ModelLapisTreadling.LAYER_LOCATION, ModelLapisTreadling::createBodyLayer);
+		event.registerLayerDefinition(ModelSlimeHelmet.LAYER_LOCATION, ModelSlimeHelmet::createBodyLayer);
 		event.registerLayerDefinition(ModeldioriteChestplate.LAYER_LOCATION, ModeldioriteChestplate::createBodyLayer);
 		event.registerLayerDefinition(Modeltitanium_armor.LAYER_LOCATION, Modeltitanium_armor::createBodyLayer);
 		event.registerLayerDefinition(Modelrose_gold.LAYER_LOCATION, Modelrose_gold::createBodyLayer);

@@ -96,13 +96,13 @@
         "entries": [
           {
             "price1": {
-              "value": "CUSTOM:Rithium"
+              "value": "Items.EMERALD"
             },
-            "countPrice1": 5,
+            "countPrice1": 32,
             "price2": {
               "value": "Items.DIAMOND"
             },
-            "countPrice2": 5,
+            "countPrice2": 3,
             "offer": {
               "value": "CUSTOM:KnifeSaber"
             },

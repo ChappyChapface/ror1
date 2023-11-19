@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "tnunlimited:items/nubriumsword1"
+    "layer0": "tnunlimited:items/nubriumsword"
   }
 }

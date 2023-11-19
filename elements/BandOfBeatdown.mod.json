@@ -26,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "§aWhen Equipped:",
-      "§7Blunt weapons deal slightly more damage depending on how high the target's armor is"
+      "§7Blunt weapons stun the opponent for their armor points in ticks"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

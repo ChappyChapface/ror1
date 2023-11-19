@@ -1,10 +1,8 @@
 
 package net.mcreator.tnunlimited.potion;
 
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
 public class PurpleMushroomEffectMobEffect extends MobEffect {
+
 	public PurpleMushroomEffectMobEffect() {
 		super(MobEffectCategory.HARMFUL, -6749953);
 	}
@@ -18,4 +16,5 @@ public class PurpleMushroomEffectMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
+
 }

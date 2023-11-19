@@ -1,27 +1,9 @@
 
 package net.mcreator.tnunlimited.block;
 
-import net.minecraftforge.common.PlantType;
-import net.minecraftforge.common.ForgeHooks;
-
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SugarCaneBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.tnunlimited.init.TnunlimitedModBlocks;
-
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class PurpleTallVinesBlock extends SugarCaneBlock {
 	public PurpleTallVinesBlock() {

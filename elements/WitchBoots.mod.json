@@ -3,7 +3,6 @@
   "_type": "recipe",
   "definition": {
     "recipeRetstackSize": 1,
-    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "tnunlimited:items/nubriumhoe"
+    "layer0": "tnunlimited:items/pixil-frame-0_86"
   }
 }

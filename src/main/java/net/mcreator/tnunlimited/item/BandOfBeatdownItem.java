@@ -32,6 +32,6 @@ public class BandOfBeatdownItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7aWhen Equipped:"));
-		list.add(Component.literal("\u00A77Blunt weapons deal slightly more damage depending on how high the target's armor is"));
+		list.add(Component.literal("\u00A77Blunt weapons stun the opponent for their armor points in ticks"));
 	}
 }

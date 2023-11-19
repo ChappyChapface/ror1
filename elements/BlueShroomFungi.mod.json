@@ -11,10 +11,10 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Grass",
+    "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Cave",
+    "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
@@ -37,7 +37,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 2,
+    "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -83,10 +83,16 @@
         "value": "CUSTOM:ShroomGrass"
       },
       {
-        "value": "Blocks.DIRT#0"
+        "value": "CUSTOM:BlueShroomslate"
       },
       {
         "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:BlueShroomStem"
       }
     ],
     "isBonemealable": false,
@@ -100,6 +106,6 @@
       }
     ],
     "patchSize": 64,
-    "generateAtAnyHeight": true
+    "generateAtAnyHeight": false
   }
 }

@@ -1,14 +1,10 @@
 package net.mcreator.tnunlimited.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.tnunlimited.network.TnunlimitedModVariables;
-import net.mcreator.tnunlimited.init.TnunlimitedModMobEffects;
-import net.mcreator.tnunlimited.init.TnunlimitedModItems;
+import javax.annotation.Nullable;
 
-public class ShiftPlateEffectLProcedure {
+public class DashLProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
@@ -43,7 +39,9 @@ public class ShiftPlateEffectLProcedure {
 				});
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get(), 2, 0, true, false));
+				_entity.addEffect(new MobEffectInstance(TnunlimitedModMobEffects.OVERCHARGED_CLEAVER_DASH_EFFECT.get(), 2, 0));
+		} else if (entity.isOnGround()) {
+			entity.setDeltaMovement(new Vec3((0.5 * Math.sin((90 - (entity.getYRot() + 360)) * (3.14159 / 180))), 0.3, (0.5 * Math.sin((entity.getYRot() + 360) * (3.14159 / 180)))));
 		}
 	}
 }

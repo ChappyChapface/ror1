@@ -1,14 +1,8 @@
 
 package net.mcreator.tnunlimited.potion;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
-import net.mcreator.tnunlimited.procedures.StickyEffectProcedure;
-
 public class StickyMobEffect extends MobEffect {
+
 	public StickyMobEffect() {
 		super(MobEffectCategory.HARMFUL, -9021562);
 	}
@@ -37,4 +31,5 @@ public class StickyMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
+
 }

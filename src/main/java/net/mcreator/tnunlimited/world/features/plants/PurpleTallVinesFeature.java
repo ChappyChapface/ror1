@@ -1,34 +1,12 @@
 
 package net.mcreator.tnunlimited.world.features.plants;
 
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
-import net.minecraft.world.level.levelgen.placement.CountPlacement;
-import net.minecraft.world.level.levelgen.placement.BiomeFilter;
-import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.BlockColumnConfiguration;
-import net.minecraft.world.level.levelgen.feature.RandomPatchFeature;
-import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import com.mojang.serialization.Codec;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
-import net.minecraft.world.level.WorldGenLevel;
-import net.minecraft.world.level.Level;
-import net.minecraft.util.valueproviders.BiasedToBottomInt;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Holder;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.tnunlimited.init.TnunlimitedModBlocks;
-
-import java.util.Set;
-import java.util.List;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 
 public class PurpleTallVinesFeature extends RandomPatchFeature {
+
 	public static PurpleTallVinesFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
@@ -52,6 +30,7 @@ public class PurpleTallVinesFeature extends RandomPatchFeature {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
 			return false;
+
 		return super.place(context);
 	}
 }

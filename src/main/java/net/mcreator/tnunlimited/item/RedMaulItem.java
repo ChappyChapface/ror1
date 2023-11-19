@@ -54,7 +54,7 @@ public class RedMaulItem extends Item {
 		list.add(Component.literal("\u00A72 5 Damage"));
 		list.add(Component.literal("\u00A72 0.2 Attack Speed"));
 		list.add(Component.literal("\u00A79Melee/Blunt"));
-		list.add(Component.literal("\u00A7Ranged/Throwing"));
+		list.add(Component.literal("\u00A79Ranged/Throwing"));
 	}
 
 	@Override

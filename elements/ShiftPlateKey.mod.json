@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "X",
-    "keyBindingName": "Shift Plate Back",
+    "keyBindingName": "Dodge Backwards",
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
       "name": "ShiftPlateEffect"

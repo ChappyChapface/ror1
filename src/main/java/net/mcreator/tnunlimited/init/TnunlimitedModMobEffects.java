@@ -11,8 +11,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.tnunlimited.potion.SturdyMobEffect;
+import net.mcreator.tnunlimited.potion.StunnedMobEffect;
 import net.mcreator.tnunlimited.potion.StickyMobEffect;
 import net.mcreator.tnunlimited.potion.ShatteredPrideMobEffect;
+import net.mcreator.tnunlimited.potion.ShatteredMobEffect;
 import net.mcreator.tnunlimited.potion.PurpleMushroomEffectMobEffect;
 import net.mcreator.tnunlimited.potion.PrideCrownEffectMobEffect;
 import net.mcreator.tnunlimited.potion.ParasiteMobEffect;
@@ -34,6 +36,7 @@ import net.mcreator.tnunlimited.potion.DrowsyMobEffect;
 import net.mcreator.tnunlimited.potion.DepletingMobEffect;
 import net.mcreator.tnunlimited.potion.DecardialMobEffect;
 import net.mcreator.tnunlimited.potion.ChargingMobEffect;
+import net.mcreator.tnunlimited.potion.BrokenMobEffect;
 import net.mcreator.tnunlimited.potion.BluntIncreaseMobEffect;
 import net.mcreator.tnunlimited.potion.BleedingMobEffect;
 import net.mcreator.tnunlimited.potion.BedtimeElixerMobEffect;
@@ -66,6 +69,9 @@ public class TnunlimitedModMobEffects {
 	public static final RegistryObject<MobEffect> DRYOUT = REGISTRY.register("dryout", () -> new DryoutMobEffect());
 	public static final RegistryObject<MobEffect> OVERCHARGED_CLEAVER_DASH_EFFECT = REGISTRY.register("overcharged_cleaver_dash_effect", () -> new OverchargedCleaverDashEffectMobEffect());
 	public static final RegistryObject<MobEffect> INFERNO = REGISTRY.register("inferno", () -> new InfernoMobEffect());
+	public static final RegistryObject<MobEffect> BROKEN = REGISTRY.register("broken", () -> new BrokenMobEffect());
+	public static final RegistryObject<MobEffect> SHATTERED = REGISTRY.register("shattered", () -> new ShatteredMobEffect());
+	public static final RegistryObject<MobEffect> STUNNED = REGISTRY.register("stunned", () -> new StunnedMobEffect());
 	public static final RegistryObject<MobEffect> STICKY = REGISTRY.register("sticky", () -> new StickyMobEffect());
 	public static final RegistryObject<MobEffect> PURPLE_MUSHROOM_EFFECT = REGISTRY.register("purple_mushroom_effect", () -> new PurpleMushroomEffectMobEffect());
 }

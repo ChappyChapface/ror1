@@ -7666,12 +7666,7 @@
         "files": [
           "src/main/java/net/mcreator/tnunlimited/procedures/NightVisionHelmetHelmetTickEventProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -9370,22 +9365,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -10842,25 +10821,6 @@
       }
     },
     {
-      "name": "ShiftPlateEffectL",
-      "type": "procedure",
-      "sortid": 764,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shift_plate_effect_l",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tnunlimited/procedures/ShiftPlateEffectLProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "OceanBaubleRecipe",
       "type": "recipe",
       "sortid": 765,
@@ -10883,25 +10843,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/tnunlimited/network/ShiftPlateKeyMessage.java"
-        ]
-      }
-    },
-    {
-      "name": "ShiftPlateEffectR",
-      "type": "procedure",
-      "sortid": 767,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shift_plate_effect_r",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tnunlimited/procedures/ShiftPlateEffectRProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
         ]
       }
     },
@@ -18004,22 +17945,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -24828,20 +24753,44 @@
       }
     },
     {
-      "name": "PurpleTallVines",
-      "type": "plant",
-      "sortid": 1426,
+      "name": "PurpleMushroomPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1442,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "purple_tall_vines",
+      "registry_name": "purple_mushroom_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tnunlimited/block/PurpleTallVinesBlock.java",
-          "src/main/java/net/mcreator/tnunlimited/world/features/plants/PurpleTallVinesFeature.java",
-          "src/main/resources/assets/tnunlimited/models/block/purple_tall_vines.json",
-          "src/main/resources/assets/tnunlimited/blockstates/purple_tall_vines.json",
-          "src/main/resources/assets/tnunlimited/models/item/purple_tall_vines.json",
-          "src/main/resources/data/tnunlimited/forge/biome_modifier/purple_tall_vines_biome_modifier.json"
+          "src/main/java/net/mcreator/tnunlimited/procedures/PurpleMushroomPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DeadPurpleBeetle",
+      "type": "item",
+      "sortid": 1435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_purple_beetle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tnunlimited/models/item/dead_purple_beetle.json",
+          "src/main/java/net/mcreator/tnunlimited/item/DeadPurpleBeetleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleMushroom",
+      "type": "item",
+      "sortid": 1439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tnunlimited/models/item/purple_mushroom.json",
+          "src/main/java/net/mcreator/tnunlimited/item/PurpleMushroomItem.java"
         ]
       }
     },
@@ -24863,64 +24812,15 @@
       }
     },
     {
-      "name": "StickyEffectParticle",
-      "type": "particle",
-      "sortid": 1428,
+      "name": "RoastedPurpleBeetleRecipe2",
+      "type": "recipe",
+      "sortid": 1438,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sticky_effect_particle",
+      "registry_name": "roasted_purple_beetle_recipe_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tnunlimited/client/particle/StickyEffectParticleParticle.java",
-          "src/main/resources/assets/tnunlimited/particles/sticky_effect_particle.json"
-        ]
-      }
-    },
-    {
-      "name": "StickyEffect",
-      "type": "procedure",
-      "sortid": 1429,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sticky_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tnunlimited/procedures/StickyEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Sticky",
-      "type": "potioneffect",
-      "sortid": 1430,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sticky",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tnunlimited/potion/StickyMobEffect.java"
+          "src/main/resources/data/tnunlimited/recipes/roasted_purple_beetle_recipe_2.json"
         ]
       }
     },
@@ -24941,15 +24841,15 @@
       }
     },
     {
-      "name": "StickySlimeProjectileProjectileHitsPlayer",
+      "name": "StickyEffect",
       "type": "procedure",
-      "sortid": 1431,
+      "sortid": 1429,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sticky_slime_projectile_projectile_hits_player",
+      "registry_name": "sticky_effect",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tnunlimited/procedures/StickySlimeProjectileProjectileHitsPlayerProcedure.java"
+          "src/main/java/net/mcreator/tnunlimited/procedures/StickyEffectProcedure.java"
         ],
         "dependencies": [
           {
@@ -24999,6 +24899,99 @@
       }
     },
     {
+      "name": "PurpleMushroomEffect",
+      "type": "potioneffect",
+      "sortid": 1440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/potion/PurpleMushroomEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleTallVines",
+      "type": "plant",
+      "sortid": 1426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_tall_vines",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/block/PurpleTallVinesBlock.java",
+          "src/main/java/net/mcreator/tnunlimited/world/features/plants/PurpleTallVinesFeature.java",
+          "src/main/resources/assets/tnunlimited/models/block/purple_tall_vines.json",
+          "src/main/resources/assets/tnunlimited/blockstates/purple_tall_vines.json",
+          "src/main/resources/assets/tnunlimited/models/item/purple_tall_vines.json",
+          "src/main/resources/data/tnunlimited/forge/biome_modifier/purple_tall_vines_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RoastedPurpleBeetleRecipe",
+      "type": "recipe",
+      "sortid": 1437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roasted_purple_beetle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tnunlimited/recipes/roasted_purple_beetle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StickyEffectParticle",
+      "type": "particle",
+      "sortid": 1428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticky_effect_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/client/particle/StickyEffectParticleParticle.java",
+          "src/main/resources/assets/tnunlimited/particles/sticky_effect_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "StickySlimeProjectileProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 1431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticky_slime_projectile_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/StickySlimeProjectileProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "PurpleSlimeBlock",
       "type": "recipe",
       "sortid": 1434,
@@ -25012,16 +25005,15 @@
       }
     },
     {
-      "name": "DeadPurpleBeetle",
-      "type": "item",
-      "sortid": 1435,
+      "name": "Sticky",
+      "type": "potioneffect",
+      "sortid": 1430,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dead_purple_beetle",
+      "registry_name": "sticky",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tnunlimited/models/item/dead_purple_beetle.json",
-          "src/main/java/net/mcreator/tnunlimited/item/DeadPurpleBeetleItem.java"
+          "src/main/java/net/mcreator/tnunlimited/potion/StickyMobEffect.java"
         ]
       }
     },
@@ -25040,70 +25032,99 @@
       }
     },
     {
-      "name": "RoastedPurpleBeetleRecipe",
-      "type": "recipe",
-      "sortid": 1437,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "roasted_purple_beetle_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tnunlimited/recipes/roasted_purple_beetle_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "RoastedPurpleBeetleRecipe2",
-      "type": "recipe",
-      "sortid": 1438,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "roasted_purple_beetle_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tnunlimited/recipes/roasted_purple_beetle_recipe_2.json"
-        ]
-      }
-    },
-    {
-      "name": "PurpleMushroom",
-      "type": "item",
-      "sortid": 1439,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "purple_mushroom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tnunlimited/models/item/purple_mushroom.json",
-          "src/main/java/net/mcreator/tnunlimited/item/PurpleMushroomItem.java"
-        ]
-      }
-    },
-    {
-      "name": "PurpleMushroomEffect",
+      "name": "Shattered",
       "type": "potioneffect",
-      "sortid": 1440,
+      "sortid": 1427,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "purple_mushroom_effect",
+      "registry_name": "shattered",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tnunlimited/potion/PurpleMushroomEffectMobEffect.java"
+          "src/main/java/net/mcreator/tnunlimited/potion/ShatteredMobEffect.java"
         ]
       }
     },
     {
-      "name": "PurpleMushroomPlayerFinishesUsingItem",
+      "name": "StunnedTick",
       "type": "procedure",
-      "sortid": 1442,
+      "sortid": 1429,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "purple_mushroom_player_finishes_using_item",
+      "registry_name": "stunned_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tnunlimited/procedures/PurpleMushroomPlayerFinishesUsingItemProcedure.java"
+          "src/main/java/net/mcreator/tnunlimited/procedures/StunnedTickProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DashL",
+      "type": "procedure",
+      "sortid": 1430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/DashLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stunned",
+      "type": "potioneffect",
+      "sortid": 1428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunned",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/potion/StunnedMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "DashR",
+      "type": "procedure",
+      "sortid": 1431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dash_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/procedures/DashRProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Broken",
+      "type": "potioneffect",
+      "sortid": 1426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tnunlimited/potion/BrokenMobEffect.java"
+        ]
       }
     }
   ],

@@ -1,19 +1,9 @@
 
 package net.mcreator.tnunlimited.client.particle;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.client.particle.TextureSheetParticle;
-import net.minecraft.client.particle.SpriteSet;
-import net.minecraft.client.particle.ParticleRenderType;
-import net.minecraft.client.particle.ParticleProvider;
-import net.minecraft.client.particle.Particle;
-import net.minecraft.client.multiplayer.ClientLevel;
-
 @OnlyIn(Dist.CLIENT)
 public class StickyEffectParticleParticle extends TextureSheetParticle {
+
 	public static StickyEffectParticleParticleProvider provider(SpriteSet spriteSet) {
 		return new StickyEffectParticleParticleProvider(spriteSet);
 	}
@@ -35,14 +25,18 @@ public class StickyEffectParticleParticle extends TextureSheetParticle {
 	protected StickyEffectParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
+
 		this.setSize(0.2f, 0.2f);
 
 		this.lifetime = 7;
+
 		this.gravity = 1f;
 		this.hasPhysics = true;
+
 		this.xd = vx * 0.3;
 		this.yd = vy * 0.3;
 		this.zd = vz * 0.3;
+
 		this.pickSprite(spriteSet);
 	}
 
@@ -54,5 +48,7 @@ public class StickyEffectParticleParticle extends TextureSheetParticle {
 	@Override
 	public void tick() {
 		super.tick();
+
 	}
+
 }

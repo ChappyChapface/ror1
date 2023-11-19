@@ -17,11 +17,6 @@ public class CooldownWhenNotHeldInMainProcedure {
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(itemstack.getItem(), 240);
 			}
-			if (itemstack.getItem() == TnunlimitedModItems.KNIGHTS_BLADE.get() && entity.getPersistentData().getDouble("kightbladeCooldown") <= 240) {
-				entity.getPersistentData().putDouble("kightbladeCooldown", 240);
-				if (entity instanceof Player _player)
-					_player.getCooldowns().addCooldown(itemstack.getItem(), 240);
-			}
 		} else {
 			entity.getPersistentData().putDouble("serenCooldown", (entity.getPersistentData().getDouble("serenCooldown") - 1));
 			entity.getPersistentData().putDouble("effulCooldown", (entity.getPersistentData().getDouble("effulCooldown") - 1));

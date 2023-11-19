@@ -23,15 +23,15 @@ public class IceSwordItem extends SwordItem {
 	public IceSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1561;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 8f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 3.25f;
 			}
 
 			public int getLevel() {
@@ -43,7 +43,7 @@ public class IceSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.ICE), new ItemStack(Blocks.PACKED_ICE), new ItemStack(Blocks.FROSTED_ICE), new ItemStack(Blocks.BLUE_ICE));
+				return Ingredient.of(new ItemStack(Blocks.ICE));
 			}
 		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}

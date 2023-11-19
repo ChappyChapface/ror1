@@ -1,58 +1,18 @@
 
 package net.mcreator.tnunlimited.entity;
 
-import software.bernie.geckolib3.util.GeckoLibUtil;
-import software.bernie.geckolib3.core.manager.AnimationFactory;
-import software.bernie.geckolib3.core.manager.AnimationData;
-import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
-import software.bernie.geckolib3.core.controller.AnimationController;
-import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
-import software.bernie.geckolib3.core.builder.AnimationBuilder;
-import software.bernie.geckolib3.core.PlayState;
-import software.bernie.geckolib3.core.IAnimatable;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.RangedAttackMob;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.Goal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
-import net.minecraft.util.Mth;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.Packet;
-
-import net.mcreator.tnunlimited.procedures.ShroomOTPtickupdateProcedure;
-import net.mcreator.tnunlimited.init.TnunlimitedModItems;
-import net.mcreator.tnunlimited.init.TnunlimitedModEntities;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 
 import javax.annotation.Nullable;
 
-import java.util.EnumSet;
+import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
 
 public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob, IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ShroomOfThePurpledEntity.class, EntityDataSerializers.BOOLEAN);
@@ -72,6 +32,7 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+
 	}
 
 	@Override
@@ -98,9 +59,11 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.goalSelector.addGoal(1, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
+
 		this.goalSelector.addGoal(1, new ShroomOfThePurpledEntity.RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -220,7 +183,9 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ShroomOTPtickupdateProcedure.execute(this.level, this);
+		ShroomOTPtickupdateProcedure.execute(
+
+		);
 		this.refreshDimensions();
 	}
 
@@ -237,6 +202,7 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 	public static void init() {
 		SpawnPlacements.register(TnunlimitedModEntities.SHROOM_OF_THE_PURPLED.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -246,8 +212,11 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 3);
+
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.3);
+
 		return builder;
 	}
 
@@ -293,6 +262,7 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 			this.lastloop = false;
 			event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
 			event.getController().clearAnimationCache();
+
 			return PlayState.STOP;
 		}
 		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
@@ -316,6 +286,7 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 		if (this.deathTime == 20) {
 			this.remove(ShroomOfThePurpledEntity.RemovalReason.KILLED);
 			this.dropExperience();
+
 		}
 	}
 
@@ -338,4 +309,5 @@ public class ShroomOfThePurpledEntity extends Monster implements RangedAttackMob
 	public AnimationFactory getFactory() {
 		return this.factory;
 	}
+
 }
