@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sticky",
+    "icon": "purpleslimeitemtexture.png",
+    "color": {
+      "value": -9021562,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "StickyEffect"
+    },
+    "onActiveTick": {
+      "name": "StickyEffect"
+    }
+  }
+}

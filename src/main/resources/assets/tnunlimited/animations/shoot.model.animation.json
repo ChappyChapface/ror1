@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"shoot.animation.model.jason": {
+			"animation_length": 0.29167,
+			"bones": {
+				"BOdy": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.0833": {
+							"vector": [1.2, 1.2, 1.2]
+						},
+						"0.1667": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"Heda": {
+					"position": {
+						"0.0": {
+							"vector": [0, -1, 0]
+						},
+						"0.0833": {
+							"vector": [0, -3, 0]
+						},
+						"0.1667": {
+							"vector": [0, -1, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.0833": {
+							"vector": [1.2, 1.2, 1.2]
+						},
+						"0.1667": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	}
+}

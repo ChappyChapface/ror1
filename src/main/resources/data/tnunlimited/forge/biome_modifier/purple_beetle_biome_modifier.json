@@ -6,7 +6,7 @@
   "spawners": {
     "type": "tnunlimited:purple_beetle",
     "weight": 20,
-    "minCount": 4,
+    "minCount": 1,
     "maxCount": 4
   }
 }

@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.tnunlimited.client.model.Modelwitch_hat;
 import net.mcreator.tnunlimited.client.model.Modelwarcaster;
 import net.mcreator.tnunlimited.client.model.Modeltitanium_armor;
+import net.mcreator.tnunlimited.client.model.Modelstickyslimeprojectile;
 import net.mcreator.tnunlimited.client.model.Modelsteve;
 import net.mcreator.tnunlimited.client.model.Modelsporcerer;
 import net.mcreator.tnunlimited.client.model.Modelspike_projectile;
@@ -65,6 +66,7 @@ import net.mcreator.tnunlimited.client.model.ModelCoalTreadling;
 import net.mcreator.tnunlimited.client.model.ModelCaptainHat;
 import net.mcreator.tnunlimited.client.model.ModelBirthdayBlockBoy;
 import net.mcreator.tnunlimited.client.model.ModelBedrockAndy;
+import net.mcreator.tnunlimited.client.model.ModelALampHead;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class TnunlimitedModModels {
@@ -109,6 +111,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(Modelgranitehelmet.LAYER_LOCATION, Modelgranitehelmet::createBodyLayer);
 		event.registerLayerDefinition(Modelmodel.LAYER_LOCATION, Modelmodel::createBodyLayer);
 		event.registerLayerDefinition(ModelJermaHelmet.LAYER_LOCATION, ModelJermaHelmet::createBodyLayer);
+		event.registerLayerDefinition(ModelALampHead.LAYER_LOCATION, ModelALampHead::createBodyLayer);
 		event.registerLayerDefinition(Modelgranitechestplate.LAYER_LOCATION, Modelgranitechestplate::createBodyLayer);
 		event.registerLayerDefinition(Modelfrostburnt.LAYER_LOCATION, Modelfrostburnt::createBodyLayer);
 		event.registerLayerDefinition(ModelProphetHelmet.LAYER_LOCATION, ModelProphetHelmet::createBodyLayer);
@@ -117,6 +120,7 @@ public class TnunlimitedModModels {
 		event.registerLayerDefinition(ModelBedrockAndy.LAYER_LOCATION, ModelBedrockAndy::createBodyLayer);
 		event.registerLayerDefinition(ModelPartyHat.LAYER_LOCATION, ModelPartyHat::createBodyLayer);
 		event.registerLayerDefinition(ModelRoachChestplate.LAYER_LOCATION, ModelRoachChestplate::createBodyLayer);
+		event.registerLayerDefinition(Modelstickyslimeprojectile.LAYER_LOCATION, Modelstickyslimeprojectile::createBodyLayer);
 		event.registerLayerDefinition(Modeldioritehelmet.LAYER_LOCATION, Modeldioritehelmet::createBodyLayer);
 		event.registerLayerDefinition(ModelFuryHook_Converted.LAYER_LOCATION, ModelFuryHook_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelfrost_ant_queen.LAYER_LOCATION, Modelfrost_ant_queen::createBodyLayer);

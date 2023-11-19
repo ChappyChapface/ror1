@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.tnunlimited.client.particle.StickyEffectParticleParticle;
 import net.mcreator.tnunlimited.client.particle.SlashParticle;
 import net.mcreator.tnunlimited.client.particle.ShockwaveParticle;
 import net.mcreator.tnunlimited.client.particle.RoseGoldDiscBreakParticle;
@@ -60,5 +61,6 @@ public class TnunlimitedModParticles {
 		event.register(TnunlimitedModParticleTypes.SLASH.get(), SlashParticle::provider);
 		event.register(TnunlimitedModParticleTypes.PARRY.get(), ParryParticle::provider);
 		event.register(TnunlimitedModParticleTypes.DAYWALKER_SPARKLEZ.get(), DaywalkerSparklezParticle::provider);
+		event.register(TnunlimitedModParticleTypes.STICKY_EFFECT_PARTICLE.get(), StickyEffectParticleParticle::provider);
 	}
 }

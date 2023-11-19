@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "tnunlimited:stripped_palm_wood_block",
     "tnunlimited:palm_wood_log",
     "tnunlimited:palm_wood_wood",
     "tnunlimited:stripped_palm_log"

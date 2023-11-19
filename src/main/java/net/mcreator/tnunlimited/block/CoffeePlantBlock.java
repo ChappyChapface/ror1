@@ -1,9 +1,29 @@
 
 package net.mcreator.tnunlimited.block;
 
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.FoliageColor;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.BiomeColors;
+
+import net.mcreator.tnunlimited.procedures.CoffeePlantPlantRightClickedProcedure;
+import net.mcreator.tnunlimited.init.TnunlimitedModBlocks;
 
 public class CoffeePlantBlock extends FlowerBlock {
 	public CoffeePlantBlock() {

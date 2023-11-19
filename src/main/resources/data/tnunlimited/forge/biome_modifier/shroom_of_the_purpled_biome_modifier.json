@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "tnunlimited:blue_shrooms_biome",
+  "spawners": {
+    "type": "tnunlimited:shroom_of_the_purpled",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

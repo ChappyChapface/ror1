@@ -11,7 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.tnunlimited.potion.SturdyMobEffect;
+import net.mcreator.tnunlimited.potion.StickyMobEffect;
 import net.mcreator.tnunlimited.potion.ShatteredPrideMobEffect;
+import net.mcreator.tnunlimited.potion.PurpleMushroomEffectMobEffect;
 import net.mcreator.tnunlimited.potion.PrideCrownEffectMobEffect;
 import net.mcreator.tnunlimited.potion.ParasiteMobEffect;
 import net.mcreator.tnunlimited.potion.ParanoiaMobEffect;
@@ -64,4 +66,6 @@ public class TnunlimitedModMobEffects {
 	public static final RegistryObject<MobEffect> DRYOUT = REGISTRY.register("dryout", () -> new DryoutMobEffect());
 	public static final RegistryObject<MobEffect> OVERCHARGED_CLEAVER_DASH_EFFECT = REGISTRY.register("overcharged_cleaver_dash_effect", () -> new OverchargedCleaverDashEffectMobEffect());
 	public static final RegistryObject<MobEffect> INFERNO = REGISTRY.register("inferno", () -> new InfernoMobEffect());
+	public static final RegistryObject<MobEffect> STICKY = REGISTRY.register("sticky", () -> new StickyMobEffect());
+	public static final RegistryObject<MobEffect> PURPLE_MUSHROOM_EFFECT = REGISTRY.register("purple_mushroom_effect", () -> new PurpleMushroomEffectMobEffect());
 }

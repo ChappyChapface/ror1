@@ -36,6 +36,7 @@ import net.mcreator.tnunlimited.block.RithiumBlockBlock;
 import net.mcreator.tnunlimited.block.RawRithiumBlockBlock;
 import net.mcreator.tnunlimited.block.QueensAltarBlock;
 import net.mcreator.tnunlimited.block.QueensAltarActiveBlock;
+import net.mcreator.tnunlimited.block.PurpleTallVinesBlock;
 import net.mcreator.tnunlimited.block.PurpleStickySlimeBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateWallsBlock;
 import net.mcreator.tnunlimited.block.PurpleShroomslateStairsBlock;
@@ -262,6 +263,7 @@ public class TnunlimitedModBlocks {
 	public static final RegistryObject<Block> QUEENS_ALTAR = REGISTRY.register("queens_altar", () -> new QueensAltarBlock());
 	public static final RegistryObject<Block> QUEENS_ALTAR_ACTIVE = REGISTRY.register("queens_altar_active", () -> new QueensAltarActiveBlock());
 	public static final RegistryObject<Block> SLOTS = REGISTRY.register("slots", () -> new SlotsBlock());
+	public static final RegistryObject<Block> PURPLE_TALL_VINES = REGISTRY.register("purple_tall_vines", () -> new PurpleTallVinesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

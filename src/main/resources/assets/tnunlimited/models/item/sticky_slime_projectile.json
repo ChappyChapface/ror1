@@ -1,0 +1,7 @@
+{
+  "parent": "tnunlimited:custom/stickyslimeprojectile_-_converted",
+  "textures": {
+    "0": "tnunlimited:blocks/skickyslimetexture",
+    "particle": "tnunlimited:items/purpleslimeitemtexture"
+  }
+}

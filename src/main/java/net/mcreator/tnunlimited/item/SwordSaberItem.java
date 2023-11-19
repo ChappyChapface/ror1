@@ -18,7 +18,7 @@ public class SwordSaberItem extends SwordItem {
 	public SwordSaberItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 2031;
 			}
 
 			public float getSpeed() {
@@ -26,7 +26,7 @@ public class SwordSaberItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3.5f;
+				return 4f;
 			}
 
 			public int getLevel() {

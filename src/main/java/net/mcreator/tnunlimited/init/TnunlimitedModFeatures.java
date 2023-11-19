@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.tnunlimited.world.features.plants.TangeloBlossomFeature;
+import net.mcreator.tnunlimited.world.features.plants.PurpleTallVinesFeature;
 import net.mcreator.tnunlimited.world.features.plants.PurpleLightglowFeature;
 import net.mcreator.tnunlimited.world.features.plants.IceRoseFeature;
 import net.mcreator.tnunlimited.world.features.plants.CoffeePlantFeature;
@@ -112,4 +113,5 @@ public class TnunlimitedModFeatures {
 	public static final RegistryObject<Feature<?>> SMALL_PALM_TREE = REGISTRY.register("small_palm_tree", SmallPalmTreeFeature::feature);
 	public static final RegistryObject<Feature<?>> MED_PALM_TREE = REGISTRY.register("med_palm_tree", MedPalmTreeFeature::feature);
 	public static final RegistryObject<Feature<?>> LARGE_PALM_TREE = REGISTRY.register("large_palm_tree", LargePalmTreeFeature::feature);
+	public static final RegistryObject<Feature<?>> PURPLE_TALL_VINES = REGISTRY.register("purple_tall_vines", PurpleTallVinesFeature::feature);
 }

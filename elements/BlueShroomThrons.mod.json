@@ -99,7 +99,7 @@
         "value": "CUSTOM:BlueShroomsBiome"
       }
     ],
-    "patchSize": 200,
+    "patchSize": 100,
     "generateAtAnyHeight": true,
     "onEntityCollides": {
       "name": "BlueShroomThronsMobplayerCollidesWithPlant"

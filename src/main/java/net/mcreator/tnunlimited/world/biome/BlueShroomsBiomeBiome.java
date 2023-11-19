@@ -27,7 +27,7 @@ public class BlueShroomsBiomeBiome {
 			Climate.Parameter.span(0.01f, 0.5f), Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.6499832423f, 0.3500167577f), 0));
 
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13696933).waterColor(-13696933).waterFogColor(-13696933).skyColor(-13696933).foliageColorOverride(-13696933).grassColorOverride(-13696933)
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-15400153).waterColor(-15400153).waterFogColor(-15400153).skyColor(-15400153).foliageColorOverride(-15400153).grassColorOverride(-15400153)
 				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.warped_forest.loop")))
 				.ambientMoodSound(new AmbientMoodSettings(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.warped_forest.loop")), 6000, 8, 2))
 				.ambientAdditionsSound(new AmbientAdditionsSettings(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.warped_forest.additions")), 0.0111D))

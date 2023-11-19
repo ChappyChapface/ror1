@@ -16,10 +16,12 @@ import net.mcreator.tnunlimited.client.renderer.WastelandishHopperRenderer;
 import net.mcreator.tnunlimited.client.renderer.TwoLayerHelmetLayer2Renderer;
 import net.mcreator.tnunlimited.client.renderer.TwoLayerHelmetLayer1Renderer;
 import net.mcreator.tnunlimited.client.renderer.TheDeceasedRenderer;
+import net.mcreator.tnunlimited.client.renderer.StickySlimeProjectileRenderer;
 import net.mcreator.tnunlimited.client.renderer.SpawnStructureERenderer;
 import net.mcreator.tnunlimited.client.renderer.SoulfireSpikeRenderer;
 import net.mcreator.tnunlimited.client.renderer.SlashProjectileRenderer;
 import net.mcreator.tnunlimited.client.renderer.SlashProjectile2Renderer;
+import net.mcreator.tnunlimited.client.renderer.ShroomOfThePurpledRenderer;
 import net.mcreator.tnunlimited.client.renderer.RoseGoldDiscRenderer;
 import net.mcreator.tnunlimited.client.renderer.RedstoneTreadlingRenderer;
 import net.mcreator.tnunlimited.client.renderer.QueenLadyBugRenderer;
@@ -140,5 +142,7 @@ public class TnunlimitedModEntityRenderers {
 		event.registerEntityRenderer(TnunlimitedModEntities.KKOREUL.get(), KkoreulRenderer::new);
 		event.registerEntityRenderer(TnunlimitedModEntities.FURY_HOOK.get(), FuryHookRenderer::new);
 		event.registerEntityRenderer(TnunlimitedModEntities.DIVINE_CODEX_P.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(TnunlimitedModEntities.SHROOM_OF_THE_PURPLED.get(), ShroomOfThePurpledRenderer::new);
+		event.registerEntityRenderer(TnunlimitedModEntities.STICKY_SLIME_PROJECTILE.get(), StickySlimeProjectileRenderer::new);
 	}
 }

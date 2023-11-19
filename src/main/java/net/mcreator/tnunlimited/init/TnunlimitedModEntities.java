@@ -21,11 +21,13 @@ import net.mcreator.tnunlimited.entity.WastelandishHopperEntity;
 import net.mcreator.tnunlimited.entity.TwoLayerHelmetLayer2Entity;
 import net.mcreator.tnunlimited.entity.TwoLayerHelmetLayer1Entity;
 import net.mcreator.tnunlimited.entity.TheDeceasedEntity;
+import net.mcreator.tnunlimited.entity.StickySlimeProjectileEntity;
 import net.mcreator.tnunlimited.entity.SpawnStructureEEntity;
 import net.mcreator.tnunlimited.entity.SoulfireSpikeEntity;
 import net.mcreator.tnunlimited.entity.SnowgloveEntity;
 import net.mcreator.tnunlimited.entity.SlashProjectileEntity;
 import net.mcreator.tnunlimited.entity.SlashProjectile2Entity;
+import net.mcreator.tnunlimited.entity.ShroomOfThePurpledEntity;
 import net.mcreator.tnunlimited.entity.RoseGoldDiscEntity;
 import net.mcreator.tnunlimited.entity.RockEntity;
 import net.mcreator.tnunlimited.entity.RedstoneTreadlingEntity;
@@ -274,6 +276,13 @@ public class TnunlimitedModEntities {
 			EntityType.Builder.<FuryHookEntity>of(FuryHookEntity::new, MobCategory.MISC).setCustomClientFactory(FuryHookEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<DivineCodexPEntity>> DIVINE_CODEX_P = register("projectile_divine_codex_p",
 			EntityType.Builder.<DivineCodexPEntity>of(DivineCodexPEntity::new, MobCategory.MISC).setCustomClientFactory(DivineCodexPEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ShroomOfThePurpledEntity>> SHROOM_OF_THE_PURPLED = register("shroom_of_the_purpled",
+			EntityType.Builder.<ShroomOfThePurpledEntity>of(ShroomOfThePurpledEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShroomOfThePurpledEntity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<StickySlimeProjectileEntity>> STICKY_SLIME_PROJECTILE = register("projectile_sticky_slime_projectile",
+			EntityType.Builder.<StickySlimeProjectileEntity>of(StickySlimeProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(StickySlimeProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -318,6 +327,7 @@ public class TnunlimitedModEntities {
 			PlayerFrostSpikeEntityEntity.init();
 			KkoreulMinionEntity.init();
 			KkoreulEntity.init();
+			ShroomOfThePurpledEntity.init();
 		});
 	}
 
@@ -359,5 +369,6 @@ public class TnunlimitedModEntities {
 		event.put(PLAYER_FROST_SPIKE_ENTITY.get(), PlayerFrostSpikeEntityEntity.createAttributes().build());
 		event.put(KKOREUL_MINION.get(), KkoreulMinionEntity.createAttributes().build());
 		event.put(KKOREUL.get(), KkoreulEntity.createAttributes().build());
+		event.put(SHROOM_OF_THE_PURPLED.get(), ShroomOfThePurpledEntity.createAttributes().build());
 	}
 }

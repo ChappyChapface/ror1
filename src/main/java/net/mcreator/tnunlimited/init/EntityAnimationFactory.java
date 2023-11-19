@@ -4,6 +4,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
+import net.mcreator.tnunlimited.entity.ShroomOfThePurpledEntity;
 import net.mcreator.tnunlimited.entity.PurpleBeetleEntity;
 import net.mcreator.tnunlimited.entity.PlayerFrostSpikeEntityEntity;
 import net.mcreator.tnunlimited.entity.KkoreulMinionEntity;
@@ -116,6 +117,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof KkoreulEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ShroomOfThePurpledEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

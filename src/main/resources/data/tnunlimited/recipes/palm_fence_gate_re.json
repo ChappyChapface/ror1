@@ -9,7 +9,7 @@
       "item": "minecraft:stick"
     },
     "1": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "2": {
       "item": "minecraft:stick"
@@ -18,14 +18,14 @@
       "item": "minecraft:stick"
     },
     "4": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "tnunlimited:deleted_mod_element",
+    "item": "tnunlimited:palm_fence_gate",
     "count": 1
   }
 }

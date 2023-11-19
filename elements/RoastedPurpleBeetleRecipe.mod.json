@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 25,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:DeadPurpleBeetle"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:RoastedPurpleBeetle"
+    },
+    "name": "roasted_purple_beetle_recipe",
+    "namespace": "mod"
+  }
+}

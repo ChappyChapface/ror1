@@ -179,7 +179,7 @@ public class SPDChangeProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, (int) NubriumTimer, 0, true, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, (int) (10 + NubriumTimer), 0, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 10, 0, false, false));
 			{
 				double _setval = (entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new TnunlimitedModVariables.PlayerVariables())).movementSpeedIncrease + 0.2;
 				entity.getCapability(TnunlimitedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -196,7 +196,7 @@ public class SPDChangeProcedure {
 						|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.FANCY_PANTS_LEGGINGS.get())
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == TnunlimitedModItems.SLIME_ARMOUR_BOOTS.get()) {
 			if (entity.isOnGround() && !entity.isShiftKeyDown()) {
-				entity.setDeltaMovement(new Vec3(0, 0.5, 0));
+				entity.setDeltaMovement(new Vec3(0, 0.7, 0));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.slime.jump")), SoundSource.NEUTRAL, 1, 1);

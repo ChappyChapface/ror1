@@ -6,26 +6,26 @@
   ],
   "key": {
     "0": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "1": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "2": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "3": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "4": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     },
     "5": {
-      "item": "tnunlimited:deleted_mod_element"
+      "item": "tnunlimited:palm_planks"
     }
   },
   "result": {
-    "item": "tnunlimited:deleted_mod_element",
+    "item": "tnunlimited:palm_trapdoor",
     "count": 2
   }
 }

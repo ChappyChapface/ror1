@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "tnunlimited:dead_purple_beetle"
+  },
+  "result": "tnunlimited:roasted_purple_beetle"
+}

@@ -45,6 +45,7 @@ import net.mcreator.tnunlimited.item.SuperSpeedBootsItem;
 import net.mcreator.tnunlimited.item.SunriseItem;
 import net.mcreator.tnunlimited.item.StrawberryFoodItem;
 import net.mcreator.tnunlimited.item.StoneSickleItem;
+import net.mcreator.tnunlimited.item.StickySlimeProjectileItem;
 import net.mcreator.tnunlimited.item.StaffOfTheBloodgodItem;
 import net.mcreator.tnunlimited.item.SporcererItem;
 import net.mcreator.tnunlimited.item.SpikedCollarItem;
@@ -75,6 +76,7 @@ import net.mcreator.tnunlimited.item.RoseGoldItem;
 import net.mcreator.tnunlimited.item.RoseGoldIngotItem;
 import net.mcreator.tnunlimited.item.RoseGoldDiscItem;
 import net.mcreator.tnunlimited.item.RockItem;
+import net.mcreator.tnunlimited.item.RoastedPurpleBeetleItem;
 import net.mcreator.tnunlimited.item.RithiumSwordItem;
 import net.mcreator.tnunlimited.item.RithiumShovelItem;
 import net.mcreator.tnunlimited.item.RithiumPickaxeItem;
@@ -95,6 +97,7 @@ import net.mcreator.tnunlimited.item.RawFerrotitaniumItem;
 import net.mcreator.tnunlimited.item.RawAntimonyItem;
 import net.mcreator.tnunlimited.item.RawAardiumItem;
 import net.mcreator.tnunlimited.item.PurpleStickySlimeItemItem;
+import net.mcreator.tnunlimited.item.PurpleMushroomItem;
 import net.mcreator.tnunlimited.item.ProphetItem;
 import net.mcreator.tnunlimited.item.PrimalItem;
 import net.mcreator.tnunlimited.item.PowerringItem;
@@ -257,6 +260,7 @@ import net.mcreator.tnunlimited.item.DesertIngotItem;
 import net.mcreator.tnunlimited.item.DesertChitinItem;
 import net.mcreator.tnunlimited.item.DecayedClawItem;
 import net.mcreator.tnunlimited.item.DecardialNecklaceItem;
+import net.mcreator.tnunlimited.item.DeadPurpleBeetleItem;
 import net.mcreator.tnunlimited.item.DaywalkerItem;
 import net.mcreator.tnunlimited.item.DarkWarhammerItem;
 import net.mcreator.tnunlimited.item.CutlassItem;
@@ -862,6 +866,13 @@ public class TnunlimitedModItems {
 	public static final RegistryObject<Item> SLOTS = block(TnunlimitedModBlocks.SLOTS, null);
 	public static final RegistryObject<Item> JOTUNNHEART = REGISTRY.register("jotunnheart", () -> new JotunnheartItem());
 	public static final RegistryObject<Item> TITANIUM_MACE = REGISTRY.register("titanium_mace", () -> new TitaniumMaceItem());
+	public static final RegistryObject<Item> PURPLE_TALL_VINES = block(TnunlimitedModBlocks.PURPLE_TALL_VINES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> SHROOM_OF_THE_PURPLED_SPAWN_EGG = REGISTRY.register("shroom_of_the_purpled_spawn_egg",
+			() -> new ForgeSpawnEggItem(TnunlimitedModEntities.SHROOM_OF_THE_PURPLED, -10089079, -1257295, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> STICKY_SLIME_PROJECTILE = REGISTRY.register("sticky_slime_projectile", () -> new StickySlimeProjectileItem());
+	public static final RegistryObject<Item> DEAD_PURPLE_BEETLE = REGISTRY.register("dead_purple_beetle", () -> new DeadPurpleBeetleItem());
+	public static final RegistryObject<Item> ROASTED_PURPLE_BEETLE = REGISTRY.register("roasted_purple_beetle", () -> new RoastedPurpleBeetleItem());
+	public static final RegistryObject<Item> PURPLE_MUSHROOM = REGISTRY.register("purple_mushroom", () -> new PurpleMushroomItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

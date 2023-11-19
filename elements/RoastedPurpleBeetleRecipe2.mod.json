@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 50,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:DeadPurpleBeetle"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RoastedPurpleBeetle"
+    },
+    "name": "roasted_purple_beetle_recipe_2",
+    "namespace": "mod"
+  }
+}
